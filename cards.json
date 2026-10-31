@@ -1,0 +1,6184 @@
+{
+ "version": 2,
+ "note": "기출 문장 카드 창고. 순서대로 하루 몇 장씩 열림 (핵심 쉬운 것 → 핵심 어려운 것 → 심화). tier: core=2025~ 새 방식·예시문제, deep=2022~2024 예전 방식 어려운 단어·숙어. id 는 바꾸면 복습 기록이 끊김. 출처는 인사혁신처 공개 기출·예시문제, 정답은 공식 최종정답으로 확인.",
+ "items": [
+  {
+   "id": "26j-hhw-regular",
+   "src": "2026 지방직 8~9번",
+   "lv": 1,
+   "pid": "26j-hhw",
+   "w": "regular",
+   "word": "regular",
+   "mean": "보통의, 일반적인",
+   "clue": "위험해서 따로 버려야 하는 쓰레기 ↔ 평소에 버리는 쓰레기",
+   "chunks": [
+    [
+     "HHW may be dangerous to people",
+     "가정 유해 폐기물은 사람에게 위험할 수 있다"
+    ],
+    [
+     "and bad for the environment",
+     "그리고 환경에도 나쁘다"
+    ],
+    [
+     "if they are poured down the drain,",
+     "만약 하수구에 부어지거나"
+    ],
+    [
+     "dumped on the ground,",
+     "땅에 버려지거나"
+    ],
+    [
+     "or thrown out with regular trash.",
+     "일반 쓰레기와 함께 버려지면"
+    ]
+   ],
+   "ko": "가정 유해 폐기물은 하수구에 붓거나 땅에 버리거나 일반 쓰레기와 함께 버리면 사람에게 위험하고 환경에도 나쁠 수 있다.",
+   "opts": [
+    [
+     "recyclable",
+     "재활용 가능한"
+    ],
+    [
+     "regional",
+     "지역의"
+    ],
+    [
+     "burnable",
+     "태울 수 있는"
+    ]
+   ],
+   "friends": [
+    [
+     "hazardous",
+     "위험한"
+    ],
+    [
+     "environment",
+     "환경"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-hhw-dispose",
+   "src": "2026 지방직 8~9번",
+   "lv": 1,
+   "pid": "26j-hhw",
+   "w": "dispose of",
+   "word": "dispose of",
+   "mean": "버리다, 처리하다",
+   "clue": "위험한 제품이라 특별히 조심해야 하는 때 → 버릴 때",
+   "chunks": [
+    [
+     "These products require special care",
+     "이 제품들은 특별한 주의가 필요하다"
+    ],
+    [
+     "when you dispose of them.",
+     "당신이 그것들을 버릴 때"
+    ]
+   ],
+   "ko": "이 제품들은 버릴 때 특별한 주의가 필요하다.",
+   "opts": [
+    [
+     "take care of",
+     "돌보다"
+    ],
+    [
+     "make use of",
+     "이용하다"
+    ],
+    [
+     "think of",
+     "생각하다"
+    ]
+   ],
+   "friends": [
+    [
+     "require",
+     "필요로 하다"
+    ],
+    [
+     "special care",
+     "특별한 주의"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-hhw-alternative",
+   "src": "2026 지방직 8~9번",
+   "lv": 1,
+   "pid": "26j-hhw",
+   "w": "alternative",
+   "word": "alternative",
+   "mean": "대안의, 대신할 수 있는",
+   "clue": "위험한 제품은 덜 사고, 그 대신 쓸 위험하지 않은 제품을 찾아라",
+   "chunks": [
+    [
+     "Try to reduce your purchases of these products,",
+     "이런 제품의 구매를 줄이도록 노력하고"
+    ],
+    [
+     "and look for alternative, non-hazardous products.",
+     "대신할 수 있는, 위험하지 않은 제품을 찾아라"
+    ]
+   ],
+   "ko": "이런 제품은 덜 사고, 대신 쓸 수 있는 위험하지 않은 제품을 찾아보세요.",
+   "opts": [
+    [
+     "expensive",
+     "비싼"
+    ],
+    [
+     "original",
+     "원래의"
+    ],
+    [
+     "identical",
+     "똑같은"
+    ]
+   ],
+   "friends": [
+    [
+     "purchase",
+     "구매, 구입"
+    ],
+    [
+     "reduce",
+     "줄이다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-1-deteriorating",
+   "src": "2026 지방직 1번",
+   "lv": 1,
+   "pid": null,
+   "w": "deteriorating",
+   "word": "deteriorate",
+   "mean": "나빠지다, 악화되다",
+   "clue": "Unfortunately(안타깝게도) + 패스트푸드를 너무 많이 먹음 → 건강이 나빠지는 중",
+   "chunks": [
+    [
+     "Unfortunately, the survey results show",
+     "안타깝게도 설문 결과는 보여 준다"
+    ],
+    [
+     "that children's health is deteriorating",
+     "아이들의 건강이 나빠지고 있다는 것을"
+    ],
+    [
+     "due to overconsumption of fast food.",
+     "패스트푸드 과다 섭취 때문에"
+    ]
+   ],
+   "ko": "안타깝게도 설문 결과에 따르면 패스트푸드를 너무 많이 먹어서 아이들의 건강이 나빠지고 있다.",
+   "opts": [
+    [
+     "improving",
+     "좋아지는"
+    ],
+    [
+     "recovering",
+     "회복되는"
+    ],
+    [
+     "advancing",
+     "발전하는"
+    ]
+   ],
+   "friends": [
+    [
+     "survey",
+     "설문 조사"
+    ],
+    [
+     "due to",
+     "~때문에"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-2-discreetly",
+   "src": "2026 지방직 2번",
+   "lv": 1,
+   "pid": null,
+   "w": "discreetly",
+   "word": "discreetly",
+   "mean": "조용히, 신중하게 (남이 모르게)",
+   "clue": "많은 사람이 알기를 원하지 않는다면 → 조용히 이야기하라",
+   "chunks": [
+    [
+     "I suggest that you discuss this matter discreetly",
+     "이 문제를 조용히 논의하길 권해요"
+    ],
+    [
+     "if you don't want many people to know about it.",
+     "많은 사람이 그것에 대해 알기를 원하지 않는다면"
+    ]
+   ],
+   "ko": "많은 사람이 알기를 원하지 않는다면 이 문제는 조용히 논의하는 게 좋겠어요.",
+   "opts": [
+    [
+     "publicly",
+     "공개적으로"
+    ],
+    [
+     "loudly",
+     "시끄럽게"
+    ],
+    [
+     "outwardly",
+     "겉으로"
+    ]
+   ],
+   "friends": [
+    [
+     "suggest",
+     "제안하다, 권하다"
+    ],
+    [
+     "matter",
+     "문제, 일"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-5-dispatched",
+   "src": "2026 지방직 5번 (생활영어)",
+   "lv": 1,
+   "pid": "26j-911",
+   "w": "dispatched",
+   "word": "dispatch",
+   "mean": "보내다, 파견하다",
+   "clue": "가장 가까운 구급차가 이미 ~돼서 몇 분 안에 도착 → 보내졌다",
+   "chunks": [
+    [
+     "The nearest ambulance has already been dispatched,",
+     "가장 가까운 구급차가 이미 출동했어요"
+    ],
+    [
+     "so it should arrive within a few minutes.",
+     "그래서 몇 분 안에 도착할 거예요"
+    ]
+   ],
+   "ko": "가장 가까운 구급차가 이미 출동해서 몇 분 안에 도착할 거예요.",
+   "opts": [
+    [
+     "repaired",
+     "수리된"
+    ],
+    [
+     "canceled",
+     "취소된"
+    ],
+    [
+     "purchased",
+     "구입된"
+    ]
+   ],
+   "friends": [
+    [
+     "within",
+     "~이내에"
+    ],
+    [
+     "emergency",
+     "긴급, 응급"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-10-grant",
+   "src": "2026 지방직 10번 (이메일)",
+   "lv": 1,
+   "pid": "26j-library",
+   "w": "grant",
+   "word": "grant",
+   "mean": "주다, 허락하다",
+   "clue": "permission(허락)을 ~해 주시면 감사하겠다 → 허락을 주다",
+   "chunks": [
+    [
+     "I would greatly appreciate it",
+     "정말 감사하겠습니다"
+    ],
+    [
+     "if you could grant me permission",
+     "저에게 허락해 주신다면"
+    ],
+    [
+     "to use the library facilities.",
+     "도서관 시설을 이용하도록"
+    ]
+   ],
+   "ko": "도서관 시설을 이용할 수 있게 허락해 주시면 정말 감사하겠습니다.",
+   "opts": [
+    [
+     "deny",
+     "거절하다"
+    ],
+    [
+     "delay",
+     "미루다"
+    ],
+    [
+     "cancel",
+     "취소하다"
+    ]
+   ],
+   "friends": [
+    [
+     "permission",
+     "허락, 허가"
+    ],
+    [
+     "facilities",
+     "시설"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-10-authorization",
+   "src": "2026 지방직 10번 (이메일)",
+   "lv": 1,
+   "pid": "26j-library",
+   "w": "authorization",
+   "word": "authorization",
+   "mean": "허가, 승인",
+   "clue": "시설을 쓰려면 적절한 무엇이 필요할까? → 허가",
+   "chunks": [
+    [
+     "It is my understanding",
+     "제가 알기로는"
+    ],
+    [
+     "that using the library facilities",
+     "도서관 시설을 이용하는 것은"
+    ],
+    [
+     "requires proper authorization.",
+     "적절한 허가가 필요하다"
+    ]
+   ],
+   "ko": "제가 알기로는 도서관 시설을 이용하려면 적절한 허가가 필요합니다.",
+   "opts": [
+    [
+     "decoration",
+     "장식"
+    ],
+    [
+     "transportation",
+     "교통"
+    ],
+    [
+     "entertainment",
+     "오락"
+    ]
+   ],
+   "friends": [
+    [
+     "proper",
+     "적절한"
+    ],
+    [
+     "require",
+     "필요로 하다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-10-comply",
+   "src": "2026 지방직 10번 (이메일)",
+   "lv": 1,
+   "pid": "26j-library",
+   "w": "comply with",
+   "word": "comply with",
+   "mean": "(규칙을) 따르다, 지키다",
+   "clue": "규칙과 규정을 기꺼이 ~하겠다 → 지키겠다",
+   "chunks": [
+    [
+     "I would also be willing",
+     "저는 또한 기꺼이"
+    ],
+    [
+     "to comply with any rules and regulations",
+     "모든 규칙과 규정을 따르겠습니다"
+    ],
+    [
+     "that come with using the library facilities.",
+     "도서관 시설 이용에 따르는"
+    ]
+   ],
+   "ko": "도서관 시설 이용에 따르는 모든 규칙과 규정도 기꺼이 지키겠습니다.",
+   "opts": [
+    [
+     "argue with",
+     "~와 다투다"
+    ],
+    [
+     "compete with",
+     "~와 경쟁하다"
+    ],
+    [
+     "interfere with",
+     "~을 방해하다"
+    ]
+   ],
+   "friends": [
+    [
+     "regulations",
+     "규정"
+    ],
+    [
+     "be willing to",
+     "기꺼이 ~하다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-10-regarding",
+   "src": "2025 지방직 10번 (이메일)",
+   "lv": 1,
+   "pid": "25j-interview",
+   "w": "regarding",
+   "word": "regarding",
+   "mean": "~에 관하여",
+   "clue": "내 지원 상황에 '관한' 새 소식이 있는지 확인하고 싶다",
+   "chunks": [
+    [
+     "I would like to follow up now",
+     "지금 다시 여쭤보고 싶습니다"
+    ],
+    [
+     "to see if there are any updates",
+     "새 소식이 있는지 알아보려고"
+    ],
+    [
+     "regarding the status of my application.",
+     "제 지원 상황에 관한"
+    ]
+   ],
+   "ko": "제 지원 상황에 관한 새 소식이 있는지 지금 다시 여쭤보고 싶습니다.",
+   "opts": [
+    [
+     "despite",
+     "~에도 불구하고"
+    ],
+    [
+     "without",
+     "~없이"
+    ],
+    [
+     "except",
+     "~을 제외하고"
+    ]
+   ],
+   "friends": [
+    [
+     "follow up",
+     "후속으로 확인하다"
+    ],
+    [
+     "application",
+     "지원(서), 신청(서)"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-10-appreciated",
+   "src": "2025 지방직 10번 (이메일)",
+   "lv": 1,
+   "pid": "25j-interview",
+   "w": "appreciated",
+   "word": "appreciate",
+   "mean": "감사하다, 고마워하다",
+   "clue": "결정 일정을 조금이라도 알려 주시면 → 크게 감사하겠다 (편지 끝 인사)",
+   "chunks": [
+    [
+     "Anything you can share",
+     "알려 주실 수 있는 무엇이든"
+    ],
+    [
+     "about your decision timeline or any next steps",
+     "결정 일정이나 다음 단계에 대해"
+    ],
+    [
+     "would be greatly appreciated.",
+     "크게 감사하겠습니다"
+    ]
+   ],
+   "ko": "결정 일정이나 다음 단계에 대해 무엇이든 알려 주시면 정말 감사하겠습니다.",
+   "opts": [
+    [
+     "ignored",
+     "무시되는"
+    ],
+    [
+     "rejected",
+     "거절되는"
+    ],
+    [
+     "delayed",
+     "미뤄지는"
+    ]
+   ],
+   "friends": [
+    [
+     "timeline",
+     "일정"
+    ],
+    [
+     "share",
+     "공유하다, 알려 주다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-1-identification",
+   "src": "2025 국가직 1번",
+   "lv": 1,
+   "pid": null,
+   "w": "identification",
+   "word": "identification",
+   "mean": "신분증, 신원 확인",
+   "clue": "다음 문장에 여권이 '믿을 만한 서류'라고 나옴 → 신분증",
+   "chunks": [
+    [
+     "All international travelers must carry",
+     "모든 해외 여행자는 가지고 다녀야 한다"
+    ],
+    [
+     "acceptable identification",
+     "인정되는 신분증을"
+    ],
+    [
+     "when entering Canada.",
+     "캐나다에 들어갈 때"
+    ]
+   ],
+   "ko": "모든 해외 여행자는 캐나다에 들어갈 때 인정되는 신분증을 지니고 있어야 한다.",
+   "opts": [
+    [
+     "currency",
+     "돈, 통화"
+    ],
+    [
+     "insurance",
+     "보험"
+    ],
+    [
+     "luggage",
+     "짐"
+    ]
+   ],
+   "friends": [
+    [
+     "acceptable",
+     "받아들여지는, 인정되는"
+    ],
+    [
+     "carry",
+     "가지고 다니다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-consular-resolve",
+   "src": "2025 국가직 8~9번",
+   "lv": 1,
+   "pid": "25k-consular",
+   "w": "resolve",
+   "word": "resolve",
+   "mean": "해결하다",
+   "clue": "민원(complaint)을 최대한 빨리 → 해결해 드리고 싶다",
+   "chunks": [
+    [
+     "If you want to make a complaint",
+     "불만(민원)을 제기하고 싶다면"
+    ],
+    [
+     "about a consular service you have received,",
+     "받으신 영사 서비스에 대해"
+    ],
+    [
+     "we want to help you resolve it",
+     "저희가 해결하도록 돕고 싶습니다"
+    ],
+    [
+     "as quickly as possible.",
+     "가능한 한 빨리"
+    ]
+   ],
+   "ko": "받으신 영사 서비스에 불만이 있으시면 가능한 한 빨리 해결해 드리고 싶습니다.",
+   "opts": [
+    [
+     "create",
+     "만들다"
+    ],
+    [
+     "ignore",
+     "무시하다"
+    ],
+    [
+     "repeat",
+     "반복하다"
+    ]
+   ],
+   "friends": [
+    [
+     "complaint",
+     "불만, 민원"
+    ],
+    [
+     "as quickly as possible",
+     "가능한 한 빨리"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-plastic-exclude",
+   "src": "2025 국가직 6~7번 (웹페이지)",
+   "lv": 1,
+   "pid": "25k-plastic",
+   "w": "exclude",
+   "word": "exclude",
+   "mean": "빼다, 제외하다",
+   "clue": "플라스틱 대신 다시 쓰는 용기를 고른다 → 플라스틱을 생활에서 뺀다",
+   "chunks": [
+    [
+     "Each year in July",
+     "매년 7월에"
+    ],
+    [
+     "people all over the world aim",
+     "전 세계 사람들이 목표로 한다"
+    ],
+    [
+     "to exclude common plastic waste items from their daily life,",
+     "흔한 플라스틱 쓰레기를 일상에서 빼는 것을"
+    ],
+    [
+     "opting instead for reusable containers.",
+     "대신 다시 쓸 수 있는 용기를 선택하면서"
+    ]
+   ],
+   "ko": "매년 7월, 전 세계 사람들은 흔한 플라스틱 쓰레기를 일상에서 빼고 대신 재사용 용기를 쓰려고 한다.",
+   "opts": [
+    [
+     "include",
+     "포함하다"
+    ],
+    [
+     "collect",
+     "모으다"
+    ],
+    [
+     "produce",
+     "생산하다"
+    ]
+   ],
+   "friends": [
+    [
+     "reusable",
+     "다시 쓸 수 있는"
+    ],
+    [
+     "container",
+     "용기, 그릇"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-council-worsened",
+   "src": "2025 국가직 11번 (이메일)",
+   "lv": 1,
+   "pid": "25k-council",
+   "w": "worsened",
+   "word": "worsen",
+   "mean": "더 나빠지다, 악화되다",
+   "clue": "폭우가 온 뒤 도로 구멍과 금이 → 더 나빠졌다",
+   "chunks": [
+    [
+     "There are many potholes and cracks",
+     "도로에 움푹 팬 곳과 금이 많다"
+    ],
+    [
+     "that have worsened after recent heavy rain,",
+     "최근 폭우 뒤로 더 나빠진"
+    ],
+    [
+     "causing traffic disruptions and safety hazards.",
+     "교통 혼잡과 안전 위험을 일으키며"
+    ]
+   ],
+   "ko": "최근 폭우 뒤로 더 나빠진 도로 구멍과 금이 많아서 교통 혼잡과 안전 위험을 일으키고 있다.",
+   "opts": [
+    [
+     "improved",
+     "나아진"
+    ],
+    [
+     "disappeared",
+     "사라진"
+    ],
+    [
+     "narrowed",
+     "좁아진"
+    ]
+   ],
+   "friends": [
+    [
+     "hazard",
+     "위험 (요소)"
+    ],
+    [
+     "disruption",
+     "혼란, 중단"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-council-address",
+   "src": "2025 국가직 11번 (이메일)",
+   "lv": 1,
+   "pid": "25k-council",
+   "w": "address",
+   "word": "address",
+   "mean": "(문제를) 다루다, 처리하다",
+   "clue": "주소가 아니에요! 지역 안전을 위해 문제들을 ~하라고 촉구 → 처리하다",
+   "chunks": [
+    [
+     "I urge the Council",
+     "저는 시의회에 촉구합니다"
+    ],
+    [
+     "to address these issues",
+     "이 문제들을 처리해 달라고"
+    ],
+    [
+     "for the safety and well-being of our community.",
+     "우리 지역의 안전과 행복을 위해"
+    ]
+   ],
+   "ko": "우리 지역의 안전과 행복을 위해 시의회가 이 문제들을 처리해 주기를 촉구합니다.",
+   "opts": [
+    [
+     "ignore",
+     "무시하다"
+    ],
+    [
+     "cause",
+     "일으키다"
+    ],
+    [
+     "hide",
+     "숨기다"
+    ]
+   ],
+   "friends": [
+    [
+     "urge",
+     "촉구하다, 강력히 권하다"
+    ],
+    [
+     "well-being",
+     "행복, 복지"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-12-customized",
+   "src": "2025 국가직 12번",
+   "lv": 1,
+   "pid": null,
+   "w": "customized",
+   "word": "customized",
+   "mean": "맞춤형의",
+   "clue": "어르신(the elderly)을 위해 따로 짠 프로그램 → 맞춤형",
+   "chunks": [
+    [
+     "The city opened the Smart Senior Citizens' Center,",
+     "시는 스마트 경로당을 열었다"
+    ],
+    [
+     "a leisure facility",
+     "여가 시설인"
+    ],
+    [
+     "that offers customized programs for the elderly.",
+     "어르신을 위한 맞춤형 프로그램을 제공하는"
+    ]
+   ],
+   "ko": "시는 어르신을 위한 맞춤형 프로그램을 제공하는 여가 시설인 스마트 경로당을 열었다.",
+   "opts": [
+    [
+     "expensive",
+     "비싼"
+    ],
+    [
+     "outdated",
+     "낡은, 구식의"
+    ],
+    [
+     "limited",
+     "제한된"
+    ]
+   ],
+   "friends": [
+    [
+     "the elderly",
+     "노인들, 어르신"
+    ],
+    [
+     "leisure",
+     "여가"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-12-collaboration",
+   "src": "2025 국가직 12번",
+   "lv": 1,
+   "pid": null,
+   "w": "in collaboration with",
+   "word": "in collaboration with",
+   "mean": "~와 협력하여",
+   "clue": "경로당이 보건소와 '함께' 어르신 건강 수치를 살핀다",
+   "chunks": [
+    [
+     "It monitors health metrics",
+     "그곳은 건강 수치를 살핀다"
+    ],
+    [
+     "in collaboration with public health centers.",
+     "보건소와 협력하여"
+    ]
+   ],
+   "ko": "그곳은 보건소와 협력하여 건강 수치를 살핀다.",
+   "opts": [
+    [
+     "in contrast with",
+     "~와 대조적으로"
+    ],
+    [
+     "in competition with",
+     "~와 경쟁하여"
+    ],
+    [
+     "in conflict with",
+     "~와 충돌하여"
+    ]
+   ],
+   "friends": [
+    [
+     "monitor",
+     "살피다, 관찰하다"
+    ],
+    [
+     "public health center",
+     "보건소"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-artcamp-caregivers",
+   "src": "2025 국가직 14번 (안내문)",
+   "lv": 1,
+   "pid": "25k-artcamp",
+   "w": "caregivers",
+   "word": "caregiver",
+   "mean": "돌보는 사람, 보호자",
+   "clue": "아이들 전시회에 가족과 '아이를 돌보는 사람'을 초대",
+   "chunks": [
+    [
+     "We invite families and caregivers",
+     "가족과 보호자분들을 초대합니다"
+    ],
+    [
+     "to attend a weekly exhibition reception",
+     "매주 열리는 전시 행사에 참석하도록"
+    ],
+    [
+     "of campers' artwork.",
+     "캠프 참가 아이들 작품의"
+    ]
+   ],
+   "ko": "캠프 아이들 작품을 전시하는 주간 행사에 가족과 보호자분들을 초대합니다.",
+   "opts": [
+    [
+     "customers",
+     "손님"
+    ],
+    [
+     "strangers",
+     "낯선 사람"
+    ],
+    [
+     "employers",
+     "고용주"
+    ]
+   ],
+   "friends": [
+    [
+     "attend",
+     "참석하다"
+    ],
+    [
+     "exhibition",
+     "전시(회)"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-5-justincase",
+   "src": "2025 지방직 5번 (생활영어)",
+   "lv": 1,
+   "pid": "25j-copies",
+   "w": "just in case",
+   "word": "just in case",
+   "mean": "혹시 모르니, 만일에 대비해",
+   "clue": "지난번처럼 예상보다 사람이 더 올 수 있으니 → 혹시 모르니 75부",
+   "chunks": [
+    [
+     "Let's make it 75",
+     "75부로 하죠"
+    ],
+    [
+     "just in case",
+     "혹시 모르니"
+    ],
+    [
+     "we have more attendees than expected",
+     "예상보다 참석자가 더 많을 경우를 대비해"
+    ],
+    [
+     "like last time.",
+     "지난번처럼"
+    ]
+   ],
+   "ko": "지난번처럼 예상보다 참석자가 많을 수도 있으니 혹시 모르니 75부로 하죠.",
+   "opts": [
+    [
+     "as a result",
+     "그 결과"
+    ],
+    [
+     "on purpose",
+     "일부러"
+    ],
+    [
+     "by mistake",
+     "실수로"
+    ]
+   ],
+   "friends": [
+    [
+     "attendee",
+     "참석자"
+    ],
+    [
+     "Better safe than sorry.",
+     "후회하는 것보다 조심하는 게 낫다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-8-vulnerable",
+   "src": "2025 지방직 8~9번 (웹페이지)",
+   "lv": 1,
+   "pid": "25j-health",
+   "w": "vulnerable",
+   "word": "vulnerable",
+   "mean": "취약한 (the vulnerable: 취약 계층)",
+   "clue": "건강을 증진하고 '도움이 필요한 사람들'을 돕는다 — 사회복지 핵심 단어",
+   "chunks": [
+    [
+     "The NHC aims",
+     "국립보건센터는 목표로 한다"
+    ],
+    [
+     "to promote health",
+     "건강을 증진하고"
+    ],
+    [
+     "and serve the vulnerable.",
+     "취약 계층을 돕는 것을"
+    ]
+   ],
+   "ko": "국립보건센터는 건강을 증진하고 취약 계층을 돕는 것을 목표로 한다.",
+   "opts": [
+    [
+     "wealthy",
+     "부유한"
+    ],
+    [
+     "powerful",
+     "힘 있는"
+    ],
+    [
+     "famous",
+     "유명한"
+    ]
+   ],
+   "friends": [
+    [
+     "promote",
+     "증진하다, 장려하다"
+    ],
+    [
+     "serve",
+     "돕다, 봉사하다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-8-critical",
+   "src": "2025 지방직 8번 (문맥 어휘)",
+   "lv": 1,
+   "pid": "25j-health",
+   "w": "critical",
+   "word": "critical",
+   "mean": "매우 중요한 (= pivotal)",
+   "clue": "실제 시험에서 critical 과 가장 가까운 말로 pivotal(중요한)이 정답. '비판적인'이 아니에요!",
+   "chunks": [
+    [
+     "Health is a substantial part of human right,",
+     "건강은 인권의 중요한 부분이다"
+    ],
+    [
+     "and makes a critical contribution",
+     "그리고 매우 중요한 기여를 한다"
+    ],
+    [
+     "to societal well-being.",
+     "사회의 행복(복지)에"
+    ]
+   ],
+   "ko": "건강은 인권의 중요한 부분이며 사회 복지에 매우 중요한 기여를 한다.",
+   "opts": [
+    [
+     "perilous",
+     "위험한"
+    ],
+    [
+     "analytical",
+     "분석적인"
+    ],
+    [
+     "judgmental",
+     "비판적인"
+    ]
+   ],
+   "friends": [
+    [
+     "substantial",
+     "상당한, 중요한"
+    ],
+    [
+     "contribution",
+     "기여"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-17-regardless",
+   "src": "2026 지방직 17번",
+   "lv": 1,
+   "pid": "26j-breakfast",
+   "w": "regardless of",
+   "word": "regardless of",
+   "mean": "~와 상관없이",
+   "clue": "시설 좋은 학교 학생은 아침 식사와 '상관없이' 행동이 더 좋다",
+   "chunks": [
+    [
+     "Students at well-equipped schools",
+     "시설이 잘 갖춰진 학교의 학생들은"
+    ],
+    [
+     "behave better",
+     "더 바르게 행동한다"
+    ],
+    [
+     "regardless of their diet.",
+     "식사와 상관없이"
+    ]
+   ],
+   "ko": "시설이 잘 갖춰진 학교의 학생들은 무엇을 먹든 상관없이 더 바르게 행동한다.",
+   "opts": [
+    [
+     "because of",
+     "~때문에"
+    ],
+    [
+     "instead of",
+     "~대신에"
+    ],
+    [
+     "in addition to",
+     "~에 더해"
+    ]
+   ],
+   "friends": [
+    [
+     "well-equipped",
+     "시설이 잘 갖춰진"
+    ],
+    [
+     "diet",
+     "식사, 식단"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-15-boost",
+   "src": "2026 지방직 15번",
+   "lv": 1,
+   "pid": "26j-giraffe",
+   "w": "boost",
+   "word": "boost",
+   "mean": "높이다, 늘리다",
+   "clue": "크고 둥근 무늬가 생존 가능성을 → 높인다 (뒤에 생존율이 더 높았다고 나옴)",
+   "chunks": [
+    [
+     "Certain patterns,",
+     "어떤 무늬들은"
+    ],
+    [
+     "especially large, round patches,",
+     "특히 크고 둥근 반점은"
+    ],
+    [
+     "can boost their chances of survival.",
+     "살아남을 가능성을 높일 수 있다"
+    ]
+   ],
+   "ko": "어떤 무늬, 특히 크고 둥근 반점은 (아기 기린이) 살아남을 가능성을 높일 수 있다.",
+   "opts": [
+    [
+     "lower",
+     "낮추다"
+    ],
+    [
+     "hide",
+     "숨기다"
+    ],
+    [
+     "measure",
+     "재다"
+    ]
+   ],
+   "friends": [
+    [
+     "survival",
+     "생존"
+    ],
+    [
+     "patch",
+     "반점, 조각"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-18-deficiency",
+   "src": "2025 지방직 18번",
+   "lv": 1,
+   "pid": "25j-tomato",
+   "w": "deficiency",
+   "word": "deficiency",
+   "mean": "부족, 결핍",
+   "clue": "비타민D를 더 넣은 토마토를 만든 이유 → 비타민D가 부족한 사람이 많아서",
+   "chunks": [
+    [
+     "Vitamin D deficiency",
+     "비타민D 부족은"
+    ],
+    [
+     "affects about one billion people",
+     "약 10억 명에게 영향을 준다"
+    ],
+    [
+     "worldwide.",
+     "전 세계적으로"
+    ]
+   ],
+   "ko": "비타민D 부족은 전 세계 약 10억 명에게 영향을 준다.",
+   "opts": [
+    [
+     "excess",
+     "넘침, 과잉"
+    ],
+    [
+     "production",
+     "생산"
+    ],
+    [
+     "price",
+     "가격"
+    ]
+   ],
+   "friends": [
+    [
+     "affect",
+     "영향을 주다"
+    ],
+    [
+     "worldwide",
+     "전 세계적으로"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-hhs-enhance",
+   "src": "2025 국가직 15번 (기관 소개)",
+   "lv": 1,
+   "pid": "25k-hhs",
+   "w": "enhance",
+   "word": "enhance",
+   "mean": "높이다, 향상시키다",
+   "clue": "보건복지부의 사명 → 국민의 건강과 행복을 높이는 것",
+   "chunks": [
+    [
+     "The mission of the Department of Health and Human Services",
+     "보건복지부의 사명은"
+    ],
+    [
+     "is to enhance the health and well-being",
+     "건강과 행복을 높이는 것이다"
+    ],
+    [
+     "of all individuals in the nation.",
+     "나라의 모든 사람의"
+    ]
+   ],
+   "ko": "보건복지부의 사명은 나라의 모든 사람의 건강과 행복을 높이는 것이다.",
+   "opts": [
+    [
+     "reduce",
+     "줄이다"
+    ],
+    [
+     "measure",
+     "측정하다"
+    ],
+    [
+     "threaten",
+     "위협하다"
+    ]
+   ],
+   "friends": [
+    [
+     "mission",
+     "사명, 임무"
+    ],
+    [
+     "individual",
+     "개인"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-1-habitable",
+   "src": "2026 국가직 1번",
+   "lv": 1,
+   "pid": null,
+   "w": "habitable",
+   "word": "habitable",
+   "mean": "살기에 알맞은",
+   "clue": "기후 변화로 살기 힘든 곳이 생기니 → 사람이 살 만한 곳으로 옮겨 간다",
+   "chunks": [
+    [
+     "Today, as climate change makes some areas",
+     "오늘날 기후 변화가 어떤 지역들을 만들면서"
+    ],
+    [
+     "less hospitable than others,",
+     "다른 곳보다 살기 덜 좋게"
+    ],
+    [
+     "increasing numbers of people will move",
+     "점점 더 많은 사람들이 옮겨 갈 것이다"
+    ],
+    [
+     "to the more habitable areas.",
+     "더 살기 좋은 지역으로"
+    ]
+   ],
+   "ko": "기후 변화로 어떤 지역은 살기 힘들어지면서 더 많은 사람들이 살기 좋은 지역으로 옮겨 갈 것이다.",
+   "opts": [
+    [
+     "inhumane",
+     "비인간적인"
+    ],
+    [
+     "vulnerable",
+     "취약한"
+    ],
+    [
+     "barren",
+     "척박한"
+    ]
+   ],
+   "friends": [
+    [
+     "hospitable",
+     "(환경이) 살기 좋은, 친절한"
+    ],
+    [
+     "climate change",
+     "기후 변화"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-water-strain",
+   "src": "2026 국가직 9번 (문맥 어휘)",
+   "lv": 1,
+   "pid": "26k-water",
+   "w": "strain",
+   "word": "strain",
+   "mean": "부담, 압박 (= pressure)",
+   "clue": "실제 시험에서 strain 과 가장 가까운 말로 pressure(압박)가 정답. 물을 아끼면 수도 시설의 부담이 준다",
+   "chunks": [
+    [
+     "Reduce the strain on our existing water system,",
+     "기존 수도 시설의 부담을 줄여"
+    ],
+    [
+     "eliminating the need for costly system upgrades.",
+     "비싼 시설 개선의 필요를 없앤다"
+    ]
+   ],
+   "ko": "기존 수도 시설의 부담을 줄여 비용이 많이 드는 시설 개선이 필요 없게 한다.",
+   "opts": [
+    [
+     "variety",
+     "다양성"
+    ],
+    [
+     "tendency",
+     "경향"
+    ],
+    [
+     "element",
+     "요소"
+    ]
+   ],
+   "friends": [
+    [
+     "eliminate",
+     "없애다"
+    ],
+    [
+     "costly",
+     "비용이 많이 드는"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-water-rate",
+   "src": "2026 국가직 8~9번 (웹페이지)",
+   "lv": 1,
+   "pid": "26k-water",
+   "w": "rate",
+   "word": "rate",
+   "mean": "요금, 비율",
+   "clue": "물이 가장 많은 우기에는 낮은 ~를 누린다 → 요금",
+   "chunks": [
+    [
+     "During the rainy season,",
+     "우기에는"
+    ],
+    [
+     "when the city's water supply is at its peak,",
+     "도시의 물 공급이 최고일 때"
+    ],
+    [
+     "residents and commercial businesses",
+     "주민과 상업 시설은"
+    ],
+    [
+     "will enjoy a low off-peak rate.",
+     "낮은 비수기 요금을 누릴 것이다"
+    ]
+   ],
+   "ko": "물 공급이 가장 많은 우기에는 주민과 상업 시설이 낮은 비수기 요금을 낸다.",
+   "opts": [
+    [
+     "reward",
+     "보상"
+    ],
+    [
+     "route",
+     "경로"
+    ],
+    [
+     "rule",
+     "규칙"
+    ]
+   ],
+   "friends": [
+    [
+     "resident",
+     "주민"
+    ],
+    [
+     "commercial",
+     "상업의"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-water-consumption",
+   "src": "2026 국가직 8~9번 (웹페이지)",
+   "lv": 1,
+   "pid": "26k-water",
+   "w": "consumption",
+   "word": "consumption",
+   "mean": "소비(량)",
+   "clue": "가장 친환경적인 도시 목표 → 물 쓰는 양을 10% 줄이기",
+   "chunks": [
+    [
+     "This seasonal rate will help us meet",
+     "이 계절 요금은 우리가 달성하도록 도울 것이다"
+    ],
+    [
+     "our greenest city goal",
+     "가장 친환경적인 도시 목표를"
+    ],
+    [
+     "of reducing water consumption by 10%.",
+     "물 소비를 10% 줄이는"
+    ]
+   ],
+   "ko": "이 계절 요금은 물 소비를 10% 줄이려는 친환경 도시 목표를 이루는 데 도움이 될 것이다.",
+   "opts": [
+    [
+     "production",
+     "생산"
+    ],
+    [
+     "pollution",
+     "오염"
+    ],
+    [
+     "quality",
+     "품질"
+    ]
+   ],
+   "friends": [
+    [
+     "seasonal",
+     "계절의"
+    ],
+    [
+     "meet a goal",
+     "목표를 달성하다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-water-abundant",
+   "src": "2026 국가직 8~9번 (웹페이지)",
+   "lv": 1,
+   "pid": "26k-water",
+   "w": "abundant",
+   "word": "abundant",
+   "mean": "풍부한",
+   "clue": "도시가 아무리 커져도 모든 주민이 ~하고 안전하고 깨끗한 물을 → 넉넉한",
+   "chunks": [
+    [
+     "ensuring that all residents have access",
+     "모든 주민이 누릴 수 있도록 보장하며"
+    ],
+    [
+     "to abundant, safe, clean water,",
+     "풍부하고 안전하고 깨끗한 물을"
+    ],
+    [
+     "no matter how much the city grows.",
+     "도시가 아무리 커지더라도"
+    ]
+   ],
+   "ko": "도시가 아무리 커져도 모든 주민이 풍부하고 안전하고 깨끗한 물을 쓸 수 있도록 보장한다.",
+   "opts": [
+    [
+     "scarce",
+     "부족한"
+    ],
+    [
+     "expensive",
+     "비싼"
+    ],
+    [
+     "frozen",
+     "얼어붙은"
+    ]
+   ],
+   "friends": [
+    [
+     "ensure",
+     "보장하다"
+    ],
+    [
+     "no matter how",
+     "아무리 ~해도"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-anniv-venue",
+   "src": "2026 국가직 10번 (이메일)",
+   "lv": 1,
+   "pid": "26k-anniv",
+   "w": "venue",
+   "word": "venue",
+   "mean": "(행사) 장소",
+   "clue": "올해는 손님이 더 많으니 작년보다 더 큰 ~ → 장소",
+   "chunks": [
+    [
+     "Since we expect more guests this year,",
+     "올해는 손님이 더 올 것으로 예상하므로"
+    ],
+    [
+     "we will need a bigger venue",
+     "더 큰 장소가 필요할 것입니다"
+    ],
+    [
+     "than last year's.",
+     "작년보다"
+    ]
+   ],
+   "ko": "올해는 손님이 더 많을 것으로 예상되어 작년보다 더 큰 장소가 필요합니다.",
+   "opts": [
+    [
+     "menu",
+     "메뉴"
+    ],
+    [
+     "schedule",
+     "일정"
+    ],
+    [
+     "uniform",
+     "제복"
+    ]
+   ],
+   "friends": [
+    [
+     "expect",
+     "예상하다"
+    ],
+    [
+     "proposal",
+     "제안(서)"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-anniv-revised",
+   "src": "2026 국가직 10번 (이메일)",
+   "lv": 1,
+   "pid": "26k-anniv",
+   "w": "revised",
+   "word": "revise",
+   "mean": "고치다, 수정하다",
+   "clue": "장소를 바꾸자고 했으니 → 고친 계획을 보내 달라",
+   "chunks": [
+    [
+     "Could you please send me the revised plan",
+     "수정한 계획을 보내 주시겠어요"
+    ],
+    [
+     "by the end of this month?",
+     "이번 달 말까지"
+    ]
+   ],
+   "ko": "수정한 계획을 이번 달 말까지 보내 주시겠어요?",
+   "opts": [
+    [
+     "rejected",
+     "거절된"
+    ],
+    [
+     "original",
+     "원래의"
+    ],
+    [
+     "printed",
+     "인쇄된"
+    ]
+   ],
+   "friends": [
+    [
+     "by the end of",
+     "~말까지"
+    ],
+    [
+     "draft",
+     "초안"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-nec-sustainable",
+   "src": "2026 국가직 12번 (웹페이지)",
+   "lv": 1,
+   "pid": "26k-nec",
+   "w": "sustainable",
+   "word": "sustainable",
+   "mean": "지속 가능한",
+   "clue": "안전하고 오래 이어 갈 수 있는 에너지의 미래 → 지속 가능한",
+   "chunks": [
+    [
+     "The National Energy Cooperation works",
+     "국가에너지협력기구는 일한다"
+    ],
+    [
+     "with government institutions, industry, and academia",
+     "정부 기관, 산업계, 학계와 함께"
+    ],
+    [
+     "to shape a secure and sustainable energy future.",
+     "안전하고 지속 가능한 에너지 미래를 만들기 위해"
+    ]
+   ],
+   "ko": "국가에너지협력기구는 안전하고 지속 가능한 에너지 미래를 만들기 위해 정부 기관, 산업계, 학계와 함께 일한다.",
+   "opts": [
+    [
+     "temporary",
+     "일시적인"
+    ],
+    [
+     "dangerous",
+     "위험한"
+    ],
+    [
+     "expensive",
+     "비싼"
+    ]
+   ],
+   "friends": [
+    [
+     "institution",
+     "기관"
+    ],
+    [
+     "academia",
+     "학계"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-nec-affordable",
+   "src": "2026 국가직 12번 (웹페이지)",
+   "lv": 1,
+   "pid": "26k-nec",
+   "w": "affordable",
+   "word": "affordable",
+   "mean": "(값이) 감당할 수 있는, 적당한",
+   "clue": "안전하고 지속 가능하면서 국민이 낼 수 있는 값 → 감당할 수 있는",
+   "chunks": [
+    [
+     "We work with a broad range of national organizations",
+     "우리는 폭넓은 국가 기관들과 일한다"
+    ],
+    [
+     "to ensure secure, affordable and sustainable energy systems.",
+     "안전하고 감당할 만하며 지속 가능한 에너지 체계를 보장하기 위해"
+    ]
+   ],
+   "ko": "우리는 안전하고 적당한 가격의 지속 가능한 에너지 체계를 위해 폭넓은 국가 기관들과 협력한다.",
+   "opts": [
+    [
+     "luxurious",
+     "호화로운"
+    ],
+    [
+     "outdated",
+     "낡은"
+    ],
+    [
+     "harmful",
+     "해로운"
+    ]
+   ],
+   "friends": [
+    [
+     "a broad range of",
+     "폭넓은"
+    ],
+    [
+     "organization",
+     "기관, 조직"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-conflict-suppress",
+   "src": "2026 국가직 16번",
+   "lv": 1,
+   "pid": "26k-conflict",
+   "w": "suppress",
+   "word": "suppress",
+   "mean": "억누르다, 참다",
+   "clue": "의견 차이를 숨기고 괜찮은 척한다 → 감정을 억누른다",
+   "chunks": [
+    [
+     "People suppress their feelings,",
+     "사람들은 감정을 억누르고"
+    ],
+    [
+     "hide disagreements",
+     "의견 차이를 숨기고"
+    ],
+    [
+     "and pretend that everything is fine",
+     "모든 게 괜찮은 척한다"
+    ],
+    [
+     "when it is not.",
+     "그렇지 않은데도"
+    ]
+   ],
+   "ko": "사람들은 감정을 억누르고 의견 차이를 숨기며 괜찮지 않은데도 괜찮은 척한다.",
+   "opts": [
+    [
+     "express",
+     "표현하다"
+    ],
+    [
+     "share",
+     "나누다"
+    ],
+    [
+     "record",
+     "기록하다"
+    ]
+   ],
+   "friends": [
+    [
+     "pretend",
+     "~인 척하다"
+    ],
+    [
+     "disagreement",
+     "의견 차이"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-conflict-unresolved",
+   "src": "2026 국가직 16번",
+   "lv": 1,
+   "pid": "26k-conflict",
+   "w": "unresolved",
+   "word": "unresolved",
+   "mean": "해결되지 않은",
+   "clue": "참고 덮어 두기만 하면 → 갈등은 풀리지 않고 문제가 더 커진다",
+   "chunks": [
+    [
+     "However, the conflict remains unresolved",
+     "하지만 갈등은 해결되지 않은 채 남고"
+    ],
+    [
+     "and the problem gets worse.",
+     "문제는 더 나빠진다"
+    ]
+   ],
+   "ko": "하지만 갈등은 해결되지 않은 채 남고 문제는 더 커진다.",
+   "opts": [
+    [
+     "settled",
+     "해결된"
+    ],
+    [
+     "forgotten",
+     "잊힌"
+    ],
+    [
+     "celebrated",
+     "축하받은"
+    ]
+   ],
+   "friends": [
+    [
+     "conflict",
+     "갈등"
+    ],
+    [
+     "remain",
+     "여전히 ~이다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-ai-hidden",
+   "src": "2026 국가직 19번",
+   "lv": 1,
+   "pid": "26k-ai",
+   "w": "hidden",
+   "word": "hidden",
+   "mean": "숨겨진",
+   "clue": "블랙박스처럼 넣으면 결과만 나온다 → 그 사이 논리는 보이지 않는다",
+   "chunks": [
+    [
+     "Many AI systems operate as black boxes:",
+     "많은 AI 시스템은 블랙박스처럼 작동한다"
+    ],
+    [
+     "you type something in, and a decision appears.",
+     "무언가를 입력하면 결정이 나온다"
+    ],
+    [
+     "The logic in between is hidden.",
+     "그 사이의 논리는 숨겨져 있다"
+    ]
+   ],
+   "ko": "많은 AI는 블랙박스처럼 작동해서, 입력하면 결정만 나오고 그 사이의 논리는 숨겨져 있다.",
+   "opts": [
+    [
+     "measured",
+     "측정된"
+    ],
+    [
+     "explicit",
+     "명확한"
+    ],
+    [
+     "translated",
+     "번역된"
+    ]
+   ],
+   "friends": [
+    [
+     "operate",
+     "작동하다"
+    ],
+    [
+     "logic",
+     "논리"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-overtime-definite",
+   "src": "2026 국가직 5번 (생활영어)",
+   "lv": 1,
+   "pid": "26k-overtime",
+   "w": "definite",
+   "word": "definite",
+   "mean": "확실한, 정해진",
+   "clue": "아직 날짜는 ~하지 않지만 아마 일주일쯤 → 확정된 날짜가 없다",
+   "chunks": [
+    [
+     "We don't have a definite date,",
+     "확실한 날짜는 없지만"
+    ],
+    [
+     "but it'll probably take another week",
+     "아마 일주일은 더 걸릴 거예요"
+    ],
+    [
+     "to complete.",
+     "끝내는 데"
+    ]
+   ],
+   "ko": "확정된 날짜는 없지만 끝내려면 아마 일주일은 더 걸릴 거예요.",
+   "opts": [
+    [
+     "vague",
+     "모호한"
+    ],
+    [
+     "past",
+     "지난"
+    ],
+    [
+     "lucky",
+     "운 좋은"
+    ]
+   ],
+   "friends": [
+    [
+     "overtime",
+     "초과 근무"
+    ],
+    [
+     "in a row",
+     "연속으로"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-20-cost",
+   "src": "2026 국가직 20번",
+   "lv": 1,
+   "pid": null,
+   "w": "cost",
+   "word": "cost",
+   "mean": "대가, 비용",
+   "clue": "속도를 올리면 정확도가 떨어지듯 → 얻는 게 있으면 잃는 것도 있다",
+   "chunks": [
+    [
+     "For every benefit gained,",
+     "얻는 이득 하나하나에는"
+    ],
+    [
+     "there is usually some cost.",
+     "대개 어떤 대가가 따른다"
+    ]
+   ],
+   "ko": "얻는 이득마다 대개 어떤 대가가 따른다.",
+   "opts": [
+    [
+     "reward",
+     "보상"
+    ],
+    [
+     "chance",
+     "기회"
+    ],
+    [
+     "joy",
+     "기쁨"
+    ]
+   ],
+   "friends": [
+    [
+     "benefit",
+     "이득, 혜택"
+    ],
+    [
+     "accuracy",
+     "정확도"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-1-ample",
+   "src": "예시문제 2차 1번",
+   "lv": 1,
+   "pid": null,
+   "w": "ample",
+   "word": "ample",
+   "mean": "충분한, 넉넉한",
+   "clue": "큰 벽화를 걸려면 공간이 → 넉넉해야 한다",
+   "chunks": [
+    [
+     "In order to exhibit a large mural,",
+     "큰 벽화를 전시하기 위해"
+    ],
+    [
+     "the museum curators had to make sure",
+     "박물관 큐레이터들은 확실히 해야 했다"
+    ],
+    [
+     "they had ample space.",
+     "충분한 공간이 있는지"
+    ]
+   ],
+   "ko": "큰 벽화를 전시하려고 큐레이터들은 공간이 충분한지 확인해야 했다.",
+   "opts": [
+    [
+     "cozy",
+     "아늑한"
+    ],
+    [
+     "stuffy",
+     "답답한"
+    ],
+    [
+     "cramped",
+     "비좁은"
+    ]
+   ],
+   "friends": [
+    [
+     "exhibit",
+     "전시하다"
+    ],
+    [
+     "mural",
+     "벽화"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-2-priority",
+   "src": "예시문제 2차 2번",
+   "lv": 1,
+   "pid": null,
+   "w": "priority",
+   "word": "priority",
+   "mean": "우선순위, 가장 중요한 일",
+   "clue": "해결할 문제가 많아도 시민 안전이 제일 → 최우선",
+   "chunks": [
+    [
+     "Even though there are many problems that have to be solved,",
+     "해결해야 할 문제가 많지만"
+    ],
+    [
+     "I want to emphasize",
+     "강조하고 싶습니다"
+    ],
+    [
+     "that the safety of our citizens is our top priority.",
+     "시민의 안전이 우리의 최우선이라는 것을"
+    ]
+   ],
+   "ko": "해결할 문제가 많지만 시민의 안전이 우리의 최우선이라는 점을 강조하고 싶습니다.",
+   "opts": [
+    [
+     "secret",
+     "비밀"
+    ],
+    [
+     "solution",
+     "해결책"
+    ],
+    [
+     "opportunity",
+     "기회"
+    ]
+   ],
+   "friends": [
+    [
+     "emphasize",
+     "강조하다"
+    ],
+    [
+     "citizen",
+     "시민"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-agri-fair",
+   "src": "예시문제 2차 9번 (문맥 어휘)",
+   "lv": 1,
+   "pid": "s2-agri",
+   "w": "fair",
+   "word": "fair",
+   "mean": "공정한 (= impartial)",
+   "clue": "실제 시험에서 fair 와 가장 가까운 말로 impartial(공정한)이 정답",
+   "chunks": [
+    [
+     "We facilitate the strategic marketing of national agricultural products",
+     "우리는 국내 농산물의 전략적 판매를 돕는다"
+    ],
+    [
+     "while ensuring fair trading practices.",
+     "공정한 거래 관행을 보장하면서"
+    ]
+   ],
+   "ko": "우리는 공정한 거래를 보장하면서 국내 농산물의 전략적 판매를 돕는다.",
+   "opts": [
+    [
+     "free",
+     "자유로운"
+    ],
+    [
+     "mutual",
+     "상호의"
+    ],
+    [
+     "profitable",
+     "수익성 있는"
+    ]
+   ],
+   "friends": [
+    [
+     "facilitate",
+     "쉽게 하다, 돕다"
+    ],
+    [
+     "agricultural",
+     "농업의"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-agri-integrity",
+   "src": "예시문제 2차 8번 (기관 소개)",
+   "lv": 1,
+   "pid": "s2-agri",
+   "w": "integrity",
+   "word": "integrity",
+   "mean": "청렴, 정직함",
+   "clue": "완전한 정직과 ~ → 공무원에게 꼭 필요한 청렴함",
+   "chunks": [
+    [
+     "We expect and require",
+     "우리는 기대하고 요구한다"
+    ],
+    [
+     "complete honesty and integrity",
+     "완전한 정직과 청렴을"
+    ],
+    [
+     "in all we do.",
+     "우리가 하는 모든 일에서"
+    ]
+   ],
+   "ko": "우리는 하는 모든 일에서 완전한 정직과 청렴을 기대하고 요구한다.",
+   "opts": [
+    [
+     "speed",
+     "속도"
+    ],
+    [
+     "profit",
+     "이익"
+    ],
+    [
+     "luck",
+     "운"
+    ]
+   ],
+   "friends": [
+    [
+     "honesty",
+     "정직"
+    ],
+    [
+     "require",
+     "요구하다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-bank-safeguard",
+   "src": "예시문제 2차 12번 (이메일)",
+   "lv": 1,
+   "pid": "s2-bank",
+   "w": "safeguard",
+   "word": "safeguard",
+   "mean": "보호하다, 지키다",
+   "clue": "사이버 위협으로부터 자신을 → 지키는 쉬운 방법 다섯 가지",
+   "chunks": [
+    [
+     "Here are five easy ways",
+     "여기 쉬운 방법 다섯 가지가 있습니다"
+    ],
+    [
+     "to safeguard yourself from cyber threats.",
+     "사이버 위협으로부터 자신을 지키는"
+    ]
+   ],
+   "ko": "사이버 위협으로부터 자신을 지키는 쉬운 방법 다섯 가지를 알려 드립니다.",
+   "opts": [
+    [
+     "expose",
+     "노출시키다"
+    ],
+    [
+     "attack",
+     "공격하다"
+    ],
+    [
+     "ignore",
+     "무시하다"
+    ]
+   ],
+   "friends": [
+    [
+     "threat",
+     "위협"
+    ],
+    [
+     "cybercrime",
+     "사이버 범죄"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-bank-verify",
+   "src": "예시문제 2차 12번 (이메일)",
+   "lv": 1,
+   "pid": "s2-bank",
+   "w": "verify",
+   "word": "verify",
+   "mean": "확인하다, 입증하다",
+   "clue": "일회용 비밀번호(OTP)를 쓰는 이유 → 본인이 맞는지 확인",
+   "chunks": [
+    [
+     "You will be asked to use a One Time Passcode (OTP)",
+     "일회용 비밀번호(OTP)를 쓰라는 요청을 받을 것입니다"
+    ],
+    [
+     "to verify your identity.",
+     "본인 확인을 위해"
+    ]
+   ],
+   "ko": "본인 확인을 위해 일회용 비밀번호(OTP)를 쓰라는 안내를 받게 됩니다.",
+   "opts": [
+    [
+     "hide",
+     "숨기다"
+    ],
+    [
+     "change",
+     "바꾸다"
+    ],
+    [
+     "forget",
+     "잊다"
+    ]
+   ],
+   "friends": [
+    [
+     "identity",
+     "신원, 본인"
+    ],
+    [
+     "passcode",
+     "비밀번호"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-lake-dedicated",
+   "src": "예시문제 2차 10번 (안내문)",
+   "lv": 1,
+   "pid": "s2-lake",
+   "w": "dedicated",
+   "word": "dedicated",
+   "mean": "헌신적인",
+   "clue": "죽어 가는 호수를 살리려고 지금 애쓰는 사람들 → 헌신적인",
+   "chunks": [
+    [
+     "Some dedicated people",
+     "몇몇 헌신적인 사람들이"
+    ],
+    [
+     "are working to save it now.",
+     "지금 그것을 살리려고 애쓰고 있다"
+    ]
+   ],
+   "ko": "몇몇 헌신적인 사람들이 지금 호수를 살리려고 애쓰고 있다.",
+   "opts": [
+    [
+     "lazy",
+     "게으른"
+    ],
+    [
+     "selfish",
+     "이기적인"
+    ],
+    [
+     "angry",
+     "화난"
+    ]
+   ],
+   "friends": [
+    [
+     "save",
+     "구하다, 살리다"
+    ],
+    [
+     "property value",
+     "부동산 가치"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-library-charge",
+   "src": "예시문제 2차 14번 (안내문)",
+   "lv": 1,
+   "pid": "s2-library",
+   "w": "charge",
+   "word": "charge",
+   "mean": "요금 (no charge: 무료)",
+   "clue": "연구실 이용에 ~가 없다 → 돈을 받지 않는다",
+   "chunks": [
+    [
+     "There is no charge",
+     "요금이 없다"
+    ],
+    [
+     "for conducting research",
+     "연구를 하는 데"
+    ],
+    [
+     "in the David Williams Library research room.",
+     "데이비드 윌리엄스 도서관 연구실에서"
+    ]
+   ],
+   "ko": "데이비드 윌리엄스 도서관 연구실에서 연구하는 데는 요금이 없다.",
+   "opts": [
+    [
+     "rule",
+     "규칙"
+    ],
+    [
+     "limit",
+     "제한"
+    ],
+    [
+     "sign",
+     "표지판"
+    ]
+   ],
+   "friends": [
+    [
+     "conduct",
+     "(일을) 하다, 실시하다"
+    ],
+    [
+     "admission",
+     "입장(료)"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-consular-assess",
+   "src": "2025 국가직 8번 (문맥 어휘)",
+   "lv": 2,
+   "pid": "25k-consular",
+   "w": "assess",
+   "word": "assess",
+   "mean": "평가하다 (= evaluate)",
+   "clue": "실제 시험에서 assess 와 가장 가까운 말로 evaluate(평가하다)가 정답",
+   "chunks": [
+    [
+     "Tell us when we get things wrong",
+     "저희가 잘못하면 알려 주세요"
+    ],
+    [
+     "so that we can assess and improve",
+     "저희가 평가하고 개선할 수 있도록"
+    ],
+    [
+     "our services.",
+     "저희 서비스를"
+    ]
+   ],
+   "ko": "저희가 서비스를 평가하고 개선할 수 있도록 잘못한 점이 있으면 알려 주세요.",
+   "opts": [
+    [
+     "upgrade",
+     "개량하다"
+    ],
+    [
+     "prolong",
+     "연장하다"
+    ],
+    [
+     "render",
+     "제공하다"
+    ]
+   ],
+   "friends": [
+    [
+     "improve",
+     "개선하다"
+    ],
+    [
+     "feedback",
+     "의견"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-consular-consent",
+   "src": "2025 국가직 8~9번",
+   "lv": 2,
+   "pid": "25k-consular",
+   "w": "consent",
+   "word": "consent",
+   "mean": "동의",
+   "clue": "남을 대신해 민원을 넣으려면 그 사람의 서명된 → 동의가 필요",
+   "chunks": [
+    [
+     "If you are complaining on behalf of someone else,",
+     "다른 사람을 대신해 민원을 넣는다면"
+    ],
+    [
+     "we must have written, signed consent",
+     "저희는 서면으로 서명된 동의를 받아야 합니다"
+    ],
+    [
+     "from that person.",
+     "그 사람으로부터"
+    ]
+   ],
+   "ko": "다른 사람을 대신해 민원을 넣는다면 그 사람의 서명된 서면 동의가 있어야 합니다.",
+   "opts": [
+    [
+     "payment",
+     "지불, 돈"
+    ],
+    [
+     "complaint",
+     "불만"
+    ],
+    [
+     "address",
+     "주소"
+    ]
+   ],
+   "friends": [
+    [
+     "on behalf of",
+     "~를 대신하여"
+    ],
+    [
+     "signed",
+     "서명된"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-2-punctuality",
+   "src": "2025 지방직 2번",
+   "lv": 2,
+   "pid": null,
+   "w": "punctuality",
+   "word": "punctuality",
+   "mean": "시간 엄수",
+   "clue": "마감을 지키고 남의 시간을 존중함을 보여 주는 것 → 시간 엄수",
+   "chunks": [
+    [
+     "In the business world,",
+     "비즈니스 세계에서"
+    ],
+    [
+     "punctuality is highly valued",
+     "시간 엄수는 높이 평가된다"
+    ],
+    [
+     "as it showcases a person's commitment",
+     "그것이 사람의 성실한 자세를 보여 주기 때문에"
+    ],
+    [
+     "to meeting deadlines and respecting others' time.",
+     "마감을 지키고 남의 시간을 존중하려는"
+    ]
+   ],
+   "ko": "비즈니스 세계에서 시간 엄수는 마감을 지키고 남의 시간을 존중하는 자세를 보여 주기 때문에 높이 평가된다.",
+   "opts": [
+    [
+     "humility",
+     "겸손"
+    ],
+    [
+     "frugality",
+     "절약"
+    ],
+    [
+     "sincerity",
+     "진실함"
+    ]
+   ],
+   "friends": [
+    [
+     "deadline",
+     "마감"
+    ],
+    [
+     "commitment",
+     "헌신, 약속"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-1-eradicate",
+   "src": "2025 지방직 1번",
+   "lv": 2,
+   "pid": null,
+   "w": "eradicate",
+   "word": "eradicate",
+   "mean": "뿌리 뽑다, 없애다",
+   "clue": "빠르고 쉽게 퍼지기 때문에 → 없애기 어렵다",
+   "chunks": [
+    [
+     "Some plant diseases are indeed difficult to eradicate",
+     "어떤 식물 병은 정말 없애기 어렵다"
+    ],
+    [
+     "because they can spread rapidly and easily,",
+     "빠르고 쉽게 퍼질 수 있어서"
+    ],
+    [
+     "impacting multiple plants in a vast area.",
+     "넓은 지역의 여러 식물에 영향을 주며"
+    ]
+   ],
+   "ko": "어떤 식물 병은 빠르고 쉽게 퍼져 넓은 지역의 여러 식물에 영향을 주기 때문에 정말 없애기 어렵다.",
+   "opts": [
+    [
+     "nourish",
+     "영양분을 주다"
+    ],
+    [
+     "proliferate",
+     "퍼지다, 늘어나다"
+    ],
+    [
+     "detect",
+     "발견하다"
+    ]
+   ],
+   "friends": [
+    [
+     "spread",
+     "퍼지다"
+    ],
+    [
+     "vast",
+     "넓은, 광대한"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-2-depriving",
+   "src": "2025 국가직 2번",
+   "lv": 2,
+   "pid": null,
+   "w": "depriving",
+   "word": "deprive A of B",
+   "mean": "A에게서 B를 빼앗다",
+   "clue": "바다를 오염시키고 물고기를 죽여서 → 우리 스스로 귀중한 식량을 빼앗는다",
+   "chunks": [
+    [
+     "We are polluting the oceans,",
+     "우리는 바다를 오염시키고"
+    ],
+    [
+     "killing the fish",
+     "물고기를 죽이고"
+    ],
+    [
+     "and thereby depriving ourselves",
+     "그렇게 해서 우리 자신에게서 빼앗고 있다"
+    ],
+    [
+     "of invaluable food supply.",
+     "매우 귀중한 식량 공급을"
+    ]
+   ],
+   "ko": "우리는 바다를 오염시키고 물고기를 죽여서 스스로 매우 귀중한 식량을 빼앗고 있다.",
+   "opts": [
+    [
+     "accusing",
+     "비난하는"
+    ],
+    [
+     "informing",
+     "알리는"
+    ],
+    [
+     "curing",
+     "치료하는"
+    ]
+   ],
+   "friends": [
+    [
+     "invaluable",
+     "매우 귀중한 (가치 없는 아님!)"
+    ],
+    [
+     "thereby",
+     "그렇게 해서"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-museum-preserves",
+   "src": "2025 지방직 11번 (웹페이지)",
+   "lv": 2,
+   "pid": "25j-museum",
+   "w": "preserves",
+   "word": "preserve",
+   "mean": "보존하다, 지키다",
+   "clue": "박물관이 전시·연구·교육으로 역사를 → 보존한다",
+   "chunks": [
+    [
+     "The National Independence Museum",
+     "독립기념관은"
+    ],
+    [
+     "preserves the national history",
+     "나라의 역사를 보존한다"
+    ],
+    [
+     "through exhibitions, research, and educational programs.",
+     "전시, 연구, 교육 프로그램을 통해"
+    ]
+   ],
+   "ko": "독립기념관은 전시, 연구, 교육 프로그램을 통해 나라의 역사를 보존한다.",
+   "opts": [
+    [
+     "destroys",
+     "파괴하다"
+    ],
+    [
+     "sells",
+     "팔다"
+    ],
+    [
+     "forgets",
+     "잊다"
+    ]
+   ],
+   "friends": [
+    [
+     "exhibition",
+     "전시(회)"
+    ],
+    [
+     "research",
+     "연구"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-museum-insights",
+   "src": "2025 지방직 11번 (웹페이지)",
+   "lv": 2,
+   "pid": "25j-museum",
+   "w": "insights",
+   "word": "insight",
+   "mean": "깊은 이해, 통찰",
+   "clue": "문화 행사가 방문객에게 역사와 문화에 대한 → 깊은 이해를 준다",
+   "chunks": [
+    [
+     "Regular cultural events are held",
+     "정기적인 문화 행사가 열린다"
+    ],
+    [
+     "to provide visitors with insights",
+     "방문객에게 깊은 이해를 주기 위해"
+    ],
+    [
+     "into the national history and culture.",
+     "나라의 역사와 문화에 대한"
+    ]
+   ],
+   "ko": "방문객이 나라의 역사와 문화를 깊이 이해하도록 정기 문화 행사가 열린다.",
+   "opts": [
+    [
+     "complaints",
+     "불만"
+    ],
+    [
+     "discounts",
+     "할인"
+    ],
+    [
+     "tickets",
+     "표"
+    ]
+   ],
+   "friends": [
+    [
+     "provide A with B",
+     "A에게 B를 제공하다"
+    ],
+    [
+     "be held",
+     "열리다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-hhs-objectives",
+   "src": "2025 국가직 15번 (기관 소개)",
+   "lv": 2,
+   "pid": "25k-hhs",
+   "w": "objectives",
+   "word": "objective",
+   "mean": "목표",
+   "clue": "goals and ~ : 비슷한 말을 나란히 쓰는 영어 습관 → 목표",
+   "chunks": [
+    [
+     "Collaborations are critical",
+     "협력은 매우 중요하다"
+    ],
+    [
+     "to achieve our goals and objectives.",
+     "우리의 목적과 목표를 이루는 데"
+    ]
+   ],
+   "ko": "우리의 목적과 목표를 이루는 데 협력은 매우 중요하다.",
+   "opts": [
+    [
+     "obstacles",
+     "장애물"
+    ],
+    [
+     "expenses",
+     "비용"
+    ],
+    [
+     "rumors",
+     "소문"
+    ]
+   ],
+   "friends": [
+    [
+     "collaboration",
+     "협력"
+    ],
+    [
+     "achieve",
+     "이루다, 달성하다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-health-equitable",
+   "src": "2025 지방직 8~9번 (웹페이지)",
+   "lv": 2,
+   "pid": "25j-health",
+   "w": "equitable",
+   "word": "equitable",
+   "mean": "공평한, 공정한",
+   "clue": "모두 건강하게 살아야 하는데 But(하지만) → 건강을 누릴 기회가 공평하지 않다",
+   "chunks": [
+    [
+     "But access to health",
+     "하지만 건강을 누릴 기회는"
+    ],
+    [
+     "is not equitable.",
+     "공평하지 않다"
+    ]
+   ],
+   "ko": "하지만 건강을 누릴 기회는 공평하지 않다.",
+   "opts": [
+    [
+     "expensive",
+     "비싼"
+    ],
+    [
+     "visible",
+     "눈에 보이는"
+    ],
+    [
+     "temporary",
+     "일시적인"
+    ]
+   ],
+   "friends": [
+    [
+     "access",
+     "접근, 이용 기회"
+    ],
+    [
+     "prosperous",
+     "번영하는, 잘사는"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-15-drastically",
+   "src": "2025 지방직 15번",
+   "lv": 2,
+   "pid": "25j-bluelight",
+   "w": "drastically",
+   "word": "drastically",
+   "mean": "급격하게, 크게",
+   "clue": "저녁 화면 불빛이 잠 호르몬을 '크게' 떨어뜨려 잠을 방해한다",
+   "chunks": [
+    [
+     "Viewing artificial blue light in the evening",
+     "저녁에 인공 푸른빛을 보는 것은"
+    ],
+    [
+     "will push sleep-inducing melatonin hormones down",
+     "잠을 부르는 멜라토닌 호르몬을 떨어뜨린다"
+    ],
+    [
+     "drastically.",
+     "급격하게"
+    ]
+   ],
+   "ko": "저녁에 인공 푸른빛을 보면 잠을 부르는 멜라토닌 호르몬이 급격하게 떨어진다.",
+   "opts": [
+    [
+     "slightly",
+     "약간"
+    ],
+    [
+     "rarely",
+     "드물게"
+    ],
+    [
+     "gradually",
+     "서서히"
+    ]
+   ],
+   "friends": [
+    [
+     "artificial",
+     "인공의"
+    ],
+    [
+     "evening",
+     "저녁"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-15-counteract",
+   "src": "2025 지방직 15번",
+   "lv": 2,
+   "pid": "25j-bluelight",
+   "w": "counteract",
+   "word": "counteract",
+   "mean": "막아 내다, 상쇄하다",
+   "clue": "낮 햇빛이 밤 인공 빛의 나쁜 결과를 → 막아 준다 (counter = 반대로)",
+   "chunks": [
+    [
+     "Packing the day with sunshine",
+     "낮을 햇빛으로 채우는 것은"
+    ],
+    [
+     "creates a blue-light build-up",
+     "푸른빛을 쌓아 주고"
+    ],
+    [
+     "that helps counteract the consequences",
+     "그 결과를 막는 데 도움이 된다"
+    ],
+    [
+     "of that artificial light at night.",
+     "밤의 인공 빛이 주는"
+    ]
+   ],
+   "ko": "낮에 햇빛을 충분히 쬐면 밤 인공 빛의 나쁜 영향을 막는 데 도움이 된다.",
+   "opts": [
+    [
+     "increase",
+     "늘리다"
+    ],
+    [
+     "copy",
+     "따라 하다"
+    ],
+    [
+     "cause",
+     "일으키다"
+    ]
+   ],
+   "friends": [
+    [
+     "consequence",
+     "결과"
+    ],
+    [
+     "sunshine",
+     "햇빛"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-10-substantial",
+   "src": "2025 국가직 10번",
+   "lv": 2,
+   "pid": "25k-farmers",
+   "w": "substantial",
+   "word": "substantial",
+   "mean": "상당한, 큰",
+   "clue": "농업은 오래 큰돈이 들어간다 → 상당한 투자",
+   "chunks": [
+    [
+     "Working in agriculture requires",
+     "농업에 종사하는 것은 필요로 한다"
+    ],
+    [
+     "substantial and long-term investments.",
+     "상당하고 장기적인 투자를"
+    ]
+   ],
+   "ko": "농업에 종사하려면 상당한 장기 투자가 필요하다.",
+   "opts": [
+    [
+     "tiny",
+     "아주 작은"
+    ],
+    [
+     "sudden",
+     "갑작스러운"
+    ],
+    [
+     "illegal",
+     "불법의"
+    ]
+   ],
+   "friends": [
+    [
+     "agriculture",
+     "농업"
+    ],
+    [
+     "investment",
+     "투자"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-10-relies",
+   "src": "2025 국가직 10번",
+   "lv": 2,
+   "pid": "25k-farmers",
+   "w": "relies",
+   "word": "rely on",
+   "mean": "~에 의존하다",
+   "clue": "홍수·가뭄·폭풍 때문에 위험 → 농사는 날씨에 크게 의존한다",
+   "chunks": [
+    [
+     "It is also quite risky and uncertain,",
+     "그것은 또한 꽤 위험하고 불확실하다"
+    ],
+    [
+     "because it relies heavily on the climate.",
+     "기후에 크게 의존하기 때문에"
+    ]
+   ],
+   "ko": "농업은 기후에 크게 의존하기 때문에 꽤 위험하고 불확실하다.",
+   "opts": [
+    [
+     "insists",
+     "고집하다"
+    ],
+    [
+     "comments",
+     "언급하다"
+    ],
+    [
+     "turns",
+     "켜다, 돌다"
+    ]
+   ],
+   "friends": [
+    [
+     "risky",
+     "위험한"
+    ],
+    [
+     "uncertain",
+     "불확실한"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-17-pinpoint",
+   "src": "2026 지방직 17번",
+   "lv": 2,
+   "pid": "26j-breakfast",
+   "w": "pinpoint",
+   "word": "pinpoint",
+   "mean": "정확히 찾아내다",
+   "clue": "연구자들이 애썼지만 '왜' 아침밥이 도움 되는지 → 정확히 밝혀내지 못했다",
+   "chunks": [
+    [
+     "Despite their best attempts,",
+     "최선을 다해 애썼지만"
+    ],
+    [
+     "researchers haven't been able to pinpoint",
+     "연구자들은 정확히 찾아내지 못했다"
+    ],
+    [
+     "why breakfast aids learning.",
+     "왜 아침 식사가 학습을 돕는지"
+    ]
+   ],
+   "ko": "최선을 다했지만 연구자들은 아침 식사가 왜 학습에 도움이 되는지 정확히 밝혀내지 못했다.",
+   "opts": [
+    [
+     "ignore",
+     "무시하다"
+    ],
+    [
+     "deny",
+     "부인하다"
+    ],
+    [
+     "repeat",
+     "반복하다"
+    ]
+   ],
+   "friends": [
+    [
+     "attempt",
+     "시도"
+    ],
+    [
+     "aid",
+     "돕다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-13-categorizing",
+   "src": "2026 지방직 13번",
+   "lv": 2,
+   "pid": null,
+   "w": "categorizing",
+   "word": "categorize",
+   "mean": "분류하다",
+   "clue": "성격 유형 검사 = 생각하고 행동하는 방식에 따라 사람을 → 나누는 것",
+   "chunks": [
+    [
+     "Personality typing is a system",
+     "성격 유형 검사는 하나의 체계이다"
+    ],
+    [
+     "of categorizing people",
+     "사람을 분류하는"
+    ],
+    [
+     "depending on how they think and act",
+     "어떻게 생각하고 행동하는지에 따라"
+    ],
+    [
+     "in certain situations.",
+     "특정 상황에서"
+    ]
+   ],
+   "ko": "성격 유형 검사는 특정 상황에서 어떻게 생각하고 행동하는지에 따라 사람을 분류하는 체계이다.",
+   "opts": [
+    [
+     "punishing",
+     "벌주기"
+    ],
+    [
+     "hiring",
+     "고용하기"
+    ],
+    [
+     "ignoring",
+     "무시하기"
+    ]
+   ],
+   "friends": [
+    [
+     "depending on",
+     "~에 따라"
+    ],
+    [
+     "personality",
+     "성격"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25j-19-expertise",
+   "src": "2025 지방직 19번",
+   "lv": 2,
+   "pid": null,
+   "w": "expertise",
+   "word": "expertise",
+   "mean": "전문 지식",
+   "clue": "요즘 사람은 혼자 아는 건 적고, 거의 모든 것을 남의 → 전문 지식에 기댄다",
+   "chunks": [
+    [
+     "We rely on the expertise of others",
+     "우리는 다른 사람들의 전문 지식에 기댄다"
+    ],
+    [
+     "for almost all our needs.",
+     "필요한 거의 모든 것에 대해"
+    ]
+   ],
+   "ko": "우리는 필요한 거의 모든 것을 다른 사람들의 전문 지식에 기대고 있다.",
+   "opts": [
+    [
+     "ignorance",
+     "무지"
+    ],
+    [
+     "appearance",
+     "외모"
+    ],
+    [
+     "absence",
+     "부재, 없음"
+    ]
+   ],
+   "friends": [
+    [
+     "rely on",
+     "~에 기대다"
+    ],
+    [
+     "needs",
+     "필요한 것"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-nec-measures",
+   "src": "2026 국가직 12번 (웹페이지)",
+   "lv": 2,
+   "pid": "26k-nec",
+   "w": "measures",
+   "word": "measure",
+   "mean": "조치, 대책",
+   "clue": "에너지 공급이 끊길 때 빠르게 대응하려면 → 비상 대응 조치",
+   "chunks": [
+    [
+     "We help ensure a quick and effective response",
+     "우리는 빠르고 효과적인 대응을 돕는다"
+    ],
+    [
+     "to energy supply disruptions",
+     "에너지 공급 차질에 대한"
+    ],
+    [
+     "through emergency response measures.",
+     "비상 대응 조치를 통해"
+    ]
+   ],
+   "ko": "우리는 비상 대응 조치를 통해 에너지 공급 차질에 빠르고 효과적으로 대응하도록 돕는다.",
+   "opts": [
+    [
+     "rumors",
+     "소문"
+    ],
+    [
+     "prizes",
+     "상"
+    ],
+    [
+     "debts",
+     "빚"
+    ]
+   ],
+   "friends": [
+    [
+     "disruption",
+     "차질, 중단"
+    ],
+    [
+     "response",
+     "대응"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-bank-wary",
+   "src": "예시문제 2차 12번 (이메일)",
+   "lv": 2,
+   "pid": "s2-bank",
+   "w": "wary",
+   "word": "be wary of",
+   "mean": "~을 경계하다, 조심하다",
+   "clue": "급하게 행동하라고 압박하는 수상한 메일·전화 → 조심하라",
+   "chunks": [
+    [
+     "Be wary of suspicious emails, links, or telephone calls",
+     "수상한 이메일, 링크, 전화를 조심하세요"
+    ],
+    [
+     "that pressure you to act quickly",
+     "급하게 행동하라고 압박하는"
+    ],
+    [
+     "or give out sensitive information.",
+     "또는 민감한 정보를 내놓으라는"
+    ]
+   ],
+   "ko": "급하게 행동하거나 민감한 정보를 내놓으라고 압박하는 수상한 메일, 링크, 전화를 조심하세요.",
+   "opts": [
+    [
+     "proud",
+     "자랑스러운"
+    ],
+    [
+     "fond",
+     "좋아하는"
+    ],
+    [
+     "tired",
+     "지친"
+    ]
+   ],
+   "friends": [
+    [
+     "suspicious",
+     "수상한"
+    ],
+    [
+     "sensitive",
+     "민감한"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-2-compelling",
+   "src": "2026 국가직 2번",
+   "lv": 2,
+   "pid": null,
+   "w": "compelling",
+   "word": "compelling",
+   "mean": "눈을 뗄 수 없는, 강렬한",
+   "clue": "저절로 주의를 끌고 말하는 사람에게서 눈을 뗄 수 없었다 → 강렬한",
+   "chunks": [
+    [
+     "The message was compelling,",
+     "그 메시지는 강렬했다"
+    ],
+    [
+     "drawing my attention involuntarily",
+     "나도 모르게 주의를 끌며"
+    ],
+    [
+     "and leaving me unable to look away from the speaker.",
+     "그리고 연사에게서 눈을 뗄 수 없게 하며"
+    ]
+   ],
+   "ko": "그 메시지는 강렬해서 저절로 주의가 쏠렸고 연사에게서 눈을 뗄 수 없었다.",
+   "opts": [
+    [
+     "trivial",
+     "사소한"
+    ],
+    [
+     "boring",
+     "지루한"
+    ],
+    [
+     "monotonous",
+     "단조로운"
+    ]
+   ],
+   "friends": [
+    [
+     "involuntarily",
+     "자기도 모르게"
+    ],
+    [
+     "attention",
+     "주의, 관심"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-anniv-constraints",
+   "src": "2026 국가직 10번 (이메일)",
+   "lv": 2,
+   "pid": "26k-anniv",
+   "w": "constraints",
+   "word": "constraint",
+   "mean": "제약, 제한",
+   "clue": "예산 때문에 작은 장소를 골랐다면 → 예산의 제약",
+   "chunks": [
+    [
+     "If the proposed venue was chosen due to budget constraints,",
+     "제안한 장소를 예산 제약 때문에 골랐다면"
+    ],
+    [
+     "we may be able to adjust our budget accordingly",
+     "그에 맞게 예산을 조정할 수 있을지도 모릅니다"
+    ],
+    [
+     "in consultation with the accounting department.",
+     "회계 부서와 협의해서"
+    ]
+   ],
+   "ko": "예산 제약 때문에 그 장소를 골랐다면 회계 부서와 협의해 예산을 조정할 수 있을 것입니다.",
+   "opts": [
+    [
+     "surpluses",
+     "남는 돈"
+    ],
+    [
+     "records",
+     "기록"
+    ],
+    [
+     "reports",
+     "보고서"
+    ]
+   ],
+   "friends": [
+    [
+     "in consultation with",
+     "~와 협의하여"
+    ],
+    [
+     "accounting department",
+     "회계 부서"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-auv-unmanned",
+   "src": "2026 국가직 15번",
+   "lv": 2,
+   "pid": "26k-auv",
+   "w": "unmanned",
+   "word": "unmanned",
+   "mean": "사람이 타지 않는, 무인의",
+   "clue": "이름처럼 사람과 따로 움직인다 → 사람이 안 탄 로봇",
+   "chunks": [
+    [
+     "AUVs are unmanned underwater robots,",
+     "AUV는 무인 수중 로봇이다"
+    ],
+    [
+     "and as their name suggests,",
+     "그리고 이름이 말해 주듯"
+    ],
+    [
+     "they operate independently of humans.",
+     "사람과 독립적으로 움직인다"
+    ]
+   ],
+   "ko": "AUV는 무인 수중 로봇으로, 이름처럼 사람과 독립적으로 움직인다.",
+   "opts": [
+    [
+     "crowded",
+     "붐비는"
+    ],
+    [
+     "damaged",
+     "망가진"
+    ],
+    [
+     "expensive",
+     "비싼"
+    ]
+   ],
+   "friends": [
+    [
+     "autonomous",
+     "자율적인"
+    ],
+    [
+     "independently",
+     "독립적으로"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-genz-shunning",
+   "src": "2026 국가직 17번",
+   "lv": 2,
+   "pid": "26k-genz",
+   "w": "shunning",
+   "word": "shun",
+   "mean": "피하다, 멀리하다",
+   "clue": "절반 넘게 관리자가 되기 싫다고 답함 → 전통적인 출세 길을 피한다",
+   "chunks": [
+    [
+     "Clearly, Gen Z workers are shunning",
+     "분명히 Z세대 직장인들은 피하고 있다"
+    ],
+    [
+     "traditional career paths and norms",
+     "전통적인 경력 경로와 규범을"
+    ],
+    [
+     "that society has accepted for ages.",
+     "사회가 오랫동안 받아들여 온"
+    ]
+   ],
+   "ko": "분명히 Z세대 직장인들은 사회가 오래 받아들여 온 전통적인 경력 경로와 규범을 피하고 있다.",
+   "opts": [
+    [
+     "following",
+     "따르는"
+    ],
+    [
+     "praising",
+     "칭찬하는"
+    ],
+    [
+     "creating",
+     "만드는"
+    ]
+   ],
+   "friends": [
+    [
+     "norm",
+     "규범"
+    ],
+    [
+     "for ages",
+     "오랫동안"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-genz-cynical",
+   "src": "2026 국가직 17번",
+   "lv": 2,
+   "pid": "26k-genz",
+   "w": "cynical",
+   "word": "cynical",
+   "mean": "냉소적인",
+   "clue": "대불황과 팬데믹 속에서 자라서 → 세상을 잘 믿지 않는다",
+   "chunks": [
+    [
+     "Having grown up amid the Great Recession and the pandemic,",
+     "대불황과 팬데믹 속에서 자라서"
+    ],
+    [
+     "they are cynical",
+     "그들은 냉소적이고"
+    ],
+    [
+     "and it is coloring their view of work.",
+     "그것이 일에 대한 시각에 영향을 주고 있다"
+    ]
+   ],
+   "ko": "대불황과 팬데믹 속에서 자란 그들은 냉소적이고, 그것이 일을 보는 시각에 영향을 준다.",
+   "opts": [
+    [
+     "cheerful",
+     "쾌활한"
+    ],
+    [
+     "generous",
+     "너그러운"
+    ],
+    [
+     "naive",
+     "순진한"
+    ]
+   ],
+   "friends": [
+    [
+     "amid",
+     "~속에서"
+    ],
+    [
+     "recession",
+     "불황"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-agri-wholesome",
+   "src": "예시문제 2차 8번 (기관 소개)",
+   "lv": 2,
+   "pid": "s2-agri",
+   "w": "wholesome",
+   "word": "wholesome",
+   "mean": "건강에 좋은",
+   "clue": "소비자를 위해 품질을 보장하는 음식 → 몸에 좋은",
+   "chunks": [
+    [
+     "We also provide the agriculture industry with valuable services",
+     "우리는 농업계에 유용한 서비스도 제공한다"
+    ],
+    [
+     "to ensure the quality and availability of wholesome food",
+     "건강에 좋은 음식의 품질과 공급을 보장하기 위해"
+    ],
+    [
+     "for consumers across the country.",
+     "전국의 소비자를 위해"
+    ]
+   ],
+   "ko": "전국 소비자가 건강에 좋은 음식을 품질 좋게 구할 수 있도록 농업계에 유용한 서비스도 제공한다.",
+   "opts": [
+    [
+     "frozen",
+     "얼린"
+    ],
+    [
+     "imported",
+     "수입한"
+    ],
+    [
+     "expensive",
+     "비싼"
+    ]
+   ],
+   "friends": [
+    [
+     "availability",
+     "구할 수 있음, 이용 가능성"
+    ],
+    [
+     "consumer",
+     "소비자"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-boah-contagious",
+   "src": "예시문제 2차 15번 (기관 소개)",
+   "lv": 2,
+   "pid": "s2-boah",
+   "w": "contagious",
+   "word": "contagious",
+   "mean": "전염성의",
+   "clue": "경제에 큰 피해를 줄 수 있는 동물 질병 → 잘 옮는",
+   "chunks": [
+    [
+     "A highly contagious animal disease event",
+     "전염성이 매우 강한 동물 질병 사태는"
+    ],
+    [
+     "may have economically devastating effects",
+     "경제적으로 엄청난 피해를 줄 수 있다"
+    ],
+    [
+     "as well as public health consequences.",
+     "공중 보건 문제뿐 아니라"
+    ]
+   ],
+   "ko": "전염성이 강한 동물 질병은 공중 보건 문제뿐 아니라 경제적으로 큰 피해를 줄 수 있다.",
+   "opts": [
+    [
+     "rare",
+     "드문"
+    ],
+    [
+     "mild",
+     "가벼운"
+    ],
+    [
+     "curable",
+     "치료할 수 있는"
+    ]
+   ],
+   "friends": [
+    [
+     "devastating",
+     "파괴적인, 엄청난"
+    ],
+    [
+     "public health",
+     "공중 보건"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-boah-preparedness",
+   "src": "예시문제 2차 15번 (기관 소개)",
+   "lv": 2,
+   "pid": "s2-boah",
+   "w": "Preparedness",
+   "word": "preparedness",
+   "mean": "대비, 준비 태세",
+   "clue": "질병이 터지기 전에 미리 ~하는 것이 최우선 → 대비",
+   "chunks": [
+    [
+     "Preparedness for animal disease outbreaks",
+     "동물 질병 발생에 대한 대비는"
+    ],
+    [
+     "has been a top priority for the Board of Animal Health",
+     "동물보건위원회의 최우선 과제였다"
+    ],
+    [
+     "for decades.",
+     "수십 년 동안"
+    ]
+   ],
+   "ko": "동물 질병 발생에 대비하는 것은 수십 년 동안 동물보건위원회의 최우선 과제였다.",
+   "opts": [
+    [
+     "Payment",
+     "지불"
+    ],
+    [
+     "Celebration",
+     "축하"
+    ],
+    [
+     "Ignorance",
+     "무지"
+    ]
+   ],
+   "friends": [
+    [
+     "outbreak",
+     "(질병의) 발생"
+    ],
+    [
+     "decade",
+     "10년"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-19-productivity",
+   "src": "예시문제 2차 19번",
+   "lv": 2,
+   "pid": null,
+   "w": "productivity",
+   "word": "productivity",
+   "mean": "생산성",
+   "clue": "기술이 발전하면 같은 시간에 더 많이 만든다 → 생산성과 소득이 오른다",
+   "chunks": [
+    [
+     "Technological progress increases productivity and incomes",
+     "기술 발전은 생산성과 소득을 높인다"
+    ],
+    [
+     "in the overall economy,",
+     "경제 전체에서"
+    ],
+    [
+     "and higher incomes lead to higher demand for goods",
+     "높은 소득은 상품 수요를 높이고"
+    ],
+    [
+     "and thus higher demand for labor.",
+     "그래서 노동 수요도 높인다"
+    ]
+   ],
+   "ko": "기술 발전은 경제 전체의 생산성과 소득을 높이고, 높아진 소득은 상품 수요와 노동 수요를 늘린다.",
+   "opts": [
+    [
+     "unemployment",
+     "실업"
+    ],
+    [
+     "poverty",
+     "가난"
+    ],
+    [
+     "pollution",
+     "오염"
+    ]
+   ],
+   "friends": [
+    [
+     "demand",
+     "수요"
+    ],
+    [
+     "labor",
+     "노동"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-20-innate",
+   "src": "2025 국가직 20번",
+   "lv": 3,
+   "pid": null,
+   "w": "innate",
+   "word": "innate",
+   "mean": "타고난",
+   "clue": "뒤에 사람은 소비자로 '태어날 때부터 설계됐다(wired)'고 나옴 → 타고난",
+   "chunks": [
+    [
+     "People have an innate impulse",
+     "사람들은 타고난 충동이 있다"
+    ],
+    [
+     "to overspend,",
+     "돈을 너무 많이 쓰려는"
+    ],
+    [
+     "experts say.",
+     "전문가들은 말한다"
+    ]
+   ],
+   "ko": "전문가들은 사람에게 돈을 너무 많이 쓰려는 타고난 충동이 있다고 말한다.",
+   "opts": [
+    [
+     "learned",
+     "배운"
+    ],
+    [
+     "rare",
+     "드문"
+    ],
+    [
+     "weak",
+     "약한"
+    ]
+   ],
+   "friends": [
+    [
+     "impulse",
+     "충동"
+    ],
+    [
+     "overspend",
+     "과소비하다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "25k-19-vigilant",
+   "src": "2025 국가직 19번",
+   "lv": 3,
+   "pid": null,
+   "w": "vigilant",
+   "word": "vigilant",
+   "mean": "경계하는, 바짝 주의하는",
+   "clue": "스스로 훈련해서 ~한 상태를 유지하지 않으면 뇌는 딴생각에 빠진다 → 주의하는",
+   "chunks": [
+    [
+     "Unless you train yourself to remain vigilant,",
+     "바짝 주의하도록 스스로 훈련하지 않으면"
+    ],
+    [
+     "the brain usually ends up paying attention",
+     "뇌는 보통 결국 주의를 기울이게 된다"
+    ],
+    [
+     "to the noise in your own head.",
+     "자기 머릿속 잡음에"
+    ]
+   ],
+   "ko": "주의를 유지하도록 스스로 훈련하지 않으면 뇌는 결국 자기 머릿속 잡음에 신경 쓰게 된다.",
+   "opts": [
+    [
+     "asleep",
+     "잠든"
+    ],
+    [
+     "careless",
+     "부주의한"
+    ],
+    [
+     "silent",
+     "조용한"
+    ]
+   ],
+   "friends": [
+    [
+     "unless",
+     "~하지 않으면"
+    ],
+    [
+     "end up",
+     "결국 ~하게 되다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-20-credible",
+   "src": "2026 지방직 20번",
+   "lv": 3,
+   "pid": null,
+   "w": "credible",
+   "word": "credible",
+   "mean": "믿을 만한",
+   "clue": "과학자는 관찰에서 결론을 끌어내기 때문에 → 믿을 만하다",
+   "chunks": [
+    [
+     "Scientists are credible",
+     "과학자들은 믿을 만하다"
+    ],
+    [
+     "because they draw conclusions",
+     "결론을 끌어내기 때문에"
+    ],
+    [
+     "from observation.",
+     "관찰로부터"
+    ]
+   ],
+   "ko": "과학자들은 관찰에서 결론을 끌어내기 때문에 믿을 만하다.",
+   "opts": [
+    [
+     "famous",
+     "유명한"
+    ],
+    [
+     "wealthy",
+     "부유한"
+    ],
+    [
+     "curious",
+     "호기심 많은"
+    ]
+   ],
+   "friends": [
+    [
+     "observation",
+     "관찰"
+    ],
+    [
+     "conclusion",
+     "결론"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26j-14-mundane",
+   "src": "2026 지방직 14번",
+   "lv": 3,
+   "pid": null,
+   "w": "mundane",
+   "word": "mundane",
+   "mean": "평범한, 일상적인 (지루한)",
+   "clue": "이메일 읽기·답장·일정 정리 같은 일 → 평범한 일상 업무",
+   "chunks": [
+    [
+     "Moltbot can act as an automated agent for users,",
+     "몰트봇은 사용자를 위한 자동 비서 역할을 할 수 있다"
+    ],
+    [
+     "doing the mundane tasks assigned to it",
+     "맡겨진 평범한 일들을 하면서"
+    ],
+    [
+     "such as reading and responding to emails.",
+     "이메일을 읽고 답하는 것 같은"
+    ]
+   ],
+   "ko": "몰트봇은 이메일을 읽고 답하는 것 같은 맡겨진 일상 업무를 하는 자동 비서 역할을 할 수 있다.",
+   "opts": [
+    [
+     "dangerous",
+     "위험한"
+    ],
+    [
+     "creative",
+     "창의적인"
+    ],
+    [
+     "urgent",
+     "급한"
+    ]
+   ],
+   "friends": [
+    [
+     "assign",
+     "맡기다"
+    ],
+    [
+     "automated",
+     "자동화된"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-auv-retrieved",
+   "src": "2026 국가직 15번",
+   "lv": 3,
+   "pid": "26k-auv",
+   "w": "retrieved",
+   "word": "retrieve",
+   "mean": "되찾다, 꺼내 오다",
+   "clue": "잠수가 끝나 로봇을 건져 올린 뒤에야 저장된 자료를 → 꺼낼 수 있다",
+   "chunks": [
+    [
+     "An AUV stores all data on onboard computers",
+     "AUV는 모든 자료를 내장 컴퓨터에 저장한다"
+    ],
+    [
+     "until it can be retrieved",
+     "그것을 꺼낼 수 있을 때까지"
+    ],
+    [
+     "after the AUV is recovered at the end of a dive.",
+     "잠수가 끝나 AUV를 회수한 뒤"
+    ]
+   ],
+   "ko": "AUV는 잠수가 끝나 회수된 뒤 자료를 꺼낼 수 있을 때까지 모든 자료를 내장 컴퓨터에 저장한다.",
+   "opts": [
+    [
+     "deleted",
+     "삭제된"
+    ],
+    [
+     "encrypted",
+     "암호화된"
+    ],
+    [
+     "printed",
+     "인쇄된"
+    ]
+   ],
+   "friends": [
+    [
+     "store",
+     "저장하다"
+    ],
+    [
+     "recover",
+     "회수하다, 되찾다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "26k-ai-lingering",
+   "src": "2026 국가직 19번",
+   "lv": 3,
+   "pid": "26k-ai",
+   "w": "lingering",
+   "word": "linger",
+   "mean": "(없어지지 않고) 남아 있다",
+   "clue": "빠르고 정확하다는 약속에도 불구하고 → 불편함이 계속 남아 있다",
+   "chunks": [
+    [
+     "And yet, for all the promises",
+     "그런데도 그 모든 약속에도 불구하고"
+    ],
+    [
+     "of speed, accuracy and optimization,",
+     "속도, 정확성, 최적화라는"
+    ],
+    [
+     "there's a lingering discomfort.",
+     "가시지 않는 불편함이 있다"
+    ]
+   ],
+   "ko": "속도, 정확성, 최적화라는 온갖 약속에도 불구하고 가시지 않는 불편함이 남아 있다.",
+   "opts": [
+    [
+     "sudden",
+     "갑작스러운"
+    ],
+    [
+     "brief",
+     "짧은"
+    ],
+    [
+     "pleasant",
+     "기분 좋은"
+    ]
+   ],
+   "friends": [
+    [
+     "for all",
+     "~에도 불구하고"
+    ],
+    [
+     "discomfort",
+     "불편함"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "s2-20-prone",
+   "src": "예시문제 2차 20번",
+   "lv": 3,
+   "pid": null,
+   "w": "prone to",
+   "word": "be prone to",
+   "mean": "~하기 쉽다, ~하는 경향이 있다",
+   "clue": "석유는 대체할 게 없어서 값이 크게 오르고 내리기 → 쉽다",
+   "chunks": [
+    [
+     "There is no substitute for oil,",
+     "석유를 대신할 것은 없다"
+    ],
+    [
+     "which is one reason it is prone to big booms and deep busts.",
+     "그래서 석유는 큰 호황과 깊은 불황을 겪기 쉽다"
+    ]
+   ],
+   "ko": "석유를 대신할 것이 없다는 것이 석유 시장에 큰 호황과 깊은 불황이 잘 오는 한 가지 이유다.",
+   "opts": [
+    [
+     "immune to",
+     "~에 면역인"
+    ],
+    [
+     "opposed to",
+     "~에 반대하는"
+    ],
+    [
+     "close to",
+     "~에 가까운"
+    ]
+   ],
+   "friends": [
+    [
+     "substitute",
+     "대체물"
+    ],
+    [
+     "plummet",
+     "급락하다"
+    ]
+   ],
+   "tier": "core"
+  },
+  {
+   "id": "22j-1-flexible",
+   "src": "2022 지방직 1번",
+   "lv": 2,
+   "w": "flexible",
+   "word": "flexible",
+   "mean": "융통성 있는 (= adaptable)",
+   "clue": "학생마다 수준이 다르니 거기에 맞춰 대처하려면 → 융통성이 있어야",
+   "chunks": [
+    [
+     "School teachers have to be flexible",
+     "학교 선생님들은 융통성이 있어야 한다"
+    ],
+    [
+     "to cope with different ability levels of the students.",
+     "학생들의 서로 다른 실력 수준에 대처하려면"
+    ]
+   ],
+   "ko": "선생님들은 학생마다 다른 실력 수준에 대처하려면 융통성이 있어야 한다.",
+   "opts": [
+    [
+     "strong",
+     "강한"
+    ],
+    [
+     "honest",
+     "정직한"
+    ],
+    [
+     "passionate",
+     "열정적인"
+    ]
+   ],
+   "friends": [
+    [
+     "cope with",
+     "~에 대처하다"
+    ],
+    [
+     "ability",
+     "능력"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "22j-2-vary",
+   "src": "2022 지방직 2번",
+   "lv": 2,
+   "w": "vary",
+   "word": "vary",
+   "mean": "서로 다르다, 달라지다 (= change)",
+   "clue": "어떤 곳은 늘고 어떤 곳은 줄고 → 지역마다 다르다",
+   "chunks": [
+    [
+     "Crop yields vary,",
+     "작물 수확량은 다르다"
+    ],
+    [
+     "improving in some areas",
+     "어떤 지역에서는 좋아지고"
+    ],
+    [
+     "and falling in others.",
+     "다른 지역에서는 떨어지면서"
+    ]
+   ],
+   "ko": "작물 수확량은 지역마다 달라서 어떤 곳은 늘고 어떤 곳은 준다.",
+   "opts": [
+    [
+     "decline",
+     "줄어들다"
+    ],
+    [
+     "expand",
+     "넓어지다"
+    ],
+    [
+     "include",
+     "포함하다"
+    ]
+   ],
+   "friends": [
+    [
+     "crop yield",
+     "작물 수확량"
+    ],
+    [
+     "improve",
+     "좋아지다"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "22j-4-runoutof",
+   "src": "2022 지방직 4번",
+   "lv": 2,
+   "w": "run out of",
+   "word": "run out of",
+   "mean": "~이 다 떨어지다, 바닥나다",
+   "clue": "다음 월급날 한참 전에 돈이 → 떨어진다",
+   "chunks": [
+    [
+     "Sometimes we run out of money",
+     "가끔 우리는 돈이 다 떨어진다"
+    ],
+    [
+     "long before the next payday.",
+     "다음 월급날 한참 전에"
+    ]
+   ],
+   "ko": "가끔 다음 월급날이 한참 남았는데 돈이 다 떨어진다.",
+   "opts": [
+    [
+     "turn into",
+     "~으로 변하다"
+    ],
+    [
+     "start over",
+     "다시 시작하다"
+    ],
+    [
+     "put up with",
+     "참다"
+    ]
+   ],
+   "friends": [
+    [
+     "payday",
+     "월급날"
+    ],
+    [
+     "long before",
+     "한참 전에"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "22j-8-soonerorlater",
+   "src": "2022 지방직 8번",
+   "lv": 2,
+   "w": "sooner or later",
+   "word": "sooner or later",
+   "mean": "조만간, 언젠가는",
+   "clue": "요금은 결국 내야 한다 → 조만간",
+   "chunks": [
+    [
+     "She will have to pay the bill",
+     "그녀는 요금을 내야 할 것이다"
+    ],
+    [
+     "sooner or later.",
+     "조만간"
+    ]
+   ],
+   "ko": "그녀는 조만간 요금을 내야만 할 것이다.",
+   "opts": [
+    [
+     "once in a while",
+     "가끔"
+    ],
+    [
+     "all at once",
+     "갑자기"
+    ],
+    [
+     "by and large",
+     "대체로"
+    ]
+   ],
+   "friends": [
+    [
+     "bill",
+     "청구서, 요금"
+    ],
+    [
+     "have to",
+     "~해야 한다"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "22j-8-endedup",
+   "src": "2022 지방직 8번",
+   "lv": 2,
+   "w": "ended up",
+   "word": "end up -ing",
+   "mean": "결국 ~하게 되다",
+   "clue": "의학을 공부했지만 → 결국 회계 회사에서 일하게 됐다",
+   "chunks": [
+    [
+     "He studied medicine at university",
+     "그는 대학에서 의학을 공부했지만"
+    ],
+    [
+     "but ended up working for an accounting firm.",
+     "결국 회계 회사에서 일하게 되었다"
+    ]
+   ],
+   "ko": "그는 대학에서 의학을 공부했지만 결국 회계 회사에서 일하게 되었다.",
+   "opts": [
+    [
+     "gave up",
+     "포기했다"
+    ],
+    [
+     "kept on",
+     "계속했다"
+    ],
+    [
+     "looked forward to",
+     "기대했다"
+    ]
+   ],
+   "friends": [
+    [
+     "medicine",
+     "의학"
+    ],
+    [
+     "accounting firm",
+     "회계 회사"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "23j-5-transparency",
+   "src": "2023 지방직 5번",
+   "lv": 2,
+   "w": "transparency",
+   "word": "transparency",
+   "mean": "투명성",
+   "clue": "선거 과정을 똑똑히 보고 이해할 수 있게 → 투명하게",
+   "chunks": [
+    [
+     "Voters demanded that there should be greater transparency",
+     "유권자들은 더 큰 투명성을 요구했다"
+    ],
+    [
+     "in the election process",
+     "선거 과정에"
+    ],
+    [
+     "so that they could see and understand it clearly.",
+     "그것을 똑똑히 보고 이해할 수 있도록"
+    ]
+   ],
+   "ko": "유권자들은 선거 과정을 똑똑히 보고 이해할 수 있도록 더 투명하게 해 달라고 요구했다.",
+   "opts": [
+    [
+     "deception",
+     "속임수"
+    ],
+    [
+     "flexibility",
+     "유연성"
+    ],
+    [
+     "competition",
+     "경쟁"
+    ]
+   ],
+   "friends": [
+    [
+     "voter",
+     "유권자"
+    ],
+    [
+     "election",
+     "선거"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "24j-5-facilitate",
+   "src": "2024 지방직 5번",
+   "lv": 2,
+   "w": "facilitate",
+   "word": "facilitate",
+   "mean": "쉽게 하다, 돕다",
+   "clue": "짐이나 카트를 든 손님이 드나들기 → 쉽게 해 준다",
+   "chunks": [
+    [
+     "Automatic doors in supermarkets",
+     "슈퍼마켓의 자동문은"
+    ],
+    [
+     "facilitate the entry and exit of customers",
+     "손님들의 출입을 쉽게 한다"
+    ],
+    [
+     "with bags or shopping carts.",
+     "가방이나 카트를 든"
+    ]
+   ],
+   "ko": "슈퍼마켓 자동문은 가방이나 카트를 든 손님이 쉽게 드나들게 해 준다.",
+   "opts": [
+    [
+     "ignore",
+     "무시하다"
+    ],
+    [
+     "forgive",
+     "용서하다"
+    ],
+    [
+     "exaggerate",
+     "과장하다"
+    ]
+   ],
+   "friends": [
+    [
+     "entry",
+     "들어감, 입장"
+    ],
+    [
+     "exit",
+     "나감, 출구"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "23k-10-buy",
+   "src": "2023 국가직 10번 (생활영어)",
+   "lv": 2,
+   "w": "buy",
+   "word": "buy (it)",
+   "mean": "(말을) 믿다 — I don't buy it: 그 말 못 믿겠어",
+   "clue": "크림으로 주름이 사라진다는 말에 → 안 믿는다 (사다가 아니에요!)",
+   "chunks": [
+    [
+     "I don't buy it.",
+     "그 말 못 믿겠어"
+    ],
+    [
+     "I don't think it is possible",
+     "가능하다고 생각하지 않아"
+    ],
+    [
+     "to get rid of wrinkles by using a cream.",
+     "크림을 써서 주름을 없애는 게"
+    ]
+   ],
+   "ko": "그 말 못 믿겠어. 크림으로 주름을 없애는 게 가능하다고 생각하지 않아.",
+   "opts": [
+    [
+     "sell",
+     "팔다"
+    ],
+    [
+     "need",
+     "필요하다"
+    ],
+    [
+     "like",
+     "좋아하다"
+    ]
+   ],
+   "friends": [
+    [
+     "get rid of",
+     "없애다"
+    ],
+    [
+     "wrinkle",
+     "주름"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "22k-1-unravel",
+   "src": "2022 국가직 1번",
+   "lv": 3,
+   "w": "unravel",
+   "word": "unravel",
+   "mean": "(수수께끼를) 풀다 (= solve)",
+   "clue": "형사들이 몇 년째 실종 미스터리를 → 풀려고 애쓴다",
+   "chunks": [
+    [
+     "For years, detectives have been trying",
+     "몇 년째 형사들은 애써 왔다"
+    ],
+    [
+     "to unravel the mystery",
+     "미스터리를 풀려고"
+    ],
+    [
+     "of the sudden disappearance of the twin brothers.",
+     "쌍둥이 형제의 갑작스러운 실종에 대한"
+    ]
+   ],
+   "ko": "몇 년째 형사들은 쌍둥이 형제의 갑작스러운 실종 미스터리를 풀려고 애써 왔다.",
+   "opts": [
+    [
+     "create",
+     "만들다"
+    ],
+    [
+     "imitate",
+     "흉내 내다"
+    ],
+    [
+     "publicize",
+     "알리다"
+    ]
+   ],
+   "friends": [
+    [
+     "detective",
+     "형사"
+    ],
+    [
+     "disappearance",
+     "실종, 사라짐"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "22k-2-opulent",
+   "src": "2022 국가직 2번",
+   "lv": 3,
+   "w": "opulent",
+   "word": "opulent",
+   "mean": "호화로운 (= luxurious)",
+   "clue": "아이가 생기기 전엔 방 네 개짜리 집이 쓸데없이 → 너무 크고 호화로워 보였다",
+   "chunks": [
+    [
+     "Before the couple experienced parenthood,",
+     "부부가 부모가 되기 전에는"
+    ],
+    [
+     "their four-bedroom house",
+     "그들의 방 네 개짜리 집이"
+    ],
+    [
+     "seemed unnecessarily opulent.",
+     "쓸데없이 호화로워 보였다"
+    ]
+   ],
+   "ko": "아이가 생기기 전에는 방 네 개짜리 집이 쓸데없이 호화로워 보였다.",
+   "opts": [
+    [
+     "hidden",
+     "숨겨진"
+    ],
+    [
+     "empty",
+     "텅 빈"
+    ],
+    [
+     "solid",
+     "단단한"
+    ]
+   ],
+   "friends": [
+    [
+     "parenthood",
+     "부모가 됨"
+    ],
+    [
+     "unnecessarily",
+     "불필요하게"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "22k-3-hittheroof",
+   "src": "2022 국가직 3번",
+   "lv": 3,
+   "w": "hit the roof",
+   "word": "hit the roof",
+   "mean": "몹시 화를 내다 (= became extremely angry)",
+   "clue": "짧은 기간에 예산을 다 써 버린 걸 보고 → 지붕을 칠 만큼 펄쩍 뛰었다",
+   "chunks": [
+    [
+     "The boss hit the roof",
+     "사장은 크게 화를 냈다"
+    ],
+    [
+     "when he saw that we had already spent the entire budget",
+     "우리가 이미 예산을 다 써 버린 것을 보고"
+    ],
+    [
+     "in such a short period of time.",
+     "그렇게 짧은 기간에"
+    ]
+   ],
+   "ko": "사장은 우리가 그렇게 짧은 기간에 예산을 다 써 버린 것을 보고 크게 화를 냈다.",
+   "opts": [
+    [
+     "was very satisfied",
+     "매우 만족했다"
+    ],
+    [
+     "was very surprised",
+     "매우 놀랐다"
+    ],
+    [
+     "became extremely calm",
+     "아주 침착해졌다"
+    ]
+   ],
+   "friends": [
+    [
+     "budget",
+     "예산"
+    ],
+    [
+     "entire",
+     "전체의"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "22k-4-equivalent",
+   "src": "2022 국가직 4번",
+   "lv": 3,
+   "w": "equivalent",
+   "word": "equivalent",
+   "mean": "같은 것, 상응하는 것",
+   "clue": "TV 앞의 카우치 포테이토를 컴퓨터로 옮겨 놓은 것 → 컴퓨터판 같은 것",
+   "chunks": [
+    [
+     "A mouse potato is the computer equivalent",
+     "마우스 포테이토는 컴퓨터판 같은 것이다"
+    ],
+    [
+     "of television's couch potato:",
+     "텔레비전의 카우치 포테이토의"
+    ],
+    [
+     "someone who spends a great deal of leisure time in front of the computer.",
+     "여가 시간 대부분을 컴퓨터 앞에서 보내는 사람"
+    ]
+   ],
+   "ko": "마우스 포테이토는 TV의 카우치 포테이토의 컴퓨터판으로, 여가 시간 대부분을 컴퓨터 앞에서 보내는 사람이다.",
+   "opts": [
+    [
+     "technician",
+     "기술자"
+    ],
+    [
+     "network",
+     "네트워크"
+    ],
+    [
+     "simulation",
+     "모의실험"
+    ]
+   ],
+   "friends": [
+    [
+     "leisure time",
+     "여가 시간"
+    ],
+    [
+     "a great deal of",
+     "많은"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "22k-5-brushupon",
+   "src": "2022 국가직 5번",
+   "lv": 3,
+   "w": "brush up on",
+   "word": "brush up on",
+   "mean": "(잊은 실력을) 다시 다듬다, 복습하다",
+   "clue": "남미에 가기 전에 스페인어를 → 다시 공부해 둔다",
+   "chunks": [
+    [
+     "Mary decided to brush up on her Spanish",
+     "메리는 스페인어를 다시 공부하기로 했다"
+    ],
+    [
+     "before going to South America.",
+     "남미에 가기 전에"
+    ]
+   ],
+   "ko": "메리는 남미에 가기 전에 스페인어 실력을 다시 다듬기로 했다.",
+   "opts": [
+    [
+     "hear out",
+     "끝까지 들어 주다"
+    ],
+    [
+     "stick up for",
+     "편들다"
+    ],
+    [
+     "lay off",
+     "해고하다"
+    ]
+   ],
+   "friends": [
+    [
+     "decide to",
+     "~하기로 결정하다"
+    ],
+    [
+     "South America",
+     "남미"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "23k-1-intimate",
+   "src": "2023 국가직 1번",
+   "lv": 3,
+   "w": "intimate",
+   "word": "intimate",
+   "mean": "친밀한, 가까운 (= close)",
+   "clue": "화려한 결혼식 대신 작은 결혼식 → 가족과 몇몇 가까운 친구만",
+   "chunks": [
+    [
+     "Jane wanted to have a small wedding",
+     "제인은 작은 결혼식을 원했다"
+    ],
+    [
+     "rather than a fancy one.",
+     "화려한 결혼식보다"
+    ],
+    [
+     "She planned to invite her family",
+     "그녀는 가족을 초대할 계획이었다"
+    ],
+    [
+     "and a few of her intimate friends.",
+     "그리고 몇몇 친한 친구들을"
+    ]
+   ],
+   "ko": "제인은 화려한 결혼식보다 작은 결혼식을 원해서 가족과 친한 친구 몇 명만 초대할 계획이었다.",
+   "opts": [
+    [
+     "nosy",
+     "참견하기 좋아하는"
+    ],
+    [
+     "outgoing",
+     "외향적인"
+    ],
+    [
+     "considerate",
+     "사려 깊은"
+    ]
+   ],
+   "friends": [
+    [
+     "rather than",
+     "~보다는"
+    ],
+    [
+     "fancy",
+     "화려한"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "23k-2-incessant",
+   "src": "2023 국가직 2번",
+   "lv": 3,
+   "w": "incessant",
+   "word": "incessant",
+   "mean": "끊임없는 (= constant)",
+   "clue": "건강에 좋다는 이유로 관심과 수요가 → 그치지 않고 계속",
+   "chunks": [
+    [
+     "The incessant public curiosity and consumer demand",
+     "대중의 끊임없는 호기심과 소비자 수요가"
+    ],
+    [
+     "due to the health benefits with lesser cost",
+     "적은 비용의 건강상 이점 때문에"
+    ],
+    [
+     "has increased the interest in functional foods.",
+     "기능성 식품에 대한 관심을 높였다"
+    ]
+   ],
+   "ko": "적은 비용으로 건강에 이롭다는 점 때문에 끊임없는 호기심과 수요가 생겨 기능성 식품에 대한 관심이 커졌다.",
+   "opts": [
+    [
+     "rapid",
+     "빠른"
+    ],
+    [
+     "significant",
+     "상당한"
+    ],
+    [
+     "intermittent",
+     "간헐적인"
+    ]
+   ],
+   "friends": [
+    [
+     "curiosity",
+     "호기심"
+    ],
+    [
+     "functional food",
+     "기능성 식품"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "23k-3-holdoff",
+   "src": "2023 국가직 3번",
+   "lv": 3,
+   "w": "hold off",
+   "word": "hold off",
+   "mean": "미루다, 보류하다 (= suspend)",
+   "clue": "팬데믹 때문에 교육 프로그램 계획을 → 일단 멈춰야 했다",
+   "chunks": [
+    [
+     "Because of the pandemic,",
+     "팬데믹 때문에"
+    ],
+    [
+     "the company had to hold off the plan",
+     "회사는 계획을 보류해야 했다"
+    ],
+    [
+     "to provide the workers with various training programs.",
+     "직원들에게 다양한 교육 프로그램을 제공하려던"
+    ]
+   ],
+   "ko": "팬데믹 때문에 회사는 직원 교육 프로그램 계획을 보류해야 했다.",
+   "opts": [
+    [
+     "elaborate",
+     "정교하게 만들다"
+    ],
+    [
+     "release",
+     "공개하다"
+    ],
+    [
+     "modify",
+     "수정하다"
+    ]
+   ],
+   "friends": [
+    [
+     "provide A with B",
+     "A에게 B를 제공하다"
+    ],
+    [
+     "training",
+     "교육, 훈련"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "23k-4-abideby",
+   "src": "2023 국가직 4번",
+   "lv": 3,
+   "w": "abide by",
+   "word": "abide by",
+   "mean": "(결정·규칙을) 따르다 (= accept)",
+   "clue": "새 도지사가 고등법원의 결정을 → 받아들여 따르겠다고 했다",
+   "chunks": [
+    [
+     "The new Regional Governor said",
+     "새 도지사는 말했다"
+    ],
+    [
+     "he would abide by the decision of the High Court",
+     "고등법원의 결정을 따르겠다고"
+    ],
+    [
+     "to release the prisoner.",
+     "그 죄수를 석방하라는"
+    ]
+   ],
+   "ko": "새 도지사는 죄수를 석방하라는 고등법원의 결정을 따르겠다고 말했다.",
+   "opts": [
+    [
+     "report",
+     "보고하다"
+    ],
+    [
+     "postpone",
+     "연기하다"
+    ],
+    [
+     "announce",
+     "발표하다"
+    ]
+   ],
+   "friends": [
+    [
+     "release",
+     "풀어 주다, 석방하다"
+    ],
+    [
+     "decision",
+     "결정"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "23k-10-gullible",
+   "src": "2023 국가직 10번 (생활영어)",
+   "lv": 3,
+   "w": "gullible",
+   "word": "gullible",
+   "mean": "잘 속는",
+   "clue": "크림 하나로 젊어진다는 광고를 믿는 친구에게 → 너 너무 잘 속는다",
+   "chunks": [
+    [
+     "No, I'm just being realistic.",
+     "아니, 난 그냥 현실적인 거야"
+    ],
+    [
+     "I think you are being gullible.",
+     "네가 너무 잘 속는 것 같아"
+    ]
+   ],
+   "ko": "아니, 난 현실적인 거야. 네가 너무 쉽게 믿는 것 같아.",
+   "opts": [
+    [
+     "generous",
+     "너그러운"
+    ],
+    [
+     "punctual",
+     "시간을 잘 지키는"
+    ],
+    [
+     "ambitious",
+     "야심 있는"
+    ]
+   ],
+   "friends": [
+    [
+     "realistic",
+     "현실적인"
+    ],
+    [
+     "pessimistic",
+     "비관적인"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "24k-1-interrelated",
+   "src": "2024 국가직 1번",
+   "lv": 3,
+   "w": "interrelated",
+   "word": "interrelated",
+   "mean": "서로 관련된",
+   "clue": "앞 문장: 어떤 언어 영역도 따로 존재하지 않는다 → 서로 연결돼 있다",
+   "chunks": [
+    [
+     "No aspect of the language arts stands alone",
+     "언어 능력의 어떤 영역도 따로 존재하지 않는다"
+    ],
+    [
+     "either in learning or in teaching.",
+     "배울 때든 가르칠 때든"
+    ],
+    [
+     "Listening, speaking, reading, and writing are interrelated.",
+     "듣기, 말하기, 읽기, 쓰기는 서로 관련되어 있다"
+    ]
+   ],
+   "ko": "배우든 가르치든 언어의 어떤 영역도 따로 떨어져 있지 않다. 듣기, 말하기, 읽기, 쓰기는 서로 연결되어 있다.",
+   "opts": [
+    [
+     "distinct",
+     "별개의"
+    ],
+    [
+     "distorted",
+     "왜곡된"
+    ],
+    [
+     "independent",
+     "독립적인"
+    ]
+   ],
+   "friends": [
+    [
+     "aspect",
+     "측면, 영역"
+    ],
+    [
+     "stand alone",
+     "따로 존재하다"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "24k-2-concealed",
+   "src": "2024 국가직 2번",
+   "lv": 3,
+   "w": "concealed",
+   "word": "conceal",
+   "mean": "숨기다 (= hide)",
+   "clue": "돈을 너무 교묘하게 ~해서 찾기를 포기했다 → 숨겼다",
+   "chunks": [
+    [
+     "The money was so cleverly concealed",
+     "그 돈은 너무 교묘하게 숨겨져 있어서"
+    ],
+    [
+     "that we were forced to abandon our search for it.",
+     "우리는 찾는 것을 포기할 수밖에 없었다"
+    ]
+   ],
+   "ko": "그 돈은 너무 교묘하게 숨겨져 있어서 우리는 찾기를 포기해야 했다.",
+   "opts": [
+    [
+     "spent",
+     "써 버린"
+    ],
+    [
+     "invested",
+     "투자된"
+    ],
+    [
+     "delivered",
+     "배달된"
+    ]
+   ],
+   "friends": [
+    [
+     "abandon",
+     "포기하다, 버리다"
+    ],
+    [
+     "be forced to",
+     "어쩔 수 없이 ~하다"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "24k-3-appease",
+   "src": "2024 국가직 3번",
+   "lv": 3,
+   "w": "appease",
+   "word": "appease",
+   "mean": "달래다 (= soothe)",
+   "clue": "비판하는 사람들을 ~하려고 큰돈을 들여 홍보 캠페인 → 달래려고",
+   "chunks": [
+    [
+     "To appease critics,",
+     "비판하는 사람들을 달래기 위해"
+    ],
+    [
+     "the wireless industry has launched",
+     "무선 통신 업계는 시작했다"
+    ],
+    [
+     "a $12 million public-education campaign.",
+     "1,200만 달러짜리 대국민 교육 캠페인을"
+    ]
+   ],
+   "ko": "비판을 달래기 위해 무선 통신 업계는 1,200만 달러짜리 대국민 교육 캠페인을 시작했다.",
+   "opts": [
+    [
+     "counter",
+     "반박하다"
+    ],
+    [
+     "enlighten",
+     "깨우치다"
+    ],
+    [
+     "assimilate",
+     "동화시키다"
+    ]
+   ],
+   "friends": [
+    [
+     "critic",
+     "비평가, 비판하는 사람"
+    ],
+    [
+     "launch",
+     "시작하다, 출시하다"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "24k-4-playdown",
+   "src": "2024 국가직 4번",
+   "lv": 3,
+   "w": "play down",
+   "word": "play down",
+   "mean": "대수롭지 않게 말하다, 축소하다 (= underestimate)",
+   "clue": "새로 시작한 곳이면 흔한 일이라며 → 문제를 작게 말한다",
+   "chunks": [
+    [
+     "Center officials play down the troubles,",
+     "센터 관계자들은 문제를 대수롭지 않게 말한다"
+    ],
+    [
+     "saying they are typical of any start-up operation.",
+     "어떤 신생 사업에서나 흔한 일이라고 하면서"
+    ]
+   ],
+   "ko": "센터 관계자들은 새로 시작한 곳이면 흔한 일이라며 문제를 대수롭지 않게 말한다.",
+   "opts": [
+    [
+     "discern",
+     "분별하다"
+    ],
+    [
+     "dissatisfy",
+     "불만스럽게 하다"
+    ],
+    [
+     "underline",
+     "강조하다"
+    ]
+   ],
+   "friends": [
+    [
+     "official",
+     "공무원, 관계자"
+    ],
+    [
+     "typical",
+     "전형적인, 흔한"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "24k-5-guts",
+   "src": "2024 국가직 5번",
+   "lv": 3,
+   "w": "had the guts",
+   "word": "have the guts",
+   "mean": "배짱이 있다, 용기가 있다 (= was courageous)",
+   "clue": "부지런히 일했고 원하는 것을 향해 갈 → 용기가 있었다",
+   "chunks": [
+    [
+     "She worked diligently",
+     "그녀는 부지런히 일했고"
+    ],
+    [
+     "and had the guts",
+     "용기가 있었다"
+    ],
+    [
+     "to go for what she wanted.",
+     "원하는 것을 향해 나아갈"
+    ]
+   ],
+   "ko": "그녀는 부지런히 일했고 원하는 것을 향해 나아갈 용기가 있었다.",
+   "opts": [
+    [
+     "was anxious",
+     "불안했다"
+    ],
+    [
+     "was fortunate",
+     "운이 좋았다"
+    ],
+    [
+     "was reputable",
+     "평판이 좋았다"
+    ]
+   ],
+   "friends": [
+    [
+     "diligently",
+     "부지런히"
+    ],
+    [
+     "go for",
+     "~을 얻으려고 노력하다"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "24j-1-markedly",
+   "src": "2024 지방직 1번",
+   "lv": 3,
+   "w": "markedly",
+   "word": "markedly",
+   "mean": "뚜렷하게, 눈에 띄게 (= obviously)",
+   "clue": "While(~지만) 비슷한 점이 많지만 → 서로 뚜렷하게 다르다",
+   "chunks": [
+    [
+     "While Shakespeare's comedies share many similarities,",
+     "셰익스피어의 희극들은 비슷한 점이 많지만"
+    ],
+    [
+     "they also differ markedly from one another.",
+     "서로 뚜렷하게 다르기도 하다"
+    ]
+   ],
+   "ko": "셰익스피어의 희극들은 비슷한 점이 많지만 서로 뚜렷하게 다르기도 하다.",
+   "opts": [
+    [
+     "softly",
+     "부드럽게"
+    ],
+    [
+     "marginally",
+     "약간"
+    ],
+    [
+     "indiscernibly",
+     "알아챌 수 없게"
+    ]
+   ],
+   "friends": [
+    [
+     "similarity",
+     "비슷한 점"
+    ],
+    [
+     "differ from",
+     "~와 다르다"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "24j-2-diluted",
+   "src": "2024 지방직 2번",
+   "lv": 3,
+   "w": "diluted",
+   "word": "dilute",
+   "mean": "묽게 하다 (= weaken)",
+   "clue": "진하고 짙은 차에 우유를 넣었다 → 묽게 했다",
+   "chunks": [
+    [
+     "Jane poured out the strong, dark tea",
+     "제인은 진하고 짙은 차를 따르고"
+    ],
+    [
+     "and diluted it with milk.",
+     "우유로 묽게 했다"
+    ]
+   ],
+   "ko": "제인은 진한 차를 따르고 우유를 넣어 묽게 했다.",
+   "opts": [
+    [
+     "washed",
+     "씻었다"
+    ],
+    [
+     "connected",
+     "연결했다"
+    ],
+    [
+     "fermented",
+     "발효시켰다"
+    ]
+   ],
+   "friends": [
+    [
+     "pour out",
+     "따르다"
+    ],
+    [
+     "strong tea",
+     "진한 차"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "24j-3-ruledout",
+   "src": "2024 지방직 3번",
+   "lv": 3,
+   "w": "ruled out",
+   "word": "rule out",
+   "mean": "배제하다, 제외하다 (= exclude)",
+   "clue": "아동 수당이나 연금 삭감은 → 하지 않기로 했다 (복지 단어도 함께!)",
+   "chunks": [
+    [
+     "The Prime Minister is believed",
+     "총리는 ~한 것으로 여겨진다"
+    ],
+    [
+     "to have ruled out cuts",
+     "삭감을 배제한 것으로"
+    ],
+    [
+     "in child benefit or pensions.",
+     "아동 수당이나 연금의"
+    ]
+   ],
+   "ko": "총리는 아동 수당이나 연금 삭감을 배제한 것으로 알려졌다.",
+   "opts": [
+    [
+     "supported",
+     "지지했다"
+    ],
+    [
+     "submitted",
+     "제출했다"
+    ],
+    [
+     "authorized",
+     "승인했다"
+    ]
+   ],
+   "friends": [
+    [
+     "child benefit",
+     "아동 수당"
+    ],
+    [
+     "pension",
+     "연금"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "24j-4-leton",
+   "src": "2024 지방직 4번",
+   "lv": 3,
+   "w": "let on",
+   "word": "let on",
+   "mean": "(비밀을) 털어놓다, 말해 버리다 (= reveal)",
+   "clue": "깜짝 파티를 준비 중이라는 걸 ~하면 아빠가 계속 캐물을 것 → 말해 버리면",
+   "chunks": [
+    [
+     "If you let on",
+     "네가 말해 버리면"
+    ],
+    [
+     "that we are planning a surprise party,",
+     "우리가 깜짝 파티를 준비한다는 것을"
+    ],
+    [
+     "Dad will never stop asking you questions.",
+     "아빠는 너에게 계속 질문을 할 거야"
+    ]
+   ],
+   "ko": "우리가 깜짝 파티를 준비한다고 말해 버리면 아빠가 계속 캐물을 거야.",
+   "opts": [
+    [
+     "observe",
+     "관찰하다"
+    ],
+    [
+     "believe",
+     "믿다"
+    ],
+    [
+     "possess",
+     "가지다"
+    ]
+   ],
+   "friends": [
+    [
+     "surprise party",
+     "깜짝 파티"
+    ],
+    [
+     "never stop -ing",
+     "계속 ~하다"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "23j-1-subsequent",
+   "src": "2023 지방직 1번",
+   "lv": 3,
+   "w": "subsequent",
+   "word": "subsequent",
+   "mean": "그다음의, 이후의 (= following)",
+   "clue": "더 자세한 설명은 → 다음 발표에서",
+   "chunks": [
+    [
+     "Further explanations on our project",
+     "우리 프로젝트에 대한 더 자세한 설명은"
+    ],
+    [
+     "will be given in subsequent presentations.",
+     "이후 발표에서 하겠습니다"
+    ]
+   ],
+   "ko": "프로젝트에 대한 자세한 설명은 다음 발표에서 하겠습니다.",
+   "opts": [
+    [
+     "required",
+     "필수의"
+    ],
+    [
+     "advanced",
+     "고급의"
+    ],
+    [
+     "supplementary",
+     "보충의"
+    ]
+   ],
+   "friends": [
+    [
+     "further",
+     "더 나아간, 추가의"
+    ],
+    [
+     "explanation",
+     "설명"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "23j-2-courtesy",
+   "src": "2023 지방직 2번",
+   "lv": 3,
+   "w": "courtesy",
+   "word": "courtesy",
+   "mean": "예의, 공손함 (= politeness)",
+   "clue": "재채기하고 '실례합니다'라고 말하는 것 → 남에게 예의를 보이는 것",
+   "chunks": [
+    [
+     "Folkways are customs",
+     "민속 관습은 관습이다"
+    ],
+    [
+     "that members of a group are expected to follow",
+     "집단의 구성원들이 따르도록 기대되는"
+    ],
+    [
+     "to show courtesy to others.",
+     "다른 사람에게 예의를 보이기 위해"
+    ]
+   ],
+   "ko": "민속 관습은 집단 구성원들이 다른 사람에게 예의를 보이기 위해 따르는 관습이다.",
+   "opts": [
+    [
+     "charity",
+     "자선"
+    ],
+    [
+     "humility",
+     "겸손"
+    ],
+    [
+     "boldness",
+     "대담함"
+    ]
+   ],
+   "friends": [
+    [
+     "custom",
+     "관습"
+    ],
+    [
+     "be expected to",
+     "~하도록 기대되다"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "23j-3-broughtup",
+   "src": "2023 지방직 3번",
+   "lv": 3,
+   "w": "brought up",
+   "word": "bring up",
+   "mean": "기르다, 키우다 (= raise)",
+   "clue": "아이들이 건강한 음식을 먹으며 → 길러졌다",
+   "chunks": [
+    [
+     "These children have been brought up",
+     "이 아이들은 길러졌다"
+    ],
+    [
+     "on a diet of healthy food.",
+     "건강한 음식을 먹으며"
+    ]
+   ],
+   "ko": "이 아이들은 건강한 음식을 먹으며 자랐다.",
+   "opts": [
+    [
+     "advised",
+     "조언받은"
+    ],
+    [
+     "observed",
+     "관찰된"
+    ],
+    [
+     "controlled",
+     "통제된"
+    ]
+   ],
+   "friends": [
+    [
+     "diet",
+     "식단, 먹는 것"
+    ],
+    [
+     "healthy",
+     "건강한"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "23j-4-doneawaywith",
+   "src": "2023 지방직 4번",
+   "lv": 3,
+   "w": "done away with",
+   "word": "do away with",
+   "mean": "없애다, 폐지하다 (= abolish)",
+   "clue": "미국에서 노예 제도가 19세기가 되어서야 → 없어졌다",
+   "chunks": [
+    [
+     "Slavery was not done away with",
+     "노예 제도는 폐지되지 않았다"
+    ],
+    [
+     "until the nineteenth century in the U.S.",
+     "미국에서 19세기가 되어서야 (폐지됐다)"
+    ]
+   ],
+   "ko": "미국에서 노예 제도는 19세기가 되어서야 폐지되었다.",
+   "opts": [
+    [
+     "consented",
+     "동의된"
+    ],
+    [
+     "criticized",
+     "비판받은"
+    ],
+    [
+     "justified",
+     "정당화된"
+    ]
+   ],
+   "friends": [
+    [
+     "slavery",
+     "노예 제도"
+    ],
+    [
+     "not A until B",
+     "B가 되어서야 A하다"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "22j-7-noalternative",
+   "src": "2022 지방직 7번",
+   "lv": 3,
+   "w": "no alternative but",
+   "word": "have no alternative but to",
+   "mean": "~할 수밖에 없다",
+   "clue": "사임하는 것 외에는 다른 길이 없었다 → 사임할 수밖에 없었다",
+   "chunks": [
+    [
+     "She had no alternative but",
+     "그녀는 ~할 수밖에 없었다"
+    ],
+    [
+     "to resign.",
+     "사임하는 것"
+    ]
+   ],
+   "ko": "그녀는 사임할 수밖에 없었다.",
+   "opts": [
+    [
+     "no reason",
+     "이유가 없는"
+    ],
+    [
+     "no wish",
+     "바람이 없는"
+    ],
+    [
+     "no right",
+     "권리가 없는"
+    ]
+   ],
+   "friends": [
+    [
+     "resign",
+     "사임하다"
+    ],
+    [
+     "alternative",
+     "대안"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  },
+  {
+   "id": "22j-3-withrespectto",
+   "src": "2022 지방직 3번",
+   "lv": 3,
+   "w": "with respect to",
+   "word": "with respect to",
+   "mean": "~에 관해서 (= in terms of)",
+   "clue": "학력에 ~ 누구에게도 뒤진다고 느끼지 않는다 → 학력에 관해서는",
+   "chunks": [
+    [
+     "I don't feel inferior to anyone",
+     "나는 누구보다 못하다고 느끼지 않는다"
+    ],
+    [
+     "with respect to my education.",
+     "내 학력에 관해서는"
+    ]
+   ],
+   "ko": "학력에 관해서라면 나는 누구에게도 뒤진다고 느끼지 않는다.",
+   "opts": [
+    [
+     "in danger of",
+     "~의 위험에 처한"
+    ],
+    [
+     "in spite of",
+     "~에도 불구하고"
+    ],
+    [
+     "in favor of",
+     "~에 찬성하여"
+    ]
+   ],
+   "friends": [
+    [
+     "inferior to",
+     "~보다 못한"
+    ],
+    [
+     "education",
+     "학력, 교육"
+    ]
+   ],
+   "tier": "deep",
+   "pid": null
+  }
+ ],
+ "passages": [
+  {
+   "id": "26j-hhw",
+   "src": "2026 지방직 8~9번",
+   "kind": "웹페이지",
+   "title": "가정 유해 폐기물 버리는 법",
+   "text": "Household Hazardous Waste\nLeftover household products that can catch fire or explode under certain circumstances are considered household hazardous waste (HHW). Although it depends on your local solid waste agency or recycling facility, some examples include pesticides, paints, light bulbs, batteries, and nail polish. These products require special care when you dispose of them. HHW may be dangerous to people and bad for the environment if they are poured down the drain, dumped on the ground, or thrown out with regular trash.\nWhat you can do:\n- Try to reduce your purchases of these products, and look for alternative, non-hazardous products.\n- When you need to dispose of these products, look for special collection events in your community or permanent collection centers.\n- If you have to dispose of HHW, first check with your local waste management agency to learn what rules apply in your community.",
+   "q": {
+    "ask": "이 글의 목적으로 가장 알맞은 것은?",
+    "opts": [
+     "to promote the safe disposal of HHW",
+     "to show how HHW is managed at collection centers",
+     "to inform how to distinguish HHW from regular trash",
+     "to introduce local agencies dealing with HHW"
+    ],
+    "a": 0
+   }
+  },
+  {
+   "id": "26j-library",
+   "src": "2026 지방직 10번",
+   "kind": "이메일",
+   "title": "도서관 이용 허가 요청",
+   "text": "Dear Director of Pennville Library,\nI hope this email finds you well.\nI am currently working on a research project on developing local communities and believe the resources available at your library would greatly benefit my work.\nIt is my understanding that using the library facilities requires proper authorization, and I would be more than happy to provide any documentation or information required to obtain this authorization. I would also be willing to comply with any rules and regulations that come with using the library facilities.\nI would greatly appreciate it if you could grant me permission to use the library facilities. I look forward to hearing from you soon.\nThank you for your time and consideration.\nSincerely,\nMatt Smith",
+   "q": {
+    "ask": "이 이메일을 쓴 목적은?",
+    "opts": [
+     "도서관 자료를 사용할 수 있는 권한을 요청하려고",
+     "연구 자료 분석 방법에 관해 도움을 요청하려고",
+     "도서관 대출 자료의 반납일 연장을 요청하려고",
+     "연구 자료 수집 방법에 관해 문의하려고"
+    ],
+    "a": 0
+   }
+  },
+  {
+   "id": "26j-911",
+   "src": "2026 지방직 5번",
+   "kind": "대화",
+   "title": "119 신고 전화",
+   "text": "A: Hello, emergency services.\nB: My friend broke his arm while skateboarding! There are no taxis around.\nA: Please tell me your exact location.\nB: We're in front of the main entrance of city hall.\nA: I'm sending an ambulance to your location.\nB: ( ? )\nA: The nearest ambulance has already been dispatched, so it should arrive within a few minutes.\nB: Thank you so much.",
+   "q": {
+    "ask": "빈칸 ( ? ) 에 들어갈 말로 가장 알맞은 것은?",
+    "opts": [
+     "Will there be a specialist available?",
+     "Does my friend need his identification card?",
+     "Do you charge for taking an ambulance?",
+     "How long will it take for the ambulance to get here?"
+    ],
+    "a": 3
+   }
+  },
+  {
+   "id": "26j-breakfast",
+   "src": "2026 지방직 17번",
+   "kind": "설명문",
+   "title": "아침밥과 학교생활",
+   "text": "We've all heard that kids who eat breakfast do better in school. It makes sense; it's hard to focus on an empty stomach. But despite their best attempts, researchers haven't been able to pinpoint why breakfast aids learning, if that's even the case. A study of elementary school students found that, in some schools, kids behaved better after they ate breakfast; in other schools, they acted worse. The gap probably had more to do with each school's resources than with a student's daily ration of chocolate cereal. Students at well-equipped schools behave better regardless of their diet.",
+   "q": {
+    "ask": "이 글의 요점으로 가장 알맞은 것은?",
+    "opts": [
+     "아침밥을 먹으면 누구나 성적이 오른다",
+     "학생들의 행동 차이는 아침밥보다 학교 여건과 더 관련 있다",
+     "초콜릿 시리얼은 학습에 해롭다",
+     "아침밥 연구는 모두 같은 결과를 냈다"
+    ],
+    "a": 1
+   }
+  },
+  {
+   "id": "26j-giraffe",
+   "src": "2026 지방직 15번",
+   "kind": "설명문",
+   "title": "아기 기린의 무늬",
+   "text": "Giraffes may all look identical to us. But none has exactly the same markings, and certain patterns, especially large, round patches, can boost their chances of survival before they turn 4 months old. Biologists can't decide why giraffes evolved patches. David Lee at the Nature Institute in South Carolina and his colleagues examined 258 wild baby Masai giraffes in Tanzania for clues to the impact of patches on the animals. They found that calves with fewer, larger spots had a 17 percent higher chance of survival than those with more, smaller spots. They also found that those with more round spots had a 27 percent higher survival rate than those with elliptical spots.",
+   "q": {
+    "ask": "이 글의 주제로 가장 알맞은 것은?",
+    "opts": [
+     "the unique ways to raise baby giraffes in Tanzania",
+     "different survival rates of baby giraffes by region",
+     "the relationship between baby giraffes' spots and survival rates",
+     "scientific methods to conduct research on giraffes' calves"
+    ],
+    "a": 2
+   }
+  },
+  {
+   "id": "25j-interview",
+   "src": "2025 지방직 10번",
+   "kind": "이메일",
+   "title": "면접 후 결과 문의",
+   "text": "Dear Mr. Charles Brown,\nI am writing to thank you for the interview last week. I truly enjoyed our conversation. The information you shared about your new Account Management System was very valuable.\nI would like to follow up now to see if there are any updates regarding the status of my application.\nThis position looks like a great fit for me and my career goals. Anything you can share about your decision timeline or any next steps would be greatly appreciated.\nI would gladly provide any additional information if needed. Thank you again.\nSincerely,\nTom Smith",
+   "q": {
+    "ask": "이 이메일을 쓴 목적은?",
+    "opts": [
+     "to submit an application form",
+     "to set up an interview appointment",
+     "to inquire about updates on the decision process",
+     "to request more information about the company's business"
+    ],
+    "a": 2
+   }
+  },
+  {
+   "id": "25j-copies",
+   "src": "2025 지방직 5번",
+   "kind": "대화",
+   "title": "발표 자료 몇 부?",
+   "text": "A: How many copies of the presentation materials do you think we'll need?\nB: 60 should be enough, but it's always good to have extras.\nA: True. Better safe than sorry. How many would you recommend then?\nB: Let's make it 75 just in case we have more attendees than expected like last time.\nA: Good idea. ( ? )\nB: Absolutely. We are going to have people asking for the presentation materials after the presentation.\nA: Sure, that way everyone can easily have it whenever needed.",
+   "q": {
+    "ask": "빈칸 ( ? ) 에 들어갈 말로 가장 알맞은 것은?",
+    "opts": [
+     "How early do we need to distribute the materials?",
+     "Should we also have a digital version for sharing?",
+     "Will the materials be printed in color or black and white?",
+     "Are there any specific materials we should avoid including?"
+    ],
+    "a": 1
+   }
+  },
+  {
+   "id": "25j-health",
+   "src": "2025 지방직 8~9번",
+   "kind": "웹페이지",
+   "title": "모두를 위한 건강 재단",
+   "text": "Health for People\nPeople should be able to live a happy, healthy, and prosperous life. Health is a substantial part of human right, and makes a critical contribution to societal well-being, economic growth, and peace.\nBut access to health is not equitable.\nThe National Health Center Foundation (NHC Foundation) is here to support the National Health Center (NHC) to achieve its vision of a nation in which all people attain the highest level of health. The NHC aims to promote health and serve the vulnerable. The NHC Foundation is committed to helping the NHC by partnering with diverse actors, including businesses, philanthropists, and the general public.",
+   "q": {
+    "ask": "밑줄 친 critical 의 의미와 가장 가까운 것은?",
+    "opts": [
+     "pivotal",
+     "perilous",
+     "analytical",
+     "judgmental"
+    ],
+    "a": 0
+   }
+  },
+  {
+   "id": "25j-museum",
+   "src": "2025 지방직 11번",
+   "kind": "웹페이지",
+   "title": "독립기념관 소개",
+   "text": "The National Independence Museum\nThe National Independence Museum preserves the national history through exhibitions, research, and educational programs, while fostering national pride. We invite you to experience this legacy and hear the enduring calls for peace in a scenic rural setting.\nMajor Projects\n- Exhibitions & Collection Management: A total of 150,000 relics of the independence movement are displayed in eight exhibition halls.\n- Research: Dedicated to the study of the independence movement, the Museum supports scholarly work on related historical topics.\n- Education: Through educational programs, the Museum promotes the national identity and deepens historical understanding among citizens.\n- Cultural Events: Regular cultural events are held to provide visitors with insights into the national history and culture.",
+   "q": {
+    "ask": "글의 내용과 일치하는 것은?",
+    "opts": [
+     "It is located in an urban environment surrounded by many skyscrapers.",
+     "It displays more than a million artifacts related to the independence movement.",
+     "It supports educational activities instead of scholarly projects.",
+     "It offers visitors cultural events on a regular basis."
+    ],
+    "a": 3
+   }
+  },
+  {
+   "id": "25j-bluelight",
+   "src": "2025 지방직 15번",
+   "kind": "설명문",
+   "title": "햇빛과 화면 불빛",
+   "text": "The reason artificial blue light in devices can be so harmful in the evening is that it mimics the sun's natural blue light, which confuses the body's circadian clock. A study showed that viewing artificial blue light in the evening will push sleep-inducing melatonin hormones down drastically, disrupting bedtimes and affecting daytime behavior. But getting that same blue light from the sun, which contains a health-boosting full spectrum of light, does the opposite. According to the study, the more daytime blue light a person gets, the better defense they have against the harms of evening blue light from screens. Thus, packing the day with sunshine creates a blue-light build-up that helps counteract the consequences of that artificial light at night. In other words, the more sunlight exposure a child gets during the day, the better their brain can build a wall against the harms of artificial blue light later.",
+   "q": {
+    "ask": "이 글의 제목으로 가장 알맞은 것은?",
+    "opts": [
+     "Sunlight's help in fighting artificial blue light",
+     "The dangers of using devices during the day",
+     "How screens affect children's sleep cycles",
+     "Why melatonin levels drop in the evening"
+    ],
+    "a": 0
+   }
+  },
+  {
+   "id": "25j-tomato",
+   "src": "2025 지방직 18번",
+   "kind": "설명문",
+   "title": "비타민D 토마토",
+   "text": "Scientists in the UK grew special tomatoes with extra vitamin D, which is important for people's health. Vitamin D deficiency affects about one billion people worldwide. Tomatoes naturally contain a substance that gets converted into vitamin D. The team altered the genes of the tomato plants, breeding them to have more of this substance than usual. Each tomato came to have about as much vitamin D as two medium-sized eggs. Moreover, tomatoes are commonly eaten raw in salads and served as a cooked vegetable. The scientists think the technique could be used with other foods, too.",
+   "q": {
+    "ask": "토마토 한 개에 든 비타민D 양은 무엇과 비슷해졌나요?",
+    "opts": [
+     "달걀 두 개",
+     "우유 한 잔",
+     "샐러드 한 접시",
+     "생선 한 마리"
+    ],
+    "a": 0
+   }
+  },
+  {
+   "id": "25k-plastic",
+   "src": "2025 국가직 6~7번",
+   "kind": "웹페이지",
+   "title": "플라스틱 없는 7월",
+   "text": "Each year in July people all over the world aim to exclude common plastic waste items from their daily life, opting instead for reusable containers or those made from biodegradable materials. We think this is a great idea and why not make it a year-round effort at home and in the workplace.\nThe vision started in Western Australia in 2011 and has since moved across the world to help promote the vision and stop the earth becoming further saturated with plastic materials which are part of our convenience lifestyle.\nLots of items are designed to be used once and disposed of. They fill up bins in homes, schools, at work and on streets across the world.\nYou can assist in achieving the goal of having a world without plastic waste.",
+   "q": {
+    "ask": "이 웹페이지의 제목으로 가장 알맞은 것은?",
+    "opts": [
+     "Development of Single-Use Items",
+     "Join the Plastic-Free Challenge",
+     "How to Dispose of Plastic Items",
+     "Simple Ways to Save Energy"
+    ],
+    "a": 1
+   }
+  },
+  {
+   "id": "25k-consular",
+   "src": "2025 국가직 8~9번",
+   "kind": "안내문",
+   "title": "영사 서비스 민원 안내",
+   "text": "Consular services\nWe welcome all feedback about our consular services, whether you receive them in the UK or from one of our embassies, high commissions or consulates abroad. Tell us when we get things wrong so that we can assess and improve our services.\nIf you want to make a complaint about a consular service you have received, we want to help you resolve it as quickly as possible. If you are complaining on behalf of someone else, we must have written, signed consent from that person allowing us to share their personal information with you before we can reply.\nSend details of your complaint to our feedback contact form. We will record and examine your complaint, and use the information you provide to help make sure that we offer the best possible help and support to our customers. The relevant embassy, high commission or consulate will reply to you.",
+   "q": {
+    "ask": "이 글의 목적으로 가장 알맞은 것은?",
+    "opts": [
+     "to give directions to the consulate",
+     "to explain how to file complaints",
+     "to lay out the employment process",
+     "to announce the opening hours"
+    ],
+    "a": 1
+   }
+  },
+  {
+   "id": "25k-council",
+   "src": "2025 국가직 11번",
+   "kind": "이메일",
+   "title": "시의회에 보내는 민원",
+   "text": "Dear Members of the Woodville City Council,\nI am writing to inform you of several issues in our community that need attention. A resident, John Smith, of 123 Elm Street, has reported problems with the road conditions on Elm Street, especially between Maple Avenue and Oak Street. There are many potholes and cracks that have worsened after recent heavy rain, causing traffic disruptions and safety hazards. Even though temporary repairs have been made, the problems continue.\nThe resident is also concerned about poor lighting in Central Park, especially along Park Lane, because broken or missing streetlights have led to minor accidents and lowered property values. He requests that the Council repair Elm Street and improve the lighting in the park.\nI urge the Council to address these issues for the safety and well-being of our community. Thank you for your attention to these matters. I trust we will work together to resolve these issues effectively.\nSincerely,\nStephen James, Head of Woodville City Council",
+   "q": {
+    "ask": "이 이메일을 쓴 목적은?",
+    "opts": [
+     "to express gratitude to the Council for their efforts",
+     "to invite the Council to visit Central Park",
+     "to solicit the Council to deal with the community problems",
+     "to update the Council on recent repairs made in the area"
+    ],
+    "a": 2
+   }
+  },
+  {
+   "id": "25k-artcamp",
+   "src": "2025 국가직 14번",
+   "kind": "안내문",
+   "title": "어린이 여름 미술 캠프",
+   "text": "KIDS SUMMER ART CAMP 2025\nJoin the San Jose Art Museum (SJAM) for a week of fun! Campers get behind-the-scenes access to exhibitions, experiment with the artistic process, and show off their own work in a student exhibition.\nWHO: For children ages 6 - 14. Each camper will receive individual artistic support, encouragement, and creative challenges unique to their learning style and skill level.\nWHAT: Join SJAM for a summer art camp that pairs creative exploration of art materials and processes led by our experienced gallery teachers and studio art educators. In addition, campers will engage in interpretive art and science lessons created by Eddie Brown, a STEM consultant.\nART CAMP EXHIBITION: We invite families and caregivers to attend a weekly exhibition reception of campers' artwork to celebrate the artistic achievements of each participant.\nWHEN: All camps run 9 am - 3 pm, Monday - Friday. Monday, June 9 - Friday, July 25 (no camp the week of June 30)",
+   "q": {
+    "ask": "안내문의 내용과 일치하지 않는 것은?",
+    "opts": [
+     "Campers will have opportunities to display their work in a student exhibition.",
+     "The camp includes individual artistic support for children ages 6 - 14.",
+     "A STEM consultant developed interpretive art and science lessons.",
+     "The camp runs with no break between June 9 and July 25."
+    ],
+    "a": 3
+   }
+  },
+  {
+   "id": "25k-hhs",
+   "src": "2025 국가직 15번",
+   "kind": "기관 소개",
+   "title": "미국 보건복지부 소개",
+   "text": "Mission Statement\nThe mission of the Department of Health and Human Services (HHS) is to enhance the health and well-being of all individuals in the nation, by providing for effective health and human services and by fostering sound, sustained advances in the sciences underlying medicine, public health, and social services.\nOrganizational Structure\nHHS accomplishes its mission through programs and initiatives that cover a wide spectrum of activities. Eleven operating divisions, including eight agencies in the Public Health Service and three human services agencies, administer HHS's programs. While HHS is a domestic agency working to protect and promote the health and well-being of the American people, the interconnectedness of our world requires that HHS engage globally to fulfill its mission.\nCross-Agency Collaborations\nImproving health and human services outcomes cannot be achieved by the Department on its own; collaborations are critical to achieve our goals and objectives. HHS collaborates closely with other federal departments and agencies on crosscutting topics.",
+   "q": {
+    "ask": "글의 내용과 일치하는 것은?",
+    "opts": [
+     "HHS aims to improve the health and well-being of low-income families only.",
+     "HHS's programs are administered by the eleven operating divisions.",
+     "HHS does not work with foreign countries to complete its mission.",
+     "HHS acts independently from other federal departments and agencies to achieve its goals."
+    ],
+    "a": 1
+   }
+  },
+  {
+   "id": "25k-farmers",
+   "src": "2025 국가직 10번",
+   "kind": "설명문",
+   "title": "젊은 농부들의 어려움",
+   "text": "Young people are fast learners. They are energetic, active and have a can-do mentality. Given the support and right opportunities, they can take the lead in their own development as well as the development of their communities. In many developing countries, agriculture is still the largest employer and young farmers play an important role in ensuring food security for future generations. They face many challenges, however. For example, it is very difficult to own land or get a loan if you do not have a house, which, if you are young and only just starting your career, is often not yet possible. Working in agriculture requires substantial and long-term investments. It is also quite risky and uncertain, because it relies heavily on the climate: flooding, drought and storms can damage and destroy farmers' crops and affect livestock.",
+   "q": {
+    "ask": "이 글의 주제로 가장 알맞은 것은?",
+    "opts": [
+     "the economic advantages of working in the agricultural sector",
+     "the importance of technology in modern farming practices",
+     "the roles of young farmers and the challenges they face",
+     "young people's efforts for urban development"
+    ],
+    "a": 2
+   }
+  },
+  {
+   "id": "26k-water",
+   "src": "2026 국가직 8~9번",
+   "kind": "웹페이지",
+   "title": "계절별 수도 요금 안내",
+   "text": "Water Rates\nDuring the rainy season, when the city's water supply is at its peak, residents and commercial businesses will enjoy a low off-peak rate.\nDuring the drier months, when demand on the water system is high, rates will increase by about 15%, to reflect the added cost of supplying water to the city.\nThis seasonal rate will help us meet our greenest city goal of reducing water consumption by 10%, which has two benefits for all residents:\n- Reduce the strain on our existing water system, eliminating the need for costly system upgrades that could lead to higher utility rates.\n- Help us live within our water means, ensuring that all residents have access to abundant, safe, clean water, no matter how much the city grows.",
+   "q": {
+    "ask": "이 글의 목적으로 가장 알맞은 것은?",
+    "opts": [
+     "to report problems with water rates",
+     "to advertise a lower water rate year-round",
+     "to explain the seasonal water rate changes",
+     "to justify the need for water system upgrades"
+    ],
+    "a": 2
+   }
+  },
+  {
+   "id": "26k-anniv",
+   "src": "2026 국가직 10번",
+   "kind": "이메일",
+   "title": "기념행사 제안서에 대한 의견",
+   "text": "Dear David Lee,\nThank you for your proposal for the 25th anniversary event. Your idea to include eastern and western cultural contents was unique and interesting.\nWe have checked your draft plan of the anniversary event. In my opinion, your proposed venue will not be large enough for the event. Since we expect more guests this year, we will need a bigger venue than last year's.\nWhat about reserving a larger conference hall instead? If the proposed venue was chosen due to budget constraints, we may be able to adjust our budget accordingly in consultation with the accounting department.\nCould you please send me the revised plan by the end of this month?\nBest regards,\nJiho Kim\nPublic Relations Department",
+   "q": {
+    "ask": "이 이메일을 쓴 목적은?",
+    "opts": [
+     "to approve the proposed venue for the event",
+     "to suggest a more spacious venue for the event",
+     "to offer praise for the anniversary proposal",
+     "to reject the suggested idea due to budget concerns"
+    ],
+    "a": 1
+   }
+  },
+  {
+   "id": "26k-nec",
+   "src": "2026 국가직 12번",
+   "kind": "웹페이지",
+   "title": "국가에너지협력기구 소개",
+   "text": "The National Energy Cooperation\nThe National Energy Cooperation works with government institutions, industry, and academia to shape a secure and sustainable energy future in the nation. Its goal is to build a strong energy cooperation system in our country.\nOur Missions\n- Collaborative Efforts: We work with a broad range of national organizations and forums to ensure secure, affordable and sustainable energy systems.\n- Technology Collaboration: Our technology program provides the basis for public and private research partnerships in the nation.\n- Emergency Response: We help ensure a quick and effective response to energy supply disruptions through emergency response measures.\n- Training: We carry out domestic training activities on energy statistics, modeling, technology, and policies for clean energy transitions.",
+   "q": {
+    "ask": "글의 내용과 일치하는 것은?",
+    "opts": [
+     "It aims to establish a solid national energy cooperation system.",
+     "Its technology program is limited to supporting public research partnerships.",
+     "Its response to energy supply disruptions focuses on long-term plans instead of immediate action.",
+     "It provides training activities on energy statistics in other countries."
+    ],
+    "a": 0
+   }
+  },
+  {
+   "id": "26k-overtime",
+   "src": "2026 국가직 5번",
+   "kind": "대화",
+   "title": "야근 중인 동료와의 대화",
+   "text": "A: Good morning, Jinu! How's it going?\nB: I'm doing well. Thank you for asking. How are you?\nA: Actually, I'm very tired. I only got about 3 hours of sleep last night.\nB: Why is that?\nA: I have been working overtime 4 days in a row on the new project.\nB: Oh, I see... but make sure you take care of your health as well.\nA: Thank you. That's nice of you to say that. I really have to stay healthy until I finish this project.\nB: ( ? )\nA: We don't have a definite date, but it'll probably take another week to complete.",
+   "q": {
+    "ask": "빈칸 ( ? ) 에 들어갈 말로 가장 알맞은 것은?",
+    "opts": [
+     "How long have you been working on the project?",
+     "When do you think you're going to get it done?",
+     "How did you get so much work done?",
+     "Why haven't you asked for help?"
+    ],
+    "a": 1
+   }
+  },
+  {
+   "id": "26k-conflict",
+   "src": "2026 국가직 16번",
+   "kind": "설명문",
+   "title": "갈등 앞에서 싸울까, 피할까",
+   "text": "Conflict management can be challenging. When conflict arises, we can often see nature's fight-or-flight response: either attacking the enemy or running away. ( ① ) The 'fight' reaction is when people start to prepare themselves for an argument. ( ② ) The 'flight' response involves ignoring the issue altogether. ( ③ ) People suppress their feelings, hide disagreements and pretend that everything is fine when it is not. ( ④ ) However, the conflict remains unresolved and the problem gets worse.",
+   "q": {
+    "ask": "다음 문장이 들어갈 자리로 가장 알맞은 곳은? — But by getting aggressive, they might not only damage their relationships but also miss the chance of growing through constructive feedback.",
+    "opts": [
+     "( ① )",
+     "( ② )",
+     "( ③ )",
+     "( ④ )"
+    ],
+    "a": 1
+   }
+  },
+  {
+   "id": "26k-genz",
+   "src": "2026 국가직 17번",
+   "kind": "설명문",
+   "title": "관리자가 되기 싫은 Z세대",
+   "text": "Better known as Gen Z, this generation was born between 1997 and 2012. They began entering the workforce around 2020. ① Having grown up amid the Great Recession and the pandemic, they are cynical and it is coloring their view of work. ② Perhaps, the most telling trend to date is conscious unbossing or the practice of avoiding management roles. ③ Since these young workers have a strong desire to supervise others, they are eager to work hard to get promoted. ④ More than half of Gen Z workers surveyed by a research team said they don't want to be managers. Clearly, Gen Z workers are shunning traditional career paths and norms that society has accepted for ages.",
+   "q": {
+    "ask": "글의 흐름상 어색한 문장은?",
+    "opts": [
+     "① 대불황과 팬데믹 속에서 자라 냉소적이다",
+     "② 관리자 역할을 피하는 '언보싱'이 눈에 띈다",
+     "③ 남을 감독하고 싶어서 승진하려고 열심히 일한다",
+     "④ 절반 넘게 관리자가 되기 싫다고 답했다"
+    ],
+    "a": 2
+   }
+  },
+  {
+   "id": "26k-auv",
+   "src": "2026 국가직 15번",
+   "kind": "설명문",
+   "title": "무인 수중 로봇 AUV",
+   "text": "\"AUV\" stands for autonomous underwater vehicle. AUVs are unmanned underwater robots, and as their name suggests, they operate independently of humans. Unlike remotely operated vehicles (ROVs), which are tethered to a service vessel, AUVs have no physical connection to their operator. Rather, AUVs are programmed or controlled by operators who may be on a vessel or even on shore, who tell an AUV where, when, and what should be sampled. AUVs carry a variety of equipment for sampling and surveying such as cameras, sonar, and depth sensors. Unlike ROVs, which transmit video via their tethers almost instantaneously to a control room on a ship, an AUV stores all data, including images and other sensor data, on onboard computers until it can be retrieved after the AUV is recovered at the end of a dive.",
+   "q": {
+    "ask": "이 글의 주제로 가장 알맞은 것은?",
+    "opts": [
+     "the impact of replacing AUVs with ROVs",
+     "the historical overview of unmanned robots",
+     "technical challenges in transmitting real-time video from AUVs",
+     "characteristics and operational mechanisms of AUVs"
+    ],
+    "a": 3
+   }
+  },
+  {
+   "id": "26k-ai",
+   "src": "2026 국가직 19번",
+   "kind": "설명문",
+   "title": "AI가 불편한 이유",
+   "text": "From AI crafting emails, to AI systems recommending TV shows and even helping diagnose disease, the presence of machine intelligence in everyday life is no longer science fiction. And yet, for all the promises of speed, accuracy and optimization, there's a lingering discomfort. Some people love using AI tools. Others feel anxious, suspicious, even betrayed by them. Why? The answer isn't just about how AI works. It's about how we work. We don't understand it, so we don't trust it. Human beings are more likely to trust systems they understand. Traditional tools feel familiar: you turn a key, and a car starts. You press a button, and a lift arrives. But many AI systems operate as black boxes: you type something in, and a decision appears. The logic in between is hidden. Psychologically, this is unnerving. We like to see cause and effect, and we like being able to interrogate decisions. When we can't, we feel disempowered.",
+   "q": {
+    "ask": "글쓴이가 말하는, 사람들이 AI를 불편해하는 가장 큰 이유는?",
+    "opts": [
+     "AI가 어떻게 결정하는지 보이지 않아서",
+     "AI가 너무 느려서",
+     "AI 이용 요금이 비싸서",
+     "AI가 자주 틀려서"
+    ],
+    "a": 0
+   }
+  },
+  {
+   "id": "s2-agri",
+   "src": "예시문제 2차 8~9번",
+   "kind": "기관 소개",
+   "title": "농산물 마케팅청 소개",
+   "text": "Agricultural Marketing Office\nMission: We administer programs that create domestic and international marketing opportunities for national producers of food, fiber, and specialty crops. We also provide the agriculture industry with valuable services to ensure the quality and availability of wholesome food for consumers across the country and around the world.\nVision: We facilitate the strategic marketing of national agricultural products in domestic and international markets while ensuring fair trading practices and promoting a competitive and efficient marketplace to the benefit of producers, traders, and consumers of national food, fiber, and specialty crops.\nCore Values\n- Honesty & Integrity: We expect and require complete honesty and integrity in all we do.\n- Independence & Objectivity: We act independently and objectively to create trust in our programs and services.",
+   "q": {
+    "ask": "Agricultural Marketing Office 에 대한 내용과 일치하는 것은?",
+    "opts": [
+     "It creates marketing opportunities for domestic producers.",
+     "It limits wholesome food consumption around the world.",
+     "It is committed to benefiting consumers over producers.",
+     "It receives mandates from other agencies before making decisions."
+    ],
+    "a": 0
+   }
+  },
+  {
+   "id": "s2-lake",
+   "src": "예시문제 2차 10~11번",
+   "kind": "안내문",
+   "title": "죽어 가는 호수를 살려요",
+   "text": "As a close neighbor, you will want to learn how to save your lake.\nWhile it isn't dead yet, Lake Dimmesdale is heading toward this end. So pay your respects to this beautiful body of water while it is still alive.\nSome dedicated people are working to save it now. They are having a special meeting to tell you about it. Come learn what is being done and how you can help. This affects your property value as well.\nWho wants to live near a dead lake?\nSponsored by Central State Regional Planning Council\n- Location: Green City Park Opposite Southern State College (in case of rain: College Library Room 203)\n- Date: Saturday, July 6, 2024\n- Time: 2:00 p.m.",
+   "q": {
+    "ask": "이 안내문의 제목으로 가장 알맞은 것은?",
+    "opts": [
+     "Lake Dimmesdale Is Dying",
+     "Praise to the Lake's Beauty",
+     "Cultural Value of Lake Dimmesdale",
+     "Significance of the Lake to the College"
+    ],
+    "a": 0
+   }
+  },
+  {
+   "id": "s2-bank",
+   "src": "예시문제 2차 12번",
+   "kind": "이메일",
+   "title": "사이버 범죄 예방 안내",
+   "text": "Dear Valued Clients,\nIn today's world, cybercrime poses a serious threat to your security. As your trusted partner, we want to help you protect your personal and business information. Here are five easy ways to safeguard yourself from cyber threats:\n1. Use strong passwords and change them frequently.\n2. Keep your software and devices up to date.\n3. Be wary of suspicious emails, links, or telephone calls that pressure you to act quickly or give out sensitive information.\n4. Enable Two Factor authentication and use it whenever possible. When contacting California Bank & Savings, you will be asked to use a One Time Passcode (OTP) to verify your identity.\n5. Back up your data regularly.\nVisit our Security Center to learn more about how you can stay safe online. Remember, cybersecurity is a team effort.\nSincerely,\nCalifornia Bank & Savings",
+   "q": {
+    "ask": "이 이메일을 쓴 목적은?",
+    "opts": [
+     "to inform clients of how to keep themselves safe from cyber threats",
+     "to inform clients of how to update their software and devices",
+     "to inform clients of how to make their passwords stronger",
+     "to inform clients of how to safeguard their OTPs"
+    ],
+    "a": 0
+   }
+  },
+  {
+   "id": "s2-library",
+   "src": "예시문제 2차 14번",
+   "kind": "안내문",
+   "title": "도서관·박물관 이용 안내",
+   "text": "The David Williams Library and Museum is open 7 days a week, from 9:00 a.m. to 5:00 p.m. (NOV-MAR) and 9:00 a.m. to 6:00 p.m. (APR-OCT). Online tickets may be purchased at the link below. You will receive an email confirmation after making a purchase (be sure to check your SPAM folder). Bring this confirmation, printed or on smart device, as proof of purchase.\nThe David Williams Library and Museum and the Home of David Williams (operated by the National Heritage Service) offer separate $10.00 adult admission tickets. Tickets for tours of the Home may be purchased on-site during normal business hours.\nCLOSED: Thanksgiving, Christmas and New Year's Day\nThere is no charge for conducting research in the David Williams Library research room.",
+   "q": {
+    "ask": "안내문의 내용과 일치하지 않는 것은?",
+    "opts": [
+     "The Library and Museum closes at 5:00 p.m. in December.",
+     "Visitors can buy tour tickets for the Home on-site.",
+     "The Home of David Williams is open all year round.",
+     "One can do research in the Library research room for free."
+    ],
+    "a": 2
+   }
+  },
+  {
+   "id": "s2-boah",
+   "src": "예시문제 2차 15번",
+   "kind": "기관 소개",
+   "title": "가축 질병 비상 대응",
+   "text": "Animal Health Emergencies\nPreparedness for animal disease outbreaks has been a top priority for the Board of Animal Health (BOAH) for decades. A highly contagious animal disease event may have economically devastating effects as well as public health or food safety and security consequences.\nForeign Animal Diseases\nA foreign animal disease (FAD) is a disease that is not currently found in the country, and could cause significant illness or death in animals or cause extensive economic harm by eliminating trading opportunities with other countries and states.\nSeveral BOAH veterinarians who are trained in diagnosing FADs are available 24 hours a day to investigate suspected cases of a FAD.",
+   "q": {
+    "ask": "글의 내용과 일치하는 것은?",
+    "opts": [
+     "BOAH focuses on training veterinarians for FADs.",
+     "BOAH's main goal is to respond to animal disease epidemic.",
+     "BOAH actively promotes international trade opportunities.",
+     "BOAH aims to lead laboratory research on the causes of FADs."
+    ],
+    "a": 1
+   }
+  }
+ ]
+}

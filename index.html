@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>기출 문장 10분</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#F5F2EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141311" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&display=swap">
+<style>
+/* 색 토큰: 따뜻한 종이색 바탕 + 차분한 짙은 청록 + 형광펜 노랑 */
+:root{
+  --bg:#F5F2EC;--surface:#FFFFFF;--surface-2:#FAF8F4;--ink:#1C1917;--ink-2:#44403C;--muted:#6F6862;--line:#E7E2D9;--line-2:#D6CFC2;
+  --pri:#0E5E57;--on-pri:#FFFFFF;--pri-soft:#E4F0EC;--pri-text:#0B4F49;
+  --accent:#9A4A0B;--accent-soft:#FDF1DD;--ok:#15803D;--ok-soft:#E6F4EA;--no:#B4471F;--no-soft:#FBEBE3;--hl:#FCE9A9;
+  --shadow:0 1px 2px rgba(28,25,23,.04),0 4px 16px rgba(28,25,23,.05);
+  --r-lg:20px;--r-md:14px;--r-sm:10px;
+  --sans:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --serif:Literata,Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#141311;--surface:#1D1B18;--surface-2:#24221E;--ink:#F3F0EA;--ink-2:#D6D1C7;--muted:#A8A29E;--line:#2F2C27;--line-2:#3D3932;
+  --pri:#5EC4B6;--on-pri:#0A1F1C;--pri-soft:#17322E;--pri-text:#8FDCD0;
+  --accent:#F2B45A;--accent-soft:#3A2C14;--ok:#5BD08A;--ok-soft:#15301F;--no:#F29A72;--no-soft:#3A2018;--hl:#5A4A12;
+  --shadow:none;
+}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;letter-spacing:-.01em}
+main{max-width:520px;margin:0 auto;padding:12px 16px calc(104px + env(safe-area-inset-bottom))}
+button{font-family:inherit;color:inherit;letter-spacing:inherit}
+button:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--pri);outline-offset:2px}
+.ic{flex:none;display:block}
+h2{font-size:22px;line-height:1.35;margin:0 0 8px;font-weight:700;letter-spacing:-.02em}
+h3{font-size:17px;margin:0 0 4px;font-weight:700}
+p{margin:0}
+.muted{color:var(--muted)}
+.small{font-size:14px;color:var(--muted)}
+.gap{height:12px}.gap-lg{height:20px}
+
+/* 앱 위 막대 */
+.top{display:flex;justify-content:space-between;align-items:center;padding:8px 2px 16px}
+.brand{display:flex;align-items:center;gap:10px}
+.mark{width:34px;height:34px;border-radius:10px;background:var(--pri);color:var(--on-pri);display:grid;place-items:center;font-weight:800;font-size:14px;letter-spacing:-.04em}
+.brand h1{font-size:19px;margin:0;font-weight:800;letter-spacing:-.03em}
+.chip{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:13px;color:var(--ink-2);font-weight:600;white-space:nowrap}
+.chip.pri{background:var(--pri-soft);border-color:transparent;color:var(--pri-text)}
+.chip.acc{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
+
+/* 카드 */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;margin-bottom:12px;box-shadow:var(--shadow)}
+.card.flat{box-shadow:none}
+.card-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:14px}
+.eyebrow{font-size:13px;font-weight:700;color:var(--pri-text);letter-spacing:.02em}
+
+/* 버튼 */
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:56px;border:0;border-radius:var(--r-md);background:var(--pri);color:var(--on-pri);font-size:17px;font-weight:700;cursor:pointer;transition:background-color .15s,opacity .15s}
+.btn:active{opacity:.85}
+.btn.soft{background:var(--pri-soft);color:var(--pri-text)}
+.btn.line{background:var(--surface);border:1px solid var(--line-2);color:var(--ink);font-weight:600}
+.btn.sm{min-height:44px;font-size:15px;border-radius:var(--r-sm);padding:0 14px;width:auto}
+.btn.danger{color:var(--no)}
+.row{display:flex;gap:8px}.row>*{flex:1}
+
+/* 이번 주 */
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.day{display:flex;flex-direction:column;align-items:center;gap:6px;font-size:12px;color:var(--muted);font-weight:600}
+.dot{width:34px;height:34px;border-radius:50%;border:1.5px dashed var(--line-2);display:grid;place-items:center;color:var(--on-pri)}
+.day.on .dot{background:var(--pri);border:0}
+.day.today{color:var(--pri-text)}
+.day.today .dot{border:2px solid var(--pri)}
+.day.today.on .dot{border:0;box-shadow:0 0 0 3px var(--pri-soft)}
+
+/* 오늘 할 일 단계 */
+.plan{list-style:none;padding:0;margin:4px 0 18px}
+.plan li{display:flex;align-items:center;gap:14px;padding:12px 0}
+.plan li+li{border-top:1px solid var(--line)}
+.tile{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--pri-soft);color:var(--pri-text);flex:none}
+.plan .st{flex:1;min-width:0}
+.plan .st b{display:block;font-size:16px}
+.plan .st small{display:block;font-size:14px;color:var(--muted)}
+.plan .end{font-size:15px;font-weight:700;color:var(--ink-2);white-space:nowrap}
+.plan li.done .tile{background:var(--surface-2);color:var(--muted)}
+.plan li.done .st b{color:var(--muted)}
+.plan li.night .tile{background:var(--accent-soft);color:var(--accent)}
+.note{display:flex;gap:10px;align-items:flex-start;background:var(--surface-2);border-radius:var(--r-md);padding:12px 14px;font-size:15px;color:var(--ink-2);margin-bottom:16px}
+.note .ic{color:var(--accent);margin-top:2px}
+
+/* 공부 화면 */
+#lesson{position:fixed;inset:0;background:var(--bg);overflow:auto;z-index:10;overscroll-behavior:contain}
+#lesson[hidden]{display:none}
+.lhead{position:sticky;top:0;z-index:2;background:var(--bg);display:flex;align-items:center;gap:10px;max-width:520px;margin:0 auto;padding:calc(6px + env(safe-area-inset-top)) 12px 6px 6px}
+.x{border:0;background:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;color:var(--ink-2);cursor:pointer}
+.x:active{background:var(--line)}
+.prog{flex:1;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.prog i{display:block;height:100%;background:var(--pri);border-radius:3px;transition:width .3s ease}
+.cnt{font-size:13px;color:var(--muted);min-width:40px;text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.stephead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:6px 0 14px;flex-wrap:wrap}
+.src{font-size:13px;color:var(--muted)}
+.tip{display:flex;gap:8px;align-items:flex-start;font-size:14px;color:var(--muted);margin:0 0 16px;line-height:1.5}
+.tip .ic{color:var(--accent);margin-top:1px}
+.paper{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:22px 20px;margin-bottom:16px;box-shadow:var(--shadow)}
+.sent{font-family:var(--serif);font-size:21px;line-height:1.6;font-weight:500;letter-spacing:0;margin:0}
+.ko{color:var(--ink-2);font-size:15px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line-2)}
+.blank{display:inline-block;min-width:96px;height:1.2em;border-bottom:2.5px solid var(--pri);vertical-align:-2px;text-align:center;color:var(--pri);font-family:var(--sans);font-size:16px;font-weight:700}
+.tw{background:linear-gradient(transparent 52%,var(--hl) 52%);padding:0 2px;border-radius:2px}
+u.tw{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}
+.ask{font-size:15px;color:var(--ink-2);margin:0 0 10px;font-weight:600}
+
+/* 끊어 읽기 덩어리 */
+.chunks{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
+.chunk{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;padding:14px 16px;border-radius:var(--r-md);border:1px solid var(--line);background:var(--surface);cursor:pointer;transition:background-color .15s,border-color .15s}
+.chunk .n{flex:none;width:24px;height:24px;border-radius:50%;background:var(--surface-2);border:1px solid var(--line-2);display:grid;place-items:center;font-size:12px;font-weight:700;color:var(--muted);margin-top:3px}
+.chunk .en{font-family:var(--serif);font-size:19px;line-height:1.5;display:block}
+.chunk .kk{display:block;font-size:15px;color:var(--pri-text);margin-top:4px;font-weight:600}
+.chunk .kk[hidden]{display:none}
+.chunk.open{background:var(--pri-soft);border-color:transparent}
+.chunk.open .n{background:var(--pri);border-color:var(--pri);color:var(--on-pri)}
+
+/* 보기 */
+.choice{display:flex;align-items:center;gap:12px;width:100%;text-align:left;min-height:56px;padding:12px 14px;margin:0 0 8px;border-radius:var(--r-md);border:1px solid var(--line);background:var(--surface);font-size:17px;cursor:pointer;transition:background-color .15s,border-color .15s}
+.choice .k{flex:none;width:28px;height:28px;border-radius:8px;background:var(--surface-2);border:1px solid var(--line-2);display:grid;place-items:center;font-size:13px;font-weight:700;color:var(--muted)}
+.choice .t{flex:1}
+.choice .mk{flex:none;display:none}
+.choice:active{background:var(--surface-2)}
+.choice.ok{border-color:var(--ok);background:var(--ok-soft)}
+.choice.ok .k{background:var(--ok);border-color:var(--ok);color:var(--on-pri)}
+.choice.ok .mk{display:block;color:var(--ok)}
+.choice.bad{border-color:var(--no);background:var(--no-soft)}
+.choice.bad .k{background:var(--no);border-color:var(--no);color:var(--on-pri)}
+.choice.bad .mk{display:block;color:var(--no)}
+.choice.en .t{font-family:var(--serif);font-size:18px}
+
+/* 결과 안내 */
+.fb{display:flex;gap:12px;align-items:flex-start;border-radius:var(--r-md);padding:14px 16px;margin:12px 0;font-size:15px;line-height:1.55}
+.fb .ic{margin-top:2px}
+.fb.ok{background:var(--ok-soft)}.fb.ok>.ic{color:var(--ok)}
+.fb.no{background:var(--no-soft)}.fb.no>.ic{color:var(--no)}
+.fb.info{background:var(--pri-soft)}.fb.info>.ic{color:var(--pri-text)}
+.fb b.w{font-family:var(--serif);font-size:17px}
+.hintbox{background:var(--pri-soft);border-radius:var(--r-md);padding:14px 16px;margin-bottom:16px;color:var(--pri-text);font-weight:600;font-size:15px}
+.hintbox .big{display:block;font-family:var(--serif);font-size:24px;letter-spacing:.08em;color:var(--ink);margin-top:2px}
+
+/* 단어 정리 */
+.word{font-family:var(--serif);font-size:32px;font-weight:600;letter-spacing:-.01em;margin:0;line-height:1.2}
+.base{font-size:14px;color:var(--muted);margin-top:4px}
+.mean{font-size:19px;font-weight:700;margin:10px 0 14px}
+.fr{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:10px 0}
+.fr+.fr{border-top:1px solid var(--line)}
+.fr b{font-family:var(--serif);font-size:17px;font-weight:600}
+.fr span{color:var(--ink-2);font-size:15px;text-align:right}
+
+/* 기억 평가 버튼 */
+.rate{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.rate button{min-height:68px;border-radius:var(--r-md);border:1px solid var(--line);background:var(--surface);font-size:16px;font-weight:700;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;position:relative;overflow:hidden;transition:background-color .15s}
+.rate button::before{content:"";position:absolute;left:0;right:0;top:0;height:4px}
+.rate button:nth-child(1)::before{background:var(--no)}
+.rate button:nth-child(2)::before{background:var(--accent)}
+.rate button:nth-child(3)::before{background:var(--ok)}
+.rate button small{font-weight:500;color:var(--muted);font-size:12px}
+.rate button:active{background:var(--surface-2)}
+
+/* 끝 화면 */
+.done-hero{text-align:center;padding:16px 0 20px}
+.done-hero .ring{width:84px;height:84px;border-radius:50%;background:var(--pri-soft);color:var(--pri);display:grid;place-items:center;margin:0 auto 14px}
+.kv{display:flex;justify-content:space-between;align-items:center;padding:12px 0;font-size:16px}
+.kv+.kv{border-top:1px solid var(--line)}
+.kv b{font-size:18px;font-variant-numeric:tabular-nums}
+
+/* 기록 */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:14px 8px;text-align:center;box-shadow:var(--shadow)}
+.stat b{display:block;font-size:24px;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.stat span{font-size:13px;color:var(--muted)}
+.meter{height:12px;background:var(--line);border-radius:6px;overflow:hidden;display:flex;margin:12px 0 6px}
+.meter i{display:block;height:100%}
+.legend{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:8px;vertical-align:0}
+.grass{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin:12px 0}
+.grass i{aspect-ratio:1;border-radius:8px;background:var(--surface-2);border:1px solid var(--line)}
+.grass i.on{background:var(--pri);border-color:var(--pri)}
+.grass i.today{outline:2px solid var(--accent);outline-offset:2px}
+.list .it{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0}
+.list .it+.it{border-top:1px solid var(--line)}
+.list .it b{display:block;font-size:16px}
+
+/* 지문 */
+.psg p{font-family:var(--serif);font-size:18px;line-height:1.75;margin:0 0 14px}
+.psg p:last-child{margin:0}
+.psg .tw{cursor:pointer}
+.psg-title{font-size:20px;font-weight:800;margin:0 0 12px}
+
+/* 원리 */
+.pr{display:flex;gap:14px}
+.num{flex:none;width:32px;height:32px;border-radius:50%;background:var(--pri-soft);color:var(--pri-text);display:grid;place-items:center;font-weight:800;font-size:14px}
+.pr .where{margin-top:8px;font-size:15px;color:var(--ink-2)}
+
+/* 아래 탭 */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:5;background:var(--surface);border-top:1px solid var(--line);display:flex;justify-content:center;padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
+nav.tabs button{flex:1;max-width:120px;border:0;background:none;color:var(--muted);font-size:12px;font-weight:600;padding:4px 0;display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;min-height:56px}
+nav.tabs .pill{width:56px;height:30px;border-radius:15px;display:grid;place-items:center;transition:background-color .2s}
+nav.tabs button.on{color:var(--pri-text)}
+nav.tabs button.on .pill{background:var(--pri-soft)}
+
+#toast{position:fixed;left:50%;bottom:calc(92px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:12px 18px;border-radius:12px;font-size:16px;z-index:20;max-width:90%;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+#toast b{font-family:var(--serif)}
+#toast[hidden]{display:none}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<main id="view"></main>
+<nav class="tabs" id="tabs" aria-label="메뉴">
+  <button data-act="tab" data-t="home"><span class="pill" data-ic="home"></span>오늘</button>
+  <button data-act="tab" data-t="read"><span class="pill" data-ic="book"></span>지문</button>
+  <button data-act="tab" data-t="progress"><span class="pill" data-ic="chart"></span>기록</button>
+  <button data-act="tab" data-t="why"><span class="pill" data-ic="bulb"></span>원리</button>
+</nav>
+<section id="lesson" hidden>
+  <div class="lhead"><button class="x" data-act="close" aria-label="닫기" data-ic="x"></button><div class="prog"><i id="pbar" style="width:0"></i></div><span class="cnt" id="pcnt"></span></div>
+  <main id="lbody"></main>
+</section>
+<div id="toast" role="status" hidden></div>
+<input type="file" id="importFile" accept="application/json" hidden>
+
+<script type="module">
+import { fsrs, createEmptyCard, Rating } from './vendor/ts-fsrs.js';
+
+// ── 복습 계산기(FSRS): 기억이 90% 남아 있을 때쯤 다시 꺼내도록 날짜를 잡음 (날짜 단위로만)
+const F = fsrs({ request_retention: 0.9, enable_fuzz: false, enable_short_term: false });
+const KEY = 'exam-eng-v1';
+const REVIEW_CAP = 40;          // 하루 복습 최대 장수 (밀린 숙제 공포 방지)
+const EXAM = new Date(2027, 5, 19); // 2027년 지방직 필기 (6월 셋째 토요일로 가정, 공고 나오면 고치기)
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+// ── 폰에 앱으로 설치 (크롬이 주는 설치 창을 버튼으로 띄움). 카드 불러오는 중에 와도 놓치지 않게 맨 위에서 받음
+let deferredPrompt = null, ready = false;
+const isStandalone = () => window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredPrompt = e; if(ready && TAB === 'home' && $('#lesson').hidden) render(); });
+window.addEventListener('appinstalled', () => { deferredPrompt = null; if(ready){ toast('앱으로 설치했어요. 홈 화면에서 열어 보세요'); render(); } });
+
+// ── 아이콘 (Lucide 선 아이콘, 글자색을 따라감)
+const IC = {
+  home: '<path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/>',
+  book: '<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>',
+  chart: '<path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/>',
+  bulb: '<path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/>',
+  x: '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
+  check: '<path d="M20 6 9 17l-5-5"/>',
+  checkc: '<circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>',
+  info: '<circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>',
+  undo: '<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/>',
+  spark: '<path d="M9.94 15.5A2 2 0 0 0 8.5 14.06l-6.14-1.58a.5.5 0 0 1 0-.96L8.5 9.94A2 2 0 0 0 9.94 8.5l1.58-6.14a.5.5 0 0 1 .96 0l1.58 6.14a2 2 0 0 0 1.44 1.44l6.14 1.58a.5.5 0 0 1 0 .96l-6.14 1.58a2 2 0 0 0-1.44 1.44l-1.58 6.14a.5.5 0 0 1-.96 0z"/>',
+  moon: '<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>',
+  play: '<path d="M6 3l14 9-14 9z"/>',
+  arrow: '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
+  vol: '<path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>',
+  slow: '<path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>',
+  mic: '<path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><path d="M12 19v3"/>',
+  eye: '<path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/>',
+  cal: '<rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/>',
+  layers: '<path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/>',
+  target: '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
+  down: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/>',
+  up: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m17 8-5-5-5 5"/><path d="M12 3v12"/>',
+  flask: '<path d="M10 2v7.5a2 2 0 0 1-.2.9L4.7 20.6a1 1 0 0 0 .9 1.4h12.8a1 1 0 0 0 .9-1.4l-5.1-10.2a2 2 0 0 1-.2-.9V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/>',
+  trash: '<path d="M3 6h18"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>',
+  ban: '<circle cx="12" cy="12" r="10"/><path d="m4.9 4.9 14.2 14.2"/>',
+  clock: '<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>',
+};
+const ic = (n, s = 20, w = 2) => `<svg class="ic" width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${IC[n]}</svg>`;
+document.querySelectorAll('[data-ic]').forEach(el => el.innerHTML = ic(el.dataset.ic, 22));
+
+// ── 내 기록 (이 폰에만 저장): cards=문장별 기억 상태, lv=복습 단계(1~4), days=날짜별 기록, read=지문 읽은 기록
+const EMPTY = () => ({cards:{}, lv:{}, days:{}, read:{}, offset:0, start:null});
+let S = load();
+function load(){ try { return Object.assign(EMPTY(), JSON.parse(localStorage.getItem(KEY) || '{}')); } catch(e){ return EMPTY(); } }
+function save(){ try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e){} }
+const now = () => new Date(Date.now() + S.offset * 864e5);
+const dkey = (d = now()) => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const revive = c => ({...c, due: new Date(c.due), last_review: c.last_review ? new Date(c.last_review) : undefined});
+const card = id => revive(S.cards[id]);
+const dayRec = (k = dkey()) => (S.days[k] ||= {newIds: null, news: [], revs: [], done: false});
+
+// ── 문장 창고 (cards.json)
+let DATA = [], PSG = [];
+try { const j = await (await fetch('cards.json', {cache: 'no-cache'})).json(); DATA = j.items; PSG = j.passages; }
+catch(e){ $('#view').innerHTML = '<div class="card">문장 창고(cards.json)를 불러오지 못했어요. 인터넷 연결을 확인해 주세요.</div>'; throw e; }
+const byId = id => DATA.find(x => x.id === id);
+const psgById = id => PSG.find(p => p.id === id);
+const sentence = c => c.chunks.map(x => x[0]).join(' ');
+const wre = c => new RegExp(`\\b${c.w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`);
+const blankHTML = c => esc(sentence(c)).replace(wre(c), '<span class="blank" aria-label="빈칸">?</span>');
+const markHTML = (c, tag = 'span') => esc(sentence(c)).replace(wre(c), m => `<${tag} class="tw">${m}</${tag}>`);
+const hint = w => w.split(' ').map(x => x[0] + ' _'.repeat(x.length - 1)).join(' / ');
+function shuffle(a){ a = [...a]; for(let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i+1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function until(d){ const m = (d - now()) / 6e4; if(m <= 0) return '오늘'; if(m < 1320) return '내일'; return `${Math.max(1, Math.round(m/1440))}일 뒤`; }
+const retention = id => F.get_retrievability(card(id), now(), false);
+function avgRetention(){ const ids = Object.keys(S.cards).filter(byId); return ids.length ? Math.round(ids.reduce((a, id) => a + retention(id), 0) / ids.length * 100) : null; }
+const studied = k => { const d = S.days[k]; return !!d && (d.done || d.revs.length > 0 || d.news.length > 0); };
+function toast(h){ const el = $('#toast'); el.innerHTML = h; el.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => el.hidden = true, 2400); }
+const KEYS = ['A', 'B', 'C', 'D'];
+const choiceBtn = (act, i, text, en) => `<button class="choice${en ? ' en' : ''}" data-act="${act}" data-i="${i}"><span class="k">${KEYS[i]}</span><span class="t">${esc(text)}</span><span class="mk ok-mk">${ic('check', 20, 2.5)}</span></button>`;
+function markChoices(sel, rightIdx, pickedIdx){
+  document.querySelectorAll(sel).forEach((el, j) => {
+    if(j === rightIdx){ el.classList.add('ok'); el.querySelector('.mk').innerHTML = ic('check', 20, 2.5); }
+    else if(j === pickedIdx){ el.classList.add('bad'); el.querySelector('.mk').innerHTML = ic('x', 20, 2.5); }
+  });
+}
+const fb = (kind, html) => `<div class="fb ${kind}">${ic(kind === 'ok' ? 'checkc' : kind === 'no' ? 'undo' : 'info', 20)}<div>${html}</div></div>`;
+const tip = t => `<p class="tip">${ic('bulb', 16)}<span>${t}</span></p>`;
+
+// ── 소리: 폰에 들어 있는 영어 목소리
+function speak(text, rate = 0.9, queue = false){
+  if(!('speechSynthesis' in window)) return;
+  if(!queue) speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text); u.lang = 'en-US'; u.rate = rate;
+  const vs = speechSynthesis.getVoices(); const v = vs.find(v => /^en[-_]US/i.test(v.lang)) || vs.find(v => /^en/i.test(v.lang));
+  if(v) u.voice = v;
+  speechSynthesis.speak(u);
+}
+
+// ── 오늘 할 양 정하기
+function dueIds(){ const n = now(); return Object.keys(S.cards).filter(id => byId(id) && card(id).due <= n).sort((a,b) => card(a).due - card(b).due); }
+function recentAcc(n = 20){ const rv = Object.keys(S.days).sort().flatMap(k => S.days[k].revs).slice(-n); return rv.length >= 10 ? rv.filter(x => x.r >= Rating.Hard).length / rv.length : null; }
+// 시험까지 단계별 새 문장 수 + 85% 규칙(복습 정답률이 낮으면 새 문장을 줄임)
+function newPlan(){
+  const d = now(), y = d.getFullYear(), m = d.getMonth() + 1;
+  let n, phase;
+  if(y < 2027){ n = 3; phase = '적응'; }
+  else if(m <= 3){ n = 5; phase = '쌓기'; }
+  else if(m <= 5){ n = 5; phase = '넓히기'; }
+  else { n = 0; phase = '마무리'; }
+  let why = '';
+  const days = S.start ? Math.floor((new Date(dkey()) - new Date(S.start)) / 864e5) : 0;
+  if(days < 14 && n > 3){ n = 3; why = '처음 2주는 적응 기간이라 3개만 열려요.'; }
+  const acc = recentAcc();
+  if(n && acc !== null && acc < 0.6){ n = 0; why = '최근 복습이 조금 어려웠어요. 오늘은 복습만 해서 기억을 다져요.'; }
+  else if(n && acc !== null && acc < 0.75){ n = 1; why = '최근 복습이 조금 어려워서 새 문장을 1개로 줄였어요.'; }
+  else if(n && dueIds().length > REVIEW_CAP){ n = 1; why = '복습이 많이 쌓여서 새 문장은 1개만 열어요.'; }
+  if(phase === '마무리') why = '시험 달이에요. 새 문장 없이 복습만 해요.';
+  return {n, phase, why};
+}
+// 핵심(2025~ 새 방식)과 심화(2022~2024 어려운 단어·숙어) 섞는 법: 적응=핵심 먼저, 쌓기=하루 1개만 심화, 넓히기=심화 먼저
+const isDeep = c => c.tier === 'deep';
+function pickNew(n, phase){
+  const pend = DATA.filter(x => !S.cards[x.id]), core = pend.filter(x => !isDeep(x)), deep = pend.filter(isDeep);
+  let first;
+  if(phase === '넓히기') first = [...deep, ...core];
+  else if(phase === '쌓기' && core.length && deep.length) first = [...core.slice(0, n - 1), deep[0]];
+  else first = [...core, ...deep];
+  const out = first.slice(0, n);
+  for(const x of pend){ if(out.length >= n) break; if(!out.includes(x)) out.push(x); }
+  return out;
+}
+// 오늘의 새 문장은 처음 정한 뒤 고정 (중간에 껐다 켜도 같은 문장)
+function todayNewIds(){
+  const d = dayRec();
+  if(!d.newIds){ const p = newPlan(); d.newIds = pickNew(p.n, p.phase).map(x => x.id); d.why = p.why; save(); }
+  return d.newIds;
+}
+function todayWork(){
+  const news = todayNewIds().filter(id => !S.cards[id]);
+  const revs = dueIds().filter(id => !dayRec().newIds.includes(id)).slice(0, REVIEW_CAP);
+  return {revs, news};
+}
+
+// ── 화면: 탭
+let TAB = 'home';
+function render(){
+  document.querySelectorAll('#tabs button').forEach(b => { const on = b.dataset.t === TAB; b.classList.toggle('on', on); b.setAttribute('aria-current', on ? 'page' : 'false'); });
+  ({home: renderHome, read: renderRead, progress: renderProgress, why: renderWhy})[TAB]();
+}
+function header(t = '기출 문장 10분'){
+  const d = now(), wd = '일월화수목금토'[d.getDay()];
+  return `<div class="top"><div class="brand"><div class="mark">10</div><h1>${t}</h1></div><span class="chip">${S.offset ? ic('flask', 14) : ''}${d.getMonth()+1}월 ${d.getDate()}일 ${wd}요일</span></div>`;
+}
+function weekRow(){
+  const n = now(), mon = new Date(n); mon.setDate(n.getDate() - ((n.getDay() + 6) % 7));
+  let cnt = 0, cells = '';
+  for(let i = 0; i < 7; i++){
+    const d = new Date(mon); d.setDate(mon.getDate() + i); const k = dkey(d), on = studied(k); if(on) cnt++;
+    cells += `<div class="day ${on ? 'on' : ''} ${k === dkey() ? 'today' : ''}">${'월화수목금토일'[i]}<span class="dot">${on ? ic('check', 18, 3) : ''}</span></div>`;
+  }
+  return `<div class="card"><div class="card-head"><h3 style="margin:0">이번 주</h3>${cnt >= 5 ? `<span class="chip pri">${ic('check', 14, 3)}목표 달성</span>` : `<span class="chip">${cnt} / 5일</span>`}</div>
+    <div class="week">${cells}</div><p class="small" style="margin-top:12px">목표는 주 5일. 하루 빠져도 괜찮아요.</p></div>`;
+}
+
+function renderHome(){
+  const d = dayRec(), w = todayWork(), p = newPlan();
+  const doneN = d.revs.length + d.news.length;
+  let main;
+  if(d.done && !w.revs.length && !w.news.length){
+    main = `<div class="card"><div class="done-hero" style="padding:4px 0 8px"><div class="ring">${ic('check', 40, 2.5)}</div><h2>오늘 몫을 다 했어요</h2>
+      <p class="muted">복습 ${d.revs.length}장 · 새 문장 ${d.news.length}개<br>나머지는 뇌가 자는 동안 정리해 줘요.</p></div>
+      <button class="btn soft" data-act="night">${ic('moon', 20)}자기 전 1분 · 오늘 문장 다시 보기</button>
+      ${d.night ? `<p class="small" style="text-align:center;margin-top:10px">자기 전 보기까지 끝났어요</p>` : ''}</div>`;
+  } else {
+    const first = !S.start;
+    const revSub = w.revs.length ? `${w.revs.length}장 · 약 ${Math.max(1, Math.round(w.revs.length * 0.25))}분` : '오늘은 없어요';
+    const newSub = w.news.length ? `${w.news.length}개 · 약 ${w.news.length * 1.5 | 0}분` : '오늘은 없어요';
+    main = `<div class="card"><div class="card-head"><span class="eyebrow">오늘의 10분</span><span class="chip acc">${p.phase} 단계</span></div>
+      ${first ? `<h2>천천히 시작해요</h2><p class="muted" style="margin-bottom:8px">실제 공무원 시험에 나온 문장으로 하루 10분. 첫 2주는 쉬운 문장부터 열려요.</p>` : `<h2>${doneN ? '이어서 해 볼까요' : '오늘도 10분만'}</h2>`}
+      <ul class="plan">
+        <li class="${w.revs.length ? '' : 'done'}"><span class="tile">${w.revs.length ? ic('undo') : ic('check', 20, 2.5)}</span><span class="st"><b>복습 먼저</b><small>${revSub}</small></span></li>
+        <li class="${w.news.length ? '' : 'done'}"><span class="tile">${w.news.length ? ic('spark') : ic('check', 20, 2.5)}</span><span class="st"><b>새 문장</b><small>${newSub}</small></span></li>
+        <li class="night"><span class="tile">${ic('moon')}</span><span class="st"><b>자기 전 1분</b><small>잠들기 전에 한 번 더</small></span></li>
+      </ul>
+      ${d.why ? `<div class="note">${ic('info', 18)}<span>${esc(d.why)}</span></div>` : ''}
+      ${w.revs.length || w.news.length ? `<button class="btn" data-act="start">${ic('play', 18)}${doneN ? '이어서 하기' : '시작하기'}</button>`
+        : `<div class="note">${ic('info', 18)}<span>창고의 문장을 모두 열었어요. 다음 기출을 넣어 달라고 해 주세요.</span></div>`}</div>`;
+  }
+  const sat = now().getDay() === 6, ps = pickPassage();
+  const satCard = ps ? `<div class="card"><div class="card-head"><span class="eyebrow">${sat ? '토요일은 지문 한 편' : '이번 주 지문 한 편'}</span><span class="chip">${esc(ps.kind)}</span></div>
+    <h3>${esc(ps.title)}</h3><p class="small" style="margin-bottom:14px">${esc(ps.src)} · 익힌 문장이 원래 있던 글이에요</p>
+    <button class="btn ${sat ? '' : 'soft'}" data-act="openPsg" data-p="${ps.id}">${ic('book', 20)}읽으러 가기</button></div>` : '';
+  const install = deferredPrompt && !isStandalone() ? `<button class="card" data-act="install" style="display:flex;align-items:center;gap:14px;width:100%;text-align:left;cursor:pointer">
+    <img src="icon-192.png" alt="" style="width:44px;height:44px;border-radius:12px"><span style="flex:1"><b style="display:block">앱으로 설치하기</b><span class="small">홈 화면에서 앱처럼 바로 열려요</span></span><span class="chip pri">설치</span></button>` : '';
+  $('#view').innerHTML = header() + install + main + weekRow() + satCard;
+}
+
+// ── 공부 시간: 복습 먼저 → 새 문장
+let L = null;
+const body = h => { $('#lbody').innerHTML = h; $('#lesson').scrollTop = 0; };
+const stepHead = (label, src, icon, deep) => `<div class="stephead"><span style="display:flex;gap:6px;flex-wrap:wrap"><span class="chip pri">${ic(icon, 15)}${label}</span>${deep ? '<span class="chip acc">심화</span>' : ''}</span>${src ? `<span class="src">${esc(src)}</span>` : ''}</div>`;
+function openLesson(){ $('#lesson').hidden = false; document.body.style.overflow = 'hidden'; }
+function closeLesson(){ if('speechSynthesis' in window) speechSynthesis.cancel(); RD = null; $('#lesson').hidden = true; document.body.style.overflow = ''; L = null; render(); }
+function prog(){ const tot = L.q.length; $('#pbar').style.width = `${Math.round(L.i / tot * 100)}%`; $('#pcnt').textContent = `${Math.min(L.i + 1, tot)} / ${tot}`; }
+function startSession(){
+  if(!S.start){ S.start = dkey(); save(); }
+  const w = todayWork();
+  L = {q: [...w.revs.map(id => ({id, k: 'rev'})), ...w.news.map(id => ({id, k: 'new'}))], i: 0, again: {}, nRev: 0, nNew: 0, ok: 0};
+  openLesson(); step();
+}
+function step(){
+  if(L.i >= L.q.length) return finish();
+  prog(); const t = L.q[L.i];
+  if(t.k === 'new') return newCard(byId(t.id));
+  revCard(byId(t.id));
+}
+function advance(){ L.i++; step(); }
+
+// ── 복습 카드: 단계가 오를수록 조금씩 어려워짐 (1 고르기 → 2 첫 글자 힌트 → 3 한글 보고 떠올리기 → 4 시험형)
+const STAGE = {1: '빈칸 고르기', 2: '첫 글자 보고 떠올리기', 3: '한글 뜻 보고 떠올리기', 4: '시험처럼 풀기'};
+function revCard(c){
+  const lv = S.lv[c.id] || 1;
+  L.cur = {c, lv, answered: false};
+  const head = stepHead(`복습 ${lv}단계 · ${STAGE[lv]}`, c.src, 'undo', isDeep(c));
+  if(lv === 1){
+    L.cur.opts = shuffle([c.w, ...c.opts.map(o => o[0])]);
+    body(`${head}${tip('다시 읽기보다 꺼내 보기가 기억을 키워요')}
+      <div class="paper"><p class="sent">${blankHTML(c)}</p></div><p class="ask">빈칸에 들어갈 말은?</p>
+      ${L.cur.opts.map((o, i) => choiceBtn('pickRev', i, o, true)).join('')}<div id="res"></div>`);
+  } else if(lv === 4){
+    L.cur.opts = shuffle([c.mean, ...c.opts.map(o => o[1])]);
+    body(`${head}${tip('실제 시험처럼 앞뒤 흐름으로 풀어 봐요')}
+      <div class="paper"><p class="sent">${markHTML(c, 'u')}</p></div><p class="ask">문맥상 밑줄 친 <b>${esc(c.w)}</b> 의 뜻으로 알맞은 것은?</p>
+      ${L.cur.opts.map((o, i) => choiceBtn('pickRev', i, o)).join('')}<div id="res"></div>`);
+  } else {
+    const cue = lv === 2 ? `<div class="hintbox">첫 글자 힌트<span class="big">${esc(hint(c.w))}</span></div>`
+      : `<div class="hintbox">${esc(c.ko)}<span class="small" style="display:block;margin-top:6px;color:var(--pri-text)">빈칸 뜻 · ${esc(c.mean)}</span></div>`;
+    body(`${head}${tip('머릿속으로 먼저 떠올린 뒤 정답을 보세요. 떠올리려 애쓰는 순간 기억이 자라요')}
+      <div class="paper"><p class="sent">${blankHTML(c)}</p></div>${cue}
+      <div id="res"><button class="btn" data-act="reveal">${ic('eye', 20)}정답 보기</button></div>`);
+  }
+}
+function pickRev(b){
+  const {c, lv, opts} = L.cur; if(L.cur.answered) return; L.cur.answered = true;
+  const i = +b.dataset.i, right = lv === 1 ? c.w : c.mean, ok = opts[i] === right;
+  markChoices('.choice', opts.indexOf(right), i);
+  speak(sentence(c));
+  $('#res').innerHTML = fb(ok ? 'ok' : 'no', `<b>${ok ? '맞아요' : '괜찮아요, 내일 다시 만나요'}</b><br><b class="w">${esc(c.w)}</b> · ${esc(c.mean)}<br><span class="muted">${esc(c.ko)}</span>`) +
+    `<button class="btn" data-act="doneRev" data-r="${ok ? Rating.Good : Rating.Again}">다음${ic('arrow', 20)}</button>`;
+}
+function reveal(){
+  const c = L.cur.c; speak(sentence(c));
+  $('#res').innerHTML = `<div class="card flat"><p class="word">${esc(c.w)}</p><p class="mean" style="margin-bottom:10px">${esc(c.mean)}</p>
+    <p class="sent" style="font-size:17px">${markHTML(c)}</p></div>
+    <p class="ask" style="text-align:center">얼마나 떠올렸나요?</p>
+    <div class="rate"><button data-act="doneRev" data-r="${Rating.Again}">몰랐어요<small>곧 다시</small></button>
+    <button data-act="doneRev" data-r="${Rating.Hard}">헷갈려요<small>조금 뒤</small></button>
+    <button data-act="doneRev" data-r="${Rating.Good}">알았어요<small>더 멀리</small></button></div>`;
+}
+function doneRev(b){
+  const r = +b.dataset.r, {c, lv} = L.cur;
+  S.cards[c.id] = F.next(card(c.id), now(), r).card;
+  S.lv[c.id] = r === Rating.Good ? Math.min(4, lv + 1) : r === Rating.Again ? Math.max(1, lv - 1) : lv;
+  dayRec().revs.push({id: c.id, r, lv}); L.nRev++; if(r >= Rating.Hard) L.ok++;
+  // 몰랐던 카드는 오늘 끝에 한 번 더 (같은 날 두 번째 만남)
+  if(r === Rating.Again && !L.again[c.id]){ L.again[c.id] = 1; L.q.push({id: c.id, k: 'again'}); }
+  save(); advance();
+}
+
+// ── 새 문장: 끊어 읽기 → 흐름으로 짐작 → 확인 → 소리 내어 읽기
+function newCard(c){
+  L.cur = {c, part: 0, guess: null};
+  body(`${stepHead('새 문장 · 끊어 읽기', c.src, 'spark', isDeep(c))}${tip('덩어리를 누르면 우리말 뜻이 나와요. 한 번에 다 읽지 않아도 돼요')}
+    <div class="chunks">${c.chunks.map(([en, ko], i) => `<button class="chunk" data-act="chunk" data-i="${i}" aria-expanded="false"><span class="n">${i + 1}</span><span><span class="en">${esc(en).replace(wre(c), m => `<span class="tw">${m}</span>`)}</span><span class="kk" hidden>${esc(ko)}</span></span></button>`).join('')}</div>
+    <div class="row"><button class="btn line" data-act="sayCur">${ic('vol', 20)}문장 듣기</button></div><div class="gap"></div>
+    <button class="btn" data-act="toGuess">뜻 짐작하기${ic('arrow', 20)}</button>`);
+}
+function chunk(b){ const k = b.querySelector('.kk'); k.hidden = !k.hidden; b.classList.toggle('open', !k.hidden); b.setAttribute('aria-expanded', String(!k.hidden)); }
+function toGuess(){
+  const c = L.cur.c; L.cur.opts = shuffle([c.mean, ...c.opts.map(o => o[1])]);
+  body(`${stepHead('새 문장 · 흐름으로 짐작하기', c.src, 'spark', isDeep(c))}${tip('틀려도 괜찮아요. 정답을 보기 전에 짐작해 보면 훨씬 오래 남아요')}
+    <div class="paper"><p class="sent">${markHTML(c)}</p></div><p class="ask">앞뒤 흐름을 보면, <b>${esc(c.w)}</b> 는 무슨 뜻일까요?</p>
+    ${L.cur.opts.map((o, i) => choiceBtn('guess', i, o)).join('')}<div id="res"></div>`);
+}
+function guess(b){
+  if(L.cur.guess !== null) return;
+  const c = L.cur.c, i = +b.dataset.i, ok = L.cur.opts[i] === c.mean; L.cur.guess = ok;
+  markChoices('.choice', L.cur.opts.indexOf(c.mean), i);
+  $('#res').innerHTML = fb(ok ? 'ok' : 'info', `<b>${ok ? '흐름만 보고 맞혔어요' : '짐작해 본 것만으로도 기억에 남아요'}</b><br>${esc(c.clue)}`) +
+    `<button class="btn" data-act="toConfirm">정리하기${ic('arrow', 20)}</button>`;
+}
+function toConfirm(){
+  const c = L.cur.c;
+  body(`${stepHead('새 문장 · 정리하기', c.src, 'spark', isDeep(c))}
+    <div class="paper"><p class="word">${esc(c.w)}</p>${c.word !== c.w ? `<p class="base">기본형 · ${esc(c.word)}</p>` : ''}
+      <p class="mean">${esc(c.mean)}</p><div class="note" style="margin:0">${ic('bulb', 18)}<span>${esc(c.clue)}</span></div></div>
+    <div class="card"><span class="eyebrow">같은 지문의 친구 단어</span><div style="margin-top:6px">
+      ${c.friends.map(([en, ko]) => `<div class="fr"><b>${esc(en)}</b><span>${esc(ko)}</span></div>`).join('')}</div></div>
+    <button class="btn" data-act="toSay">소리 내어 읽기${ic('arrow', 20)}</button>`);
+}
+function toSay(){
+  const c = L.cur.c;
+  body(`${stepHead('새 문장 · 소리 내어 읽기', c.src, 'spark', isDeep(c))}${tip('소리 내어 읽은 문장은 눈으로만 본 문장보다 더 잘 기억돼요')}
+    <div class="paper"><p class="sent">${markHTML(c)}</p><p class="ko">${esc(c.ko)}</p></div>
+    <div class="row"><button class="btn line" data-act="sayCur">${ic('vol', 20)}듣기</button><button class="btn line" data-act="sayCur" data-slow="1">${ic('slow', 20)}천천히</button></div><div class="gap"></div>
+    <button class="btn" data-act="doneNew">${ic('mic', 20)}소리 내어 한 번 읽었어요</button>`);
+  setTimeout(() => speak(sentence(c)), 300);
+}
+// 새 문장은 짐작 결과와 상관없이 '헷갈려요'로 시작하고, 첫 복습은 FSRS(이틀 뒤)보다 당겨서 다음 날로 (첫 만남 직후의 빠른 복습이 가장 효과가 큼)
+function doneNew(){
+  const c = L.cur.c, nc = F.next(createEmptyCard(now()), now(), Rating.Hard).card, tm = new Date(now());
+  tm.setDate(tm.getDate() + 1); tm.setHours(0, 0, 0, 0); nc.due = tm;
+  S.cards[c.id] = nc; S.lv[c.id] = 1;
+  dayRec().news.push({id: c.id, guess: L.cur.guess}); L.nNew++; save(); advance();
+}
+
+function finish(){
+  const d = dayRec(); d.done = true; save();
+  $('#pbar').style.width = '100%'; $('#pcnt').textContent = '';
+  const acc = L.nRev ? Math.round(L.ok / L.nRev * 100) : null;
+  body(`<div class="done-hero"><div class="ring">${ic('check', 40, 2.5)}</div><h2>오늘 끝!</h2><p class="muted">수고했어요. 이 10분이 쌓여서 시험장에서 읽혀요.</p></div>
+    <div class="card"><div class="kv"><span>복습한 카드</span><b>${L.nRev}장</b></div><div class="kv"><span>새로 익힌 문장</span><b>${L.nNew}개</b></div>
+      ${acc !== null ? `<div class="kv"><span>복습 때 기억난 비율</span><b>${acc}%</b></div>` : ''}</div>
+    ${acc !== null ? fb('info', acc >= 90 ? '아주 잘 기억하고 있어요. 이 정도면 조금 더 늘려도 돼요.' : acc >= 75 ? '딱 좋아요. 85% 안팎이 뇌가 가장 잘 배우는 난이도예요.' : '조금 어려웠죠? 몰랐던 카드는 금방 다시 나와서 결국 남아요. 계속 어려우면 앱이 새 문장 양을 줄여 줘요.') : ''}
+    <div class="note">${ic('moon', 18)}<span>자기 전에 오늘 문장을 1분만 다시 보면, 자는 동안 기억이 더 단단해져요.</span></div>
+    <button class="btn" data-act="close">홈으로</button>`);
+}
+
+// ── 자기 전 1분: 오늘 새 문장 다시 듣고 보기
+function night(){
+  const d = dayRec(), ids = d.news.map(x => x.id);
+  const list = ids.length ? ids : d.revs.slice(-3).map(x => x.id);
+  L = {q: [], i: 0};
+  openLesson(); $('#pbar').style.width = '100%'; $('#pcnt').textContent = '';
+  body(`${stepHead('자기 전 1분', '', 'moon')}${tip('잠들기 전에 본 것은 자는 동안 기억으로 정리돼요. 편하게 한 번씩 들어 보세요')}
+    ${list.map(id => { const c = byId(id); return `<div class="paper"><p class="sent" style="font-size:19px">${markHTML(c)}</p><p class="ko">${esc(c.ko)}</p>
+      <div class="gap"></div><button class="btn line sm" style="width:100%" data-act="sayText" data-text="${esc(sentence(c))}">${ic('vol', 18)}듣기</button></div>`; }).join('')}
+    <button class="btn soft" data-act="playAll">${ic('play', 18)}전부 이어서 듣기</button><div class="gap"></div>
+    <button class="btn" data-act="nightDone">${ic('moon', 20)}잘 자요</button>`);
+  L.night = list;
+}
+
+// ── 지문 읽기 (토요일): 익힌 단어에 형광펜, 누르면 뜻
+let RD = null;
+function pickPassage(){
+  const learned = DATA.filter(c => S.cards[c.id] && c.pid);
+  const cand = [...new Set(learned.map(c => c.pid))].filter(pid => !S.read[pid]);
+  return cand.length ? psgById(cand[cand.length - 1]) : null;
+}
+function knownMap(){ const m = {}; DATA.forEach(c => { if(S.cards[c.id]) m[c.w.toLowerCase()] = c; }); return m; }
+function psgHTML(p){
+  const km = knownMap(), keys = Object.keys(km).sort((a, b) => b.length - a.length);
+  const re = keys.length ? new RegExp(`\\b(${keys.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\b`, 'gi') : null;
+  return p.text.split('\n').map(line => `<p>${re ? esc(line).replace(re, m => `<span class="tw" role="button" tabindex="0" data-act="wordTip" data-w="${esc(m.toLowerCase())}">${m}</span>`) : esc(line)}</p>`).join('');
+}
+function openPsg(b){
+  const p = psgById(b.dataset.p), prev = S.read[p.id];
+  RD = {p, t0: Date.now(), answered: false};
+  L = {q: [], i: 0}; openLesson(); $('#pbar').style.width = '0'; $('#pcnt').textContent = '';
+  body(`${stepHead(`지문 한 편 · ${p.kind}`, p.src, 'book')}<h2 class="psg-title">${esc(p.title)}</h2>
+    ${tip(`형광펜 단어는 이미 익힌 단어예요. 누르면 뜻이 나와요. 모르는 단어가 있어도 흐름만 잡으며 끝까지 읽어 보세요${prev ? ` · 지난번 ${prev.sec}초` : ''}`)}
+    <div class="paper psg">${psgHTML(p)}</div>
+    <div id="res"><button class="btn" data-act="psgDone">${ic('check', 20, 2.5)}다 읽었어요</button></div>`);
+}
+function psgDone(){
+  const {p} = RD; RD.sec = Math.round((Date.now() - RD.t0) / 1000);
+  $('#res').innerHTML = `<div class="card"><div class="card-head"><span class="eyebrow">실제 시험 문제</span><span class="chip">${ic('clock', 14)}${RD.sec}초</span></div><h3 style="margin-bottom:12px">${esc(p.q.ask)}</h3>
+    ${p.q.opts.map((o, i) => choiceBtn('psgPick', i, o, /[a-z]/i.test(o[0]))).join('')}<div id="res2"></div></div>`;
+  $('#res').scrollIntoView({behavior: 'smooth'});
+}
+function psgPick(b){
+  if(RD.answered) return; RD.answered = true;
+  const {p} = RD, i = +b.dataset.i, ok = i === p.q.a;
+  markChoices('#res .choice', p.q.a, i);
+  const prev = S.read[p.id];
+  S.read[p.id] = {date: dkey(), sec: RD.sec, ok, n: (prev?.n || 0) + 1}; save();
+  const faster = prev && prev.sec > RD.sec ? `<br>지난번보다 <b>${prev.sec - RD.sec}초</b> 빨라졌어요` : '';
+  $('#res2').innerHTML = fb(ok ? 'ok' : 'no', `<b>${ok ? '정답! 실제 시험 문제를 맞혔어요' : `정답은 ${KEYS[p.q.a]}예요. 다음엔 맞힐 거예요`}</b>${faster}`) + `<button class="btn" data-act="close">마치기</button>`;
+}
+
+function renderRead(){
+  const km = knownMap();
+  const list = PSG.map(p => {
+    const words = DATA.filter(c => c.pid === p.id), known = words.filter(c => S.cards[c.id]).length, r = S.read[p.id];
+    return `<div class="it"><div style="min-width:0"><b>${esc(p.title)}</b><div class="small">${esc(p.src)} · ${esc(p.kind)}${words.length ? ` · 익힌 문장 ${known}/${words.length}` : ''}</div>
+      ${r ? `<div class="small" style="color:var(--pri-text)">${r.n}번 읽음 · 최근 ${r.sec}초${r.ok ? ' · 문제 맞힘' : ''}</div>` : ''}</div>
+      <button class="btn ${r ? 'line' : 'soft'} sm" data-act="openPsg" data-p="${p.id}">${r ? '다시' : '읽기'}</button></div>`;
+  }).join('');
+  $('#view').innerHTML = header('지문 읽기') + `<div class="card"><p>실제 시험에 나온 글 <b>${PSG.length}편</b>이에요. 토요일마다 한 편씩 읽으면 좋아요. 4주쯤 뒤 같은 글을 다시 읽으면 얼마나 빨라졌는지 보여 줘요.</p>
+    <p class="small" style="margin-top:8px">지금 익힌 단어 ${Object.keys(km).length}개에 형광펜이 칠해져 있어요.</p></div>
+    <div class="card list" style="padding-top:6px;padding-bottom:6px">${list}</div>`;
+}
+
+// ── 기록
+function renderProgress(){
+  const n = now(), r = avgRetention(), learned = DATA.filter(c => S.cards[c.id]);
+  let grass = '';
+  for(let i = 27; i >= 0; i--){ const k = dkey(new Date(n.getTime() - i * 864e5)); grass += `<i class="${studied(k) ? 'on' : ''} ${i === 0 ? 'today' : ''}" title="${k}"></i>`; }
+  const rv = Object.values(S.days).flatMap(v => v.revs), acc = recentAcc(50);
+  const stage = [1, 2, 3, 4].map(l => learned.filter(c => (S.lv[c.id] || 1) === l).length);
+  const colors = ['var(--line-2)', 'var(--accent)', 'var(--pri)', 'var(--ok)'];
+  const weeks = Math.max(0, Math.ceil((EXAM - n) / (7 * 864e5)));
+  const cheer = !learned.length ? '첫 문장을 익히면 여기에 기억이 쌓여요.'
+    : r >= 85 ? '기억이 아주 잘 유지되고 있어요. 지금처럼만!'
+    : r >= 70 ? '잘하고 있어요. 복습이 쌓이면 숫자가 더 올라가요.'
+    : '복습이 조금 밀렸어요. 오늘 복습만 해도 다시 올라가요.';
+  $('#view').innerHTML = header('기록') + `
+    <div class="stats"><div class="stat"><b>${learned.length}</b><span>익힌 문장</span></div><div class="stat"><b>${r === null ? '–' : r + '%'}</b><span>지금 기억</span></div><div class="stat"><b>${weeks}<small style="font-size:15px">주</small></b><span>시험까지</span></div></div>
+    <div class="card"><div class="card-head" style="margin-bottom:0"><h3 style="margin:0">최근 4주</h3>${ic('cal', 20)}</div><div class="grass">${grass}</div>
+      <p class="small">목표는 '매일'이 아니라 '주 5일'이에요. 습관은 하루 빠져도 무너지지 않아요.</p></div>
+    <div class="card"><div class="card-head" style="margin-bottom:4px"><h3 style="margin:0">복습 단계</h3>${ic('layers', 20)}</div><p class="small">맞힐수록 문장이 다음 단계로 올라가요. 4단계는 시험처럼 푸는 단계예요.</p>
+      <div class="meter">${stage.map((v, i) => v ? `<i style="width:${v / learned.length * 100}%;background:${colors[i]}"></i>` : '').join('')}</div>
+      ${stage.map((v, i) => `<div class="kv"><span><span class="legend" style="background:${colors[i]}"></span>${i + 1}단계 · ${STAGE[i + 1]}</span><b>${v}개</b></div>`).join('')}</div>
+    <div class="card"><div class="card-head" style="margin-bottom:4px"><h3 style="margin:0">얼마나 잘하고 있나</h3>${ic('target', 20)}</div>
+      <div class="kv"><span>최근 복습 기억난 비율</span><b>${acc === null ? '–' : Math.round(acc * 100) + '%'}</b></div>
+      <div class="kv"><span>지금까지 복습</span><b>${rv.length}장</b></div>
+      <div class="kv"><span>읽은 지문</span><b>${Object.keys(S.read).length} / ${PSG.length}편</b></div>
+      <div class="kv"><span>핵심 문장 (2025~ 새 방식)</span><b>${learned.filter(c => !isDeep(c)).length} / ${DATA.filter(c => !isDeep(c)).length}</b></div>
+      <div class="kv"><span>심화 문장 (2022~2024)</span><b>${learned.filter(isDeep).length} / ${DATA.filter(isDeep).length}</b></div>
+      ${fb('info', `${cheer}<br><span class="muted">85% 안팎이 뇌가 가장 잘 배우는 난이도예요. 많이 낮으면 앱이 알아서 새 문장을 줄여요.</span>`)}</div>
+    <div class="card"><h3>기록 지키기</h3><p class="small" style="margin-bottom:12px">기록은 이 폰에만 있어요. 폰을 바꾸거나 인터넷 기록을 지우기 전에 파일로 저장해 두세요.</p>
+      <div class="row"><button class="btn line" data-act="exportRec">${ic('down', 18)}파일로 저장</button><button class="btn line" data-act="importRec">${ic('up', 18)}불러오기</button></div></div>
+    <div class="card flat" style="background:var(--surface-2)"><h3>시험용</h3><p class="small" style="margin-bottom:12px">하루씩 넘겨서 복습이 어떻게 나오는지 미리 볼 수 있어요. 실제로 쓸 땐 안 눌러도 돼요.<br>지금 앱 날짜: ${dkey()}${S.offset ? ` (실제보다 ${S.offset}일 뒤)` : ''}</p>
+      <div class="row"><button class="btn line" data-act="plusDay">${ic('flask', 18)}하루 뒤로</button><button class="btn line" data-act="resetDay">${ic('undo', 18)}오늘로</button></div><div class="gap"></div>
+      <button class="btn line danger" data-act="wipe">${ic('trash', 18)}기록 모두 지우기</button></div>`;
+}
+
+// ── 원리
+const PRINCIPLES = [
+  ['보지 말고 꺼내 보기', '인출 연습 · Roediger & Karpicke 2006', '복습 카드는 항상 문제부터. 정답은 떠올린 뒤에'],
+  ['잊을 때쯤 다시 보기', '간격 반복 · Cepeda 외 2006', 'FSRS 계산기가 문장마다 다음 복습 날짜를 정해요'],
+  ['먼저 짐작해 보기', '짐작(사전 시험) 효과 · Kornell 외 2009', '새 문장은 뜻을 보기 전에 흐름으로 짐작'],
+  ['단어보다 문장으로', '문맥·정교화 기억 · Craik & Tulving 1975', '모든 카드가 실제 기출 문장. 시험도 문맥으로 물어요'],
+  ['소리 내어 읽기', '산출 효과 · MacLeod 외 2010', '새 문장 마지막에 소리 내어 한 번'],
+  ['덩어리로 나눠 읽기', '작업 기억의 한계 · Cowan 2001', '끊어 읽기, 새 문장은 하루 3~5개만'],
+  ['점점 어렵게', '바람직한 어려움 · Bjork 1994', '복습 단계: 고르기 → 힌트 → 한글 보고 → 시험형'],
+  ['자기 전에 한 번', '수면 중 기억 정리 · Gais 외 2006', '자기 전 1분 다시 보기'],
+  ['85% 맞히는 난이도', '최적 학습 난이도 · Wilson 외 2019', '복습 정답률이 낮으면 새 문장을 자동으로 줄여요'],
+  ['불안은 기억을 막아요', '주의 통제 이론 · Eysenck 외 2007', '하루 복습 최대 40장, 틀려도 벌점 없음, 하루 빠져도 괜찮아요'],
+];
+function renderWhy(){
+  $('#view').innerHTML = header('원리') + `<p class="muted" style="margin:0 2px 12px">이 앱의 모든 규칙은 뇌 과학 연구에서 나왔어요.</p>` +
+    PRINCIPLES.map(([name, paper, where], i) => `<div class="card pr"><div class="num">${i + 1}</div><div><h3>${name}</h3>
+      <div class="small">${paper}</div><div class="where">${where}</div></div></div>`).join('') +
+    `<div class="card"><div class="card-head" style="margin-bottom:4px"><h3 style="margin:0">일부러 안 하는 것</h3>${ic('ban', 20)}</div>
+      <div class="fr"><span style="text-align:left;color:var(--ink)">하루 100단어 몰아치기</span><span>금방 잊어요</span></div>
+      <div class="fr"><span style="text-align:left;color:var(--ink)">단어 깜지 쓰기</span><span>손만 바쁘고 떠올리지 않아요</span></div>
+      <div class="fr"><span style="text-align:left;color:var(--ink)">뜻만 보고 넘기기</span><span>아는 느낌만 남아요</span></div>
+      <div class="fr"><span style="text-align:left;color:var(--ink)">연속 기록 0으로 돌리기</span><span>부담만 커져요</span></div></div>`;
+}
+
+// ── 버튼 연결
+const ACT = {
+  install: async () => {
+    if(!deferredPrompt){ toast('크롬 메뉴(⋮) → "앱 설치"를 눌러 주세요'); return; }
+    deferredPrompt.prompt(); const { outcome } = await deferredPrompt.userChoice;
+    if(outcome === 'accepted') deferredPrompt = null; render();
+  },
+  tab: b => { TAB = b.dataset.t; render(); scrollTo(0, 0); },
+  start: startSession, close: closeLesson,
+  pickRev, reveal, doneRev, chunk, toGuess, guess, toConfirm, toSay, doneNew,
+  sayCur: b => speak(sentence(L.cur.c), b.dataset.slow ? 0.65 : 0.9),
+  sayText: b => speak(b.dataset.text),
+  night, playAll: () => L.night.forEach((id, i) => speak(sentence(byId(id)), 0.85, i > 0)),
+  nightDone: () => { dayRec().night = true; save(); closeLesson(); },
+  openPsg, psgDone, psgPick,
+  wordTip: b => { const c = knownMap()[b.dataset.w]; if(c) toast(`<b>${esc(c.w)}</b> · ${esc(c.mean)}`); },
+  plusDay: () => { S.offset++; save(); render(); }, resetDay: () => { S.offset = 0; save(); render(); },
+  wipe: () => { if(confirm('익힌 문장과 기록을 모두 지울까요? 되돌릴 수 없어요.')){ S = EMPTY(); save(); render(); } },
+  exportRec: () => {
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(S)], {type: 'application/json'}));
+    a.download = `기출문장_기록_${dkey()}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  },
+  importRec: () => $('#importFile').click(),
+};
+document.addEventListener('click', e => { const b = e.target.closest('[data-act]'); if(b && ACT[b.dataset.act]) ACT[b.dataset.act](b); });
+document.addEventListener('keydown', e => { if((e.key === 'Enter' || e.key === ' ') && e.target.matches('span[data-act]')){ e.preventDefault(); e.target.click(); } });
+$('#importFile').addEventListener('change', async e => {
+  const f = e.target.files[0]; e.target.value = ''; if(!f) return;
+  try { const d = JSON.parse(await f.text()); if(!d.cards || !d.days) throw 0; if(confirm('지금 기록을 이 파일 내용으로 바꿀까요?')){ S = Object.assign(EMPTY(), d); save(); render(); } }
+  catch(err){ alert('기출 문장 기록 파일이 아니에요.'); }
+});
+render(); ready = true;
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+</script>
+</body>
+</html>
